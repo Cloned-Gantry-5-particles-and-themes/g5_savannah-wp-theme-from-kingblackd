@@ -1,0 +1,30 @@
+/* Expandable section */
+.expandable {
+    position: relative;
+    margin-top: 8px;
+}
+.expandable:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    background: #fff;
+    border-top: transparent 4px solid;
+}
+.dark .expandable:before {
+    background: #171717;
+}
+.expandable .diamond {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -22px;
+    z-index: 2000;
+}
+.expandable-content {
+    display: none;
+	width: 100%;
+}

@@ -1,0 +1,41 @@
+/* Pricing Tables */
+.price-plan .price-plan-price {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+.price-plan .price-plan-price strong {
+    color: #fff;
+}
+.price-plan .price-plan-price strong::after {
+    display: inline;
+    content: "/";
+    margin: 0 5px;
+}
+.price-plan .price-plan-price::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    border-left: 5px transparent solid;
+    border-right: 5px transparent solid;
+    border-top: 5px transparent solid;
+}
+.price-plan .price-plan-features {
+    position: relative;
+    list-style: none;
+    padding: 0 0 0 20px;
+    margin: -10px 0 30px 0;
+    border-left: 2px transparent solid;
+}
+.price-plan .price-plan-features li {
+    padding: 5px 0;
+}
+.price-plan .price-plan-features li.unavailable {
+    color: #ccc;
+    text-decoration: line-through;
+}

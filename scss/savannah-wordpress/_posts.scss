@@ -1,0 +1,145 @@
+/* Blog post styles */
+.blog-post {
+    width: 100%;
+}
+.blog-post .image {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.blog-post .info {
+    position: relative;
+    padding: 25px;
+}
+.blog-post .info .button {
+    margin: 0;
+}
+.blog-post .info .stats {
+    margin: 0 0 25px 0;
+}
+.blog-post .info .stat {
+    display: inline;
+    color: #fff;
+    font-size: 13px;
+    line-height: 2;
+    margin: 0 20px 0 0;
+}
+.blog-post .info .stat .fa {
+    font-size: 15px;
+    margin: 0 10px 0 0;
+}
+.blog-post .info .arrow,
+.blog-post-small .info .arrow,
+.blog-post-big .info .arrow {
+    position: absolute;
+    display: block;
+    bottom: -12px;
+    border-top: transparent 12px solid;
+    border-right: transparent 30px solid;
+    border-bottom: 0;
+    border-left: transparent 30px solid;
+}
+.blog-post.on-the-left .info .arrow {
+    left: 0;
+}
+.blog-post.on-the-right .info .arrow {
+    right: 0;
+}
+.blog-post .content,
+.blog-post-small .content,
+.blog-post-big .content {
+    position: relative;
+    padding: 40px 0 0 0;
+}
+.blog-post .content .sub-heading,
+.blog-post-small .content .sub-heading,
+.blog-post-big .content .sub-heading {
+    margin-bottom: 32px;
+}
+.blog-post-small .image {
+    margin-bottom: 4px;
+}
+.blog-post-big .image {
+    margin-bottom: 0;
+}
+.blog-post-small .info,
+.blog-post-big .info {
+    position: relative;
+    height: 46px;
+    line-height: 44px;
+    color: #fff;
+}
+.blog-post-small .info .arrow {
+    left: 10px;
+}
+.blog-post-small .info .stats {
+    padding-left: 70px;
+}
+.blog-post-small .info .stat,
+.blog-post-big .info .stat {
+    font-size: 13px;
+    margin-right: 10px;
+}
+.blog-post-small .info .stat .fa,
+.blog-post-big .info .stat .fa {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.blog-post-small .info .diamond {
+    position: absolute;
+    bottom: 70px;
+    left: 18px;
+}
+.blog-post-big .info .stats {
+    padding-left: 20px;
+}
+.blog-post-big .info .stat {
+    font-size: 11px;
+    margin-right: 20px;
+}
+.blog-post-big .info .stat .fa {
+    font-size: 13px;
+    margin-right: 10px;
+}
+.blog-post-big .info .stat a,
+.blog-post-big .info .stat a:hover,
+.blog-post-big .info .stat a:visited,
+.blog-post-big .info .stat a:focus,
+.blog-post-big .info .stat a:active {
+    color: #fff;
+    text-decoration: none;
+}
+.small-post {
+    position: relative;
+    min-height: 66px;
+    padding-left: 86px;
+    margin-bottom: 40px;
+}
+.small-post .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+}
+.small-post h5 {
+    margin-bottom: 10px;
+}
+.small-post a,
+.small-post a:hover,
+.small-post a:visited,
+.small-post a:focus,
+.small-post a:active {
+    color: #171717 !important;
+    text-decoration: none;
+}
+.dark .small-post a,
+.dark .small-post a:hover,
+.dark .small-post a:visited,
+.dark .small-post a:focus,
+.dark .small-post a:active {
+    color: #fff !important;
+}
+.small-post small {
+    font-size: 12px;
+    color: #999;
+}

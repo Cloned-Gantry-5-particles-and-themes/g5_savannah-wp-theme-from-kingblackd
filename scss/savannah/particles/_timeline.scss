@@ -1,0 +1,115 @@
+/* History */
+.history .icon {
+  -webkit-box-shadow: $white 0 0 0 5px;
+  -moz-box-shadow: $white 0 0 0 5px;
+  box-shadow: $white 0 0 0 5px;
+}
+/* Date time element */
+.datetime {
+    position: absolute;
+    display: block;
+    top: 42px;
+    left: 0;
+    height: 22px;
+    font-size: 10px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 7px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin: -5px 0 0 0;
+    white-space: nowrap;
+}
+.datetime:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: -11px;
+    width: 0;
+    height: 0;
+    border-right: transparent 11px solid;
+    border-top: transparent 11px solid;
+    border-bottom: transparent 11px solid;
+}
+
+/* History list */
+.history,
+.history li {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.history {
+    position: relative;
+    padding-left: 47px;
+    margin-left: 16px;
+    border-left: transparent 2px solid;
+}
+.history li {
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 10px;
+}
+.history li:last-child {
+    padding-bottom: 0;
+}
+.history .heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.history .title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin: -4px 0 0 0;
+}
+.dark .history .title {
+    color: #fff;
+}
+.history .icon {
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: -65px;
+    width: 35px;
+    height: 35px;
+    border: transparent 2px solid;
+    background: #fff;
+}
+.dark .history .icon {
+    background: #272727;
+}
+.history .icon .fa {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: -2px;
+    width: 35px;
+    height: 15px;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    background: #fff;
+}
+.dark .history .icon .fa {
+    background: #272727;
+}
+.history .datetime {
+    position: absolute;
+    top: 47px;
+    left: 0px;
+}
+.history .aff {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    font-size: 10px;
+    font-style: italic;
+    color: #999;
+    white-space: nowrap;
+}

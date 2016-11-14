@@ -1,0 +1,70 @@
+
+/* Diamond */
+.diamond .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    border: #fff 4px solid;
+}
+.dark .diamond .background {
+    border-color: #272727;
+}
+.diamond .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+}
+.diamond .line1 {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 14px;
+    width: 16px;
+    height: 4px;
+    background: #fff;
+}
+.diamond .line2 {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 4px;
+    height: 16px;
+    background: #fff;
+}
+/* Diamond */
+.diamond .background {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.diamond .line1,
+.diamond .line2 {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.expandable.open .diamond .line1 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.expandable.open .diamond .line2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}

@@ -1,0 +1,120 @@
+// Font Import
+@include import-font($font-family-default);
+@include import-font($font-family-title);
+
+body {
+    font-family: get-font-family($font-family-default);
+    font-weight: $font-weight-regular;
+}
+
+// Headings
+h1, h2, h3, h4, h5 {
+    font-family: get-font-family($font-family-default);
+    font-weight: $font-weight-regular;
+}
+
+h1 {
+    font-weight: $font-weight-bold;
+    margin: -5px 0 37px 0;
+}
+
+h2 {
+    margin: -3px 0 37px 0;
+}
+h3 {
+    margin: -4px 0 38px 0;
+}
+
+h4 {
+    font-size: $h4-font-size;
+    margin: -3px 0 38px 0;
+}
+h5 {
+    margin: -3px 0 38px 0;
+}
+h6 {
+    margin: -2px 0 38px 0;
+}
+p {
+    display: block;
+    line-height: 28px;
+    margin: -9px 0 32px 0;
+}
+
+// Blockquote
+blockquote {
+  position: relative;
+  font-size: 14px;
+  line-height: 25px;
+  border-left: #eee 5px solid;
+  padding: 0 0 0 20px;
+  margin: 0 0 40px 61px;
+  &:before {
+    display: block;
+    position: absolute;
+    content: "\f10d";
+    font-family: 'FontAwesome';
+    font-size: 44px;
+    top: 7px;
+    left: -65px;
+    color: #eee;
+}
+
+    p {
+        font-size: $core-font-size + 0.1;
+        color: lighten($base-text-color, 20%);
+    }
+
+    cite {
+        display: block;
+        text-align: right;
+        color: $base-text-color;
+        font-size: $core-font-size + 0.2;
+    }
+}
+
+// Inline and Code
+code,
+kbd,
+pre,
+samp {
+    font-family: $font-family-mono;
+    font-size: $core-font-size - 0.125;
+    line-height: 20px;
+    color: $white;
+    border: 0;
+    border-radius: 0;
+    padding: 25px 30px;
+    margin: 0 0 40px 0;
+}
+
+code {
+    background: $code-bg;
+    color: darken($code-text,10%);
+}
+
+pre {
+    padding: 1rem;
+    margin: 2rem 0;
+    background: $pre-bg;
+    border: 1px solid $base-border-color;
+    border-radius: $core-border-radius;
+    line-height: 1.15;
+    font-size: $core-font-size - 0.1;
+
+    code {
+        color: $pre-text;
+        background: inherit;
+        font-size: $core-font-size - 0.1;
+    }
+
+    &.prettyprint {
+        border-color: $border-color-light !important;
+    }
+}
+
+// Additional
+hr {
+    margin: 1.5rem 0;
+    border-bottom: 1px solid $rule-color;
+}

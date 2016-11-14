@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1472319102
+timestamp: 1479150794
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -7,37 +7,38 @@ preset:
   timestamp: 1472319055
 positions: {  }
 sections:
-  navigation: Navigation
   intro: Intro
+  navigation: Navigation
   features: Features
   utility: Utility
   above: Above
-  testimonials: Testimonials
   expanded: Expanded
+  testimonials: Testimonials
+  protfolio: Protfolio
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-9608: 'Logo / Image'
-    logo-9571: 'Logo / Image'
-  menu:
-    menu-6409: Menu
-  social:
-    social-3171: Social
+  custom:
+    custom-5989: 'Hire Me'
+    custom-7395: 'Custom HTML'
+    custom-9601: 'Custom HTML'
+    custom-3119: Features
+    custom-6355: 'Develop CMS themes quickly'
+    custom-7658: 'Customer Testimonials'
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
-  custom:
-    custom-5807: Intro
-    custom-3119: Features
-    custom-7658: 'Customer Testimonials'
-    custom-6355: 'Develop CMS themes quickly'
+  menu:
+    menu-6409: Menu
+    menu-1596: Menu
   contenttabs:
     contenttabs-3854: 'Content Tabs'
   contentcubes:
     contentcubes-7850: 'Content Cubes'
+  logo:
+    logo-9571: 'Logo / Image'
   copyright:
     copyright-1736: Copyright
   horizontalmenu:
@@ -46,4 +47,8 @@ particles:
     totop-8670: 'To Top'
   mobile-menu:
     mobile-menu-5697: Mobile-menu
-inherit: {  }
+inherit:
+  default:
+    intro: intro
+    custom-5989: custom-5107
+    custom-7395: custom-7143

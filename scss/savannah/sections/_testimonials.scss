@@ -1,0 +1,125 @@
+#g-testimonials {
+	background: $testimonials-background;
+	color: $testimonials-text-color;
+    padding: $section-padding 0;
+    position: relative;
+    z-index: 10;
+
+    @if $testimonials-background-image {
+        background: url($testimonials-background-image) no-repeat center top;
+        background-size: cover;
+
+        @if $testimonials-background-overlay == 'enabled' {
+            &:before {
+                @include linear-gradient(40deg, $accent-color-1, $accent-color-2);
+                opacity: 0.9;
+                position: absolute;
+                content: "";
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+            }
+        }
+    }
+
+    a {
+        color: lighten($accent-color-1, 20%);
+
+        &:hover {
+            color: inherit;
+        }
+    }
+
+		/* Testimonials */
+.testimonials-box {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.testimonials-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: #fff 5px solid;
+}
+.testimonials-image.pull-right {
+    margin-left: 30px;
+}
+.testimonials-image.pull-left {
+    margin-right: 30px;
+}
+.testimonials-text {
+    padding: 5px;
+}
+.testimonials-text p {
+    font-size: 14px;
+    line-height: 25px;
+    font-style: italic;
+    color: #fff;
+}
+.roller-list .testimonials-text > p:last-child {
+    margin-bottom: 0;
+}
+.testimonials-by {
+    position: relative;
+}
+.testimonials-by .aff {
+    font-size: 10px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: -34px;
+}
+.testimonials .roller-bullets {
+    margin: 0 -5px;
+}
+.testimonials .roller-bullet {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border: #fff 2px solid;
+    border-radius: 100%;
+    margin: 0 5px 0 5px;
+    float: left;
+}
+.testimonials .roller-bullet.active {
+    background: #fff;
+}
+.testimonials-logos {
+    margin: 0 15px 40px 15px;
+}
+.testimonials-logo {
+    margin: 0 -15px 0 -15px;
+    text-align: center;
+}
+.testimonials-logo img {
+    max-width: 100%;
+}
+.testimonials-arrow {
+    position: absolute;
+    top: -30px;
+    width: 0;
+    height: 0;
+    border-top: 20px transparent solid;
+    border-right: 11px transparent solid;
+    border-bottom: 20px transparent solid;
+    border-left: 11px transparent solid;
+}
+.testimonials-arrow-left {
+    left: -41px;
+}
+.testimonials-arrow-right {
+    right: -41px;
+}
+
+
+}
+
+@media print {
+	#g-testimonials {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

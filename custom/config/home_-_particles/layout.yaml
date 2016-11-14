@@ -4,17 +4,15 @@ preset:
   name: home_-_particles
   timestamp: 1472319055
 layout:
-  /navigation/:
-    -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
+  intro: {  }
   /header/:
     -
       - owlcarousel-2455
-  /intro/:
+  /navigation/:
     -
-      - custom-5807
+      - 'menu-6409 40'
+      - 'custom-9601 20'
+      - 'menu-1596 40'
   /features/:
     -
       - custom-3119
@@ -24,12 +22,13 @@ layout:
   /above/:
     -
       - contentcubes-7850
-  /testimonials/:
-    -
-      - custom-7658
   /expanded/:
     -
       - custom-6355
+  /testimonials/:
+    -
+      - custom-7658
+  /protfolio/: {  }
   /container-main/:
     -
       -
@@ -46,15 +45,18 @@ layout:
     -
       - mobile-menu-5697
 structure:
-  navigation:
+  intro:
     type: section
-    attributes:
-      boxed: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
   header:
     attributes:
       boxed: ''
       class: g-flushed
-  intro:
+  navigation:
     type: section
     attributes:
       boxed: ''
@@ -71,11 +73,15 @@ structure:
     type: section
     attributes:
       boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
   testimonials:
     type: section
     attributes:
       boxed: ''
-  expanded:
+  protfolio:
     type: section
     attributes:
       boxed: ''
@@ -95,18 +101,13 @@ structure:
     attributes:
       boxed: ''
 content:
-  logo-9608:
-    title: 'Logo / Image'
-  social-3171:
-    block:
-      class: g-social-header
   owlcarousel-2455:
     title: 'Owl Carousel'
     attributes:
       items:
         -
           image: 'gantry-media://header/img01.jpg'
-          title: 'Helium is here!'
+          title: 'Savannah is here!'
           desc: 'Begin your journey with a brand new &raquo;free&laquo; Gantry 5 template from RocketTheme.'
           link: 'http://gantry.org/downloads'
           linktext: 'Download Now'
@@ -115,18 +116,26 @@ content:
           name: 'Item 1'
         -
           image: 'gantry-media://header/img02.jpg'
-          title: 'Helium is Gantry powered!'
-          desc: 'Helium is based on the powerful Gantry framework.'
+          title: 'Savannah is Gantry powered!'
+          desc: 'Savannah is based on the powerful Gantry framework.'
           link: 'http://gantry.org/downloads'
           linktext: 'Download Now'
           buttonclass: button-outline
           name: 'Item 2'
-  custom-5807:
-    title: Intro
+  menu-6409:
     attributes:
-      html: "<div class=\"fp-intro\">\n    <h2 class=\"g-title\">Build your beautiful theme, the way you want it, with Helium</h2>\n    <p>Craft memorable, emotive experiences with our Gantry 5 framework.</p>\n    <div class=\"ipad-mockup\">\n        <img src=\"gantry-media://intro/mockup.png\" alt=\"\" />\n    </div>\n</div>"
+      menu: savannah
     block:
-      variations: center
+      variations: align-right
+  custom-9601:
+    title: 'Custom HTML'
+    attributes:
+      html: '<a href="#body" class="navbar-brand" data-animate="fadeInDown" data-delay="300"><span>Savannah May</span></a>'
+  menu-1596:
+    attributes:
+      menu: savannah-2
+    block:
+      variations: align-left
   custom-3119:
     title: Features
     attributes:
@@ -189,18 +198,18 @@ content:
           buttonclass: ''
           buttontarget: _self
           name: 'Item 2'
-  custom-7658:
-    title: 'Customer Testimonials'
-    attributes:
-      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n        <p class=\"h3\">\"Helium is a beautiful, free theme made by the RocketTheme team in appreciation of the incredible Gantry community.\"</p>\n        <footer>Andy Miller</footer>\n    </blockquote>\n</div>"
-    block:
-      variations: center
   custom-6355:
     title: 'Develop CMS themes quickly'
     attributes:
-      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">Develop CMS themes quickly and efficiently</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Helium was crafted with love by the <a href=\"http://rockettheme.com\">RocketTheme</a> team to showcase the capabilities of the Gantry 5 framework. Helium is open source and available for free under a dual license system (<a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT</a> or <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GPL version 2 or later</a>). You do not have to keep the Gantry or RocketTheme links and logos in the front end, however, you must ensure that all copyright notices in the code are retained.\n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                Documentation for Gantry 5 is available on the <a href=\"http://docs.gantry.org\">official Gantry website</a>. You can submit any issues or feature requests for Gantry through <a href=\"http://github.com/gantry/gantry5\">GitHub</a>. A chat room has been set up using <a href=\"https://gitter.im/gantry/gantry5\">Gitter</a> where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.\n            </p>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">Develop CMS themes quickly and efficiently</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Savannah was crafted with love by the <a href=\"http://rockettheme.com\">RocketTheme</a> team to showcase the capabilities of the Gantry 5 framework. Savannah is open source and available for free under a dual license system (<a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT</a> or <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GPL version 2 or later</a>). You do not have to keep the Gantry or RocketTheme links and logos in the front end, however, you must ensure that all copyright notices in the code are retained.\n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                Documentation for Gantry 5 is available on the <a href=\"http://docs.gantry.org\">official Gantry website</a>. You can submit any issues or feature requests for Gantry through <a href=\"http://github.com/gantry/gantry5\">GitHub</a>. A chat room has been set up using <a href=\"https://gitter.im/gantry/gantry5\">Gitter</a> where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.\n            </p>\n        </div>\n    </div>\n</div>"
     block:
       variations: title-center
+  custom-7658:
+    title: 'Customer Testimonials'
+    attributes:
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n        <p class=\"h3\">\"Savannah is a beautiful, free theme made by the RocketTheme team in appreciation of the incredible Gantry community.\"</p>\n        <footer>Andy Miller</footer>\n    </blockquote>\n</div>"
+    block:
+      variations: center
   logo-9571:
     title: 'Logo / Image'
     attributes:

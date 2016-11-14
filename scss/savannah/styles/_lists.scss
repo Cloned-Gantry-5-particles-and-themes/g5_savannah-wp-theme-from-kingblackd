@@ -1,0 +1,46 @@
+/* Lists */
+.list,
+.list li {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list {
+    margin-top: -10px;
+    margin-bottom: 31px;
+}
+.list li {
+    position: relative;
+    min-height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #999;
+    padding-left: 25px;
+}
+.list li .bullet {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border: transparent 1px solid;
+}
+ul.list.list-sided {
+    margin-top: -5px;
+}
+ul.list.list-sided li {
+    min-height: 0;
+    line-height: 1.4em;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+ul.list.list-sided li:before {
+    display: none;
+}
+ul.list.list-sided .stamp {
+    display: block;
+    font-size: 12px;
+    margin-left: 10px;
+}

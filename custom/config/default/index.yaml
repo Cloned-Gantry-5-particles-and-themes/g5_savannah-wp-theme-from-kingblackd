@@ -1,5 +1,5 @@
 name: default
-timestamp: 1472319089
+timestamp: 1479149213
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -8,19 +8,23 @@ preset:
 positions:
   sidebar: Sidebar
 sections:
-  navigation: Navigation
   intro: Intro
+  navigation: Navigation
   features: Features
   utility: Utility
   above: Above
-  testimonials: Testimonials
   expanded: Expanded
+  testimonials: Testimonials
+  protfolio: Protfolio
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  custom:
+    custom-5107: 'Hire Me'
+    custom-7143: 'Custom HTML'
   logo:
     logo-9608: 'Logo / Image'
     logo-9571: 'Logo / Image'

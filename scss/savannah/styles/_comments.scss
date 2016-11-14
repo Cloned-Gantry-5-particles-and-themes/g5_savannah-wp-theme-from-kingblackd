@@ -1,0 +1,59 @@
+.comment {
+position: relative;
+min-height: 135px;
+margin-bottom: 40px;
+}
+.comment-reply {
+margin-left: 40px;
+}
+.comment .aside {
+position: absolute;
+top: 0;
+left: 0;
+width: 94px;
+text-align: center;
+}
+.comment .content {
+position: relative;
+margin-left: 114px;
+}
+.comment .avatar,
+.comment .avatar > img {
+position: relative;
+display: block;
+width: 92px;
+height: 92px;
+margin: 1px;
+}
+.comment .avatar {
+width: 94px;
+height: 94px;
+margin-bottom: 10px;
+}
+.comment .avatar > .mask {
+position: absolute;
+display: block;
+top: 0;
+left: 0;
+width: 94px;
+height: 94px;
+background: url('../img/avatar-mask.png') center center no-repeat;
+background-size: 94px 94px;
+}
+.dark .comment .avatar > .mask {
+background-image: url('../img/avatar-mask-dark.png');
+}
+.comment .content .name {
+font-size: 15px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.3em;
+margin: -5px 0 59px 0;
+}
+.dark .comment .content .name {
+color: #fff;
+}
+.comment .content p {
+font-size: 14px;
+line-height: 25px;
+}

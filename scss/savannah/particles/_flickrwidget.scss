@@ -1,0 +1,60 @@
+/* Flickr widget */
+.flickr-widget-item a .hover {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transition-timing-function: cubic-bezier(0.13, 0.71, 0.30, 0.94);
+  -moz-transition-timing-function: cubic-bezier(0.13, 0.71, 0.30, 0.94);
+  -o-transition-timing-function: cubic-bezier(0.13, 0.71, 0.30, 0.94);
+  transition-timing-function: cubic-bezier(0.13, 0.71, 0.30, 0.94);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.flickr-widget-item a:hover .hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+/* Flickr widget */
+.flickr-widget {
+    margin: 0 10px;
+}
+.flickr-widget-item {
+    margin: 0 -10px 10px -10px;
+}
+.flickr-widget-item a {
+    display: block;
+    position: relative;
+}
+.flickr-widget-item a img {
+    width: 100%;
+}
+.flickr-widget-item a .hover {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: rgba(255, 255, 255, 0.35) 0 solid;
+}
+.flickr-widget-item a:hover .hover {
+    border-width: 5px;
+}
+.flickr-widget-item a .hover:after {
+    content: "\f0c1";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}

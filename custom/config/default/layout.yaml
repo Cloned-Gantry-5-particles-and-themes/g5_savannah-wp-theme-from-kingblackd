@@ -4,18 +4,22 @@ preset:
   name: default
   timestamp: 1472319055
 layout:
+  /intro/:
+    -
+      - 'custom-5107 50'
+      - 'custom-7143 50'
+  /header/: {  }
   /navigation/:
     -
       - 'logo-9608 15'
       - 'menu-6409 65'
       - 'social-3171 20'
-  /header/: {  }
-  /intro/: {  }
   /features/: {  }
   /utility/: {  }
   /above/: {  }
-  /testimonials/: {  }
   /expanded/: {  }
+  /testimonials/: {  }
+  /protfolio/: {  }
   /container-main/:
     -
       -
@@ -36,7 +40,7 @@ layout:
     -
       - mobile-menu-5697
 structure:
-  navigation:
+  intro:
     type: section
     attributes:
       boxed: ''
@@ -44,7 +48,7 @@ structure:
     attributes:
       boxed: ''
       class: ''
-  intro:
+  navigation:
     type: section
     attributes:
       boxed: ''
@@ -61,11 +65,15 @@ structure:
     type: section
     attributes:
       boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
   testimonials:
     type: section
     attributes:
       boxed: ''
-  expanded:
+  protfolio:
     type: section
     attributes:
       boxed: ''
@@ -85,6 +93,14 @@ structure:
     attributes:
       boxed: ''
 content:
+  custom-5107:
+    title: 'Hire Me'
+    attributes:
+      html: '<a href="#contacts" class="footer-label uppercase"><span class="button button-icon-clear pull-left" data-animate="fadeInUp"><i class="fa fa-briefcase"></i></span><span class="pull-left" data-animate="fadeInUp">Hire me now!</span></a>'
+  custom-7143:
+    title: 'Custom HTML'
+    attributes:
+      html: "<a href=\"https://www.facebook.com/tony.bogdanov.9\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-facebook\"></i></a>\n                                <a href=\"https://twitter.com/tony_bogdanov\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-twitter\"></i></a>\n                                <a href=\"https://plus.google.com/104315383192649358641\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-google-plus\"></i></a>\n                                <a href=\"#\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-pinterest\"></i></a>\n                                <a href=\"#\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-dribbble\"></i></a>"
   logo-9608:
     title: 'Logo / Image'
   social-3171:
