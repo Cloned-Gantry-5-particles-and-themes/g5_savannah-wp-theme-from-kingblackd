@@ -15,8 +15,8 @@ navigation:
   text-color: '#171717'
 header:
   background: '#312f38'
-  background-image: 'gantry-media://header/img01.jpg'
-  background-overlay: enabled
+  background-image: ''
+  background-overlay: disabled
   text-color: '#eceeef'
 intro:
   background: '#f4f5f7'

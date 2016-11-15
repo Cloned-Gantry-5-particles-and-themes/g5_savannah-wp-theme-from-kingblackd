@@ -1,0 +1,30 @@
+name: Download Resume
+description: Resume link.
+type: particle
+icon: fa-download
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    class:
+      type: input.text
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    title:
+      type: input.text
+      label: 'Title'
+      description: Enter a your job title.
+      placeholder: 'Download CV'
+
+    location:
+          type: input.filepicker
+          label: File Location
+          icon: fa fa-file-word-o
+          placeholder: 'your resume file'
+          filter: '\.(pdf|doc|docx|rtf)$'

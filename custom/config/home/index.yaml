@@ -1,5 +1,5 @@
 name: home
-timestamp: 1479139391
+timestamp: 1479226603
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -23,6 +23,8 @@ sections:
 particles:
   custom:
     custom-5807: Intro
+  widget:
+    position-widget-2899: Widget
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
   logo:

@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1479150794
+timestamp: 1479232416
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -26,25 +26,40 @@ particles:
     custom-7395: 'Custom HTML'
     custom-9601: 'Custom HTML'
     custom-3119: Features
-    custom-6355: 'Develop CMS themes quickly'
-    custom-7658: 'Customer Testimonials'
+    custom-7545: 'Custom HTML'
+    custom-6556: 'Contact Form'
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
+    owlcarousel-7560: 'Owl Carousel'
   menu:
     menu-6409: Menu
     menu-1596: Menu
-  contenttabs:
-    contenttabs-3854: 'Content Tabs'
-  contentcubes:
-    contentcubes-7850: 'Content Cubes'
-  logo:
-    logo-9571: 'Logo / Image'
-  copyright:
-    copyright-1736: Copyright
-  horizontalmenu:
-    horizontalmenu-9034: 'Horizontal Menu'
+  sectiontitle:
+    sectiontitle-6366: 'Section Title'
+    sectiontitle-1332: 'Section Title'
+    sectiontitle-8251: 'Section Title'
+    sectiontitle-7871: 'Section Title'
+    sectiontitle-9392: Contact
+  bio-info:
+    bio-info-1264: 'Bio Stats'
+  skillbar:
+    skillbar-5033: 'Skill Bar Graph'
+    skillbar-4987: 'Skill Bar Graph'
+    skillbar-2594: 'Skill Bar Graph'
+  resumedl:
+    resumedl-6742: 'Download Resume'
+  timeline:
+    timeline-6465: Timeline
+  isotope:
+    isotope-8736: Portfolio
   totop:
     totop-8670: 'To Top'
+  branding:
+    branding-9914: Branding
+  social:
+    social-3503: Social
+  copyright:
+    copyright-1736: Copyright
   mobile-menu:
     mobile-menu-5697: Mobile-menu
 inherit:
