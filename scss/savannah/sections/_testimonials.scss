@@ -6,7 +6,7 @@
     z-index: 10;
 
     @if $testimonials-background-image {
-        background: url($testimonials-background-image) no-repeat center top;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url($testimonials-background-image) no-repeat fixed center top;
         background-size: cover;
 
         @if $testimonials-background-overlay == 'enabled' {

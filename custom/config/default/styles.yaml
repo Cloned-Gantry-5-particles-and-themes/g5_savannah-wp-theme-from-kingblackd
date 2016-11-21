@@ -25,15 +25,17 @@ features:
   background: '#ffffff'
   text-color: '#424753'
 utility:
-  background: '#424753'
-  text-color: '#ffffff'
+  background: '#ffffff'
+  text-color: '#999999'
 above:
   background: '#f4f5f7'
-  text-color: '#424753'
+  background-image: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg'
+  background-overlay: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/overlay.png'
+  text-color: '#c29732'
 testimonials:
-  background: '#8f4dae'
-  background-image: 'gantry-media://testimonials/img01.jpg'
-  background-overlay: enabled
+  background: '#c29732'
+  background-image: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-testimonials.jpg'
+  background-overlay: disabled
   text-color: '#eceeef'
 expanded:
   background: '#ffffff'

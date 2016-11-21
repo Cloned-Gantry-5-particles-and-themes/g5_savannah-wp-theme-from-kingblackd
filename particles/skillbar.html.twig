@@ -4,17 +4,16 @@
 
     <!-- Skill Section -->
     <div class="item_bottom">
-      <div class="sub-heading">{{ particle.title }}</div>
-        <ul class="skillBar">
+        <div class="sub-heading">{{ particle.title }}</div>
             {% for item in particle.items %}
-                <li>
-                    <div class="skillBg">
-                        <span data-width="{{ item.percent }}">
-                            <strong>{{ item.title }}
-                                {{ item.percent }}%</strong>
-                        </span>
+                    <label>{{ item.title }}</label>
+                    <div class="skill-bar compact" data-value="{{ item.percent }}%">
+                        <div class="bar">
+                            <div class="fill" style="width: {{ item.percent }}%;">
+                                <div class="value">{{ item.percent }}%</div>
+                            </div>
+                        </div>
                     </div>
-                </li>
             {% endfor %}
         </div>
         <!-- skills end -->

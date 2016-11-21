@@ -25,7 +25,7 @@ layout:
     -
       - 'skillbar-5033 33.3'
       - 'skillbar-4987 33.3'
-      - 'skillbar-2594 33.3'
+      - 'numcounter-9571 33.3'
   /above/:
     -
       - resumedl-6742
@@ -33,7 +33,8 @@ layout:
     -
       - sectiontitle-8251
     -
-      - timeline-6465
+      - 'timeline-6465 50'
+      - 'timeline-6997 50'
   /testimonials/:
     -
       - owlcarousel-7560
@@ -162,6 +163,8 @@ content:
     attributes:
       class: ''
       title: 'Who I AM'
+    block:
+      variations: center
   custom-3119:
     title: Features
     attributes:
@@ -198,28 +201,159 @@ content:
           link: pintrest.com
           name: pintrest
   sectiontitle-1332:
-    title: 'Section Title'
+    title: 'MY SKILLS'
+    attributes:
+      title: 'MY SKILLS'
+    block:
+      variations: center
   skillbar-5033:
     title: 'Skill Bar Graph'
+    attributes:
+      title: skills
+      items:
+        -
+          title: ps
+          percent: '25'
+          name: 'New item'
+        -
+          title: wp
+          percent: '75'
+          name: 'New item'
+        -
+          title: er
+          percent: '68'
+          name: 'New item'
   skillbar-4987:
     title: 'Skill Bar Graph'
-  skillbar-2594:
-    title: 'Skill Bar Graph'
+    attributes:
+      title: Skills2
+      items:
+        -
+          title: wp
+          percent: '98'
+          name: 'New item'
+        -
+          title: photo
+          percent: '78'
+          name: 'New item'
+        -
+          title: tests
+          percent: '45'
+          name: 'New item'
+  numcounter-9571:
+    title: 'Quick Stats'
+    attributes:
+      items:
+        -
+          icon: 'fa fa-user fa-2x'
+          label: 'Happy Clients'
+          value: '150'
+          name: 'New item'
+        -
+          icon: 'fa fa-user fa-2x'
+          label: 'Year Experience'
+          value: '7'
+          name: 'New item'
+        -
+          icon: 'fa fa-user fa-2x'
+          label: 'Awards Won'
+          value: '13'
+          name: 'New item'
+        -
+          icon: 'fa fa-user fa-2x'
+          label: 'Projects Done'
+          value: '520'
+          name: 'New item'
   resumedl-6742:
     title: 'Download Resume'
     attributes:
       title: 'Download CV'
       location: ''
+    block:
+      variations: center
   sectiontitle-8251:
-    title: 'Section Title'
+    title: 'WORK & EDUCATION'
+    attributes:
+      title: 'WORK & EDUCATION'
+    block:
+      variations: center
+  timeline-6465:
+    attributes:
+      section: work
+      items:
+        -
+          section: present
+          title: 'LEAD PHOTOGRAPHER'
+          label: 'FOTOSHOOT MAGAZINE'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          startdate: 2016-04
+          enddate: 2016-11
+          current: 'yes'
+          name: 'New item'
+        -
+          section: present
+          title: 'JUNIOR PHOTOGRAPHER'
+          label: 'ABC MODEL AGENCY'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          startdate: 2015-07
+          enddate: 2016-06
+          current: 'no'
+          name: 'New item'
+        -
+          section: present
+          title: 'GRAPHIC DESIGNER'
+          label: 'FXMEDIA LTD.'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          startdate: 2010-09
+          enddate: 2013-09
+          current: 'no'
+          name: 'New item'
+  timeline-6997:
+    attributes:
+      section: education
+      items:
+        -
+          section: education
+          title: 'GRAPHIC DESIGNER'
+          label: 'FXMEDIA LTD.'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          startdate: 2016-11
+          enddate: 2016-11
+          current: 'no'
+          name: 'New item'
+        -
+          section: education
+          title: 'MASTERS DEGREE HARVARD'
+          label: 'ART HISTORY'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          startdate: 2016-11
+          enddate: 2016-11
+          current: 'no'
+          name: 'New item'
+        -
+          section: education
+          title: 'BACHELORS DEGREE HARVARD'
+          label: 'PHOTOGRAPHY & DESIGN'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          startdate: 2016-11
+          enddate: 2016-11
+          current: 'no'
+          name: 'New item'
   owlcarousel-7560:
     title: 'Owl Carousel'
   sectiontitle-7871:
     title: 'Section Title'
+    attributes:
+      class: ''
+      title: PORTFOLIO
+    block:
+      variations: center
   isotope-8736:
     title: Portfolio
   sectiontitle-9392:
     title: Contact
+    block:
+      variations: center
   custom-7545:
     title: 'Custom HTML'
     attributes:

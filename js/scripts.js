@@ -11,8 +11,8 @@
     // This detects if the navigation should be fixed while scrolling
     $(window).bind('scroll', function() {
         var $this   = $(this);
-        var $body   = $('body');
-        var offset  = 0 === $('#hero').length ? 0 : $('#hero').height() + $('#hero').offset().top;
+        var $body   = $('#g-navigation');
+        var offset  = 0 === $('#g-header').length ? 0 : $('#g-header').height() + $('#g-header').offset().top;
         if($this.scrollTop() >= offset) {
             $body.addClass('nav-fixed');
         } else {

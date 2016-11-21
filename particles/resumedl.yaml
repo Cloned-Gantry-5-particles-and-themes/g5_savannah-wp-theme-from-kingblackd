@@ -23,8 +23,8 @@ form:
       placeholder: 'Download CV'
 
     location:
-          type: input.filepicker
-          label: File Location
-          icon: fa fa-file-word-o
-          placeholder: 'your resume file'
-          filter: '\.(pdf|doc|docx|rtf)$'
+      type: input.filepicker
+      label: File Location
+      icon: fa fa-file-word-o
+      placeholder: 'your resume file'
+      filter: '\.(pdf|doc|docx|rtf)$'

@@ -9,6 +9,15 @@ form:
       type: input.colorpicker
       label: Background
       default: "#f4f5f7"
+    background-image:
+      type: input.imagepicker
+      label: Background Image
+      default: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg'
+    background-overlay:
+      type: input.imagepicker
+      label: Background Overlay
+      description: 'Enables image overlay.'
+      default: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/overlay.png'
     text-color:
       type: input.colorpicker
       label: Text

@@ -16,6 +16,15 @@ form:
       label: CSS Classes
       description: CSS class name for the particle.
 
+    section:
+      type: select.select
+      label: Section
+      description: Select the section of the timeline.
+      default: work
+      options:
+        work: Work
+        education: Education
+
     items:
       type: collection.list
       array: true
@@ -25,14 +34,6 @@ form:
       ajax: true
 
       fields:
-        .section:
-          type: select.select
-          label: Section
-          description: Select the section of the timeline.
-          default: present
-          options:
-            present: Present
-            education: Education
         .title:
           type: input.text
           label: Title

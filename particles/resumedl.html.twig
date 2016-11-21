@@ -4,9 +4,12 @@
 
 		<div class="resume {{ particle.class|e }}">
 
-			<div class="padding-tq-top padding-minus-tq-bottom text-center">
-				<a href="{{ url(particle.location) }}" class="button button-big" data-animate="flipInY" data-group="1"><span class="icon"><i class="fa fa-download"></i></span>{{ particle.title|e }}</a>
-				<div class="footer-label uppercase" data-animate="fadeInUp" data-group="1">234.12kb | cv.pdf</div>
+			<div style="margin-top: 15px;">
+				<a href="{{ url(particle.location) }}" class="button button-big button-icon-left">
+					{{ particle.title|e }}
+					<span class="icon"><i class="fa fa-download"></i></span>
+				</a>
+				<div class="footer-label uppercase">234.12kb | cv.pdf</div>
 
 		</div>
 

@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1479232416
+timestamp: 1479714353
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -36,8 +36,8 @@ particles:
     menu-1596: Menu
   sectiontitle:
     sectiontitle-6366: 'Section Title'
-    sectiontitle-1332: 'Section Title'
-    sectiontitle-8251: 'Section Title'
+    sectiontitle-1332: 'MY SKILLS'
+    sectiontitle-8251: 'WORK & EDUCATION'
     sectiontitle-7871: 'Section Title'
     sectiontitle-9392: Contact
   bio-info:
@@ -45,11 +45,13 @@ particles:
   skillbar:
     skillbar-5033: 'Skill Bar Graph'
     skillbar-4987: 'Skill Bar Graph'
-    skillbar-2594: 'Skill Bar Graph'
+  numcounter:
+    numcounter-9571: 'Quick Stats'
   resumedl:
     resumedl-6742: 'Download Resume'
   timeline:
     timeline-6465: Timeline
+    timeline-6997: Timeline
   isotope:
     isotope-8736: Portfolio
   totop:
