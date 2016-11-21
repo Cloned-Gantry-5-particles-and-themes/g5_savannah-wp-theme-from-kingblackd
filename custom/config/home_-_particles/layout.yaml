@@ -50,8 +50,10 @@ layout:
           -
             - sectiontitle-9392
           -
-            - 'custom-7545 50'
+            - 'custom-2559 50'
             - 'custom-6556 50'
+          -
+            - googlemap-1641
       -
         'sidebar 20': {  }
   /footer/:
@@ -352,16 +354,31 @@ content:
     title: Portfolio
   sectiontitle-9392:
     title: Contact
+    attributes:
+      title: Contacts
     block:
       variations: center
-  custom-7545:
+  custom-2559:
     title: 'Custom HTML'
     attributes:
-      html: Map
+      html: "<div id=\"map\"></div>\n    <script>\n      var map;\n      function initMap() {\n        map = new google.maps.Map(document.getElementById('map'), {\n          center: {lat: -34.397, lng: 150.644},\n          zoom: 8\n        });\n      }\n    </script>\n    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyBHIiVSvNxaEm6AE8a3vFS7yXk1RixnX6Q&callback=initMap\"\n    async defer></script>"
   custom-6556:
     title: 'Contact Form'
     attributes:
-      html: '[contact-form-7 id="12" title="Contact form 1"]'
+      html: '[contact-form-7 id="2127" title="Identity Contact form_copy"]'
+      filter: '1'
+  googlemap-1641:
+    title: 'Google Map'
+    attributes:
+      enabled: 0
+      apikey: AIzaSyBHIiVSvNxaEm6AE8a3vFS7yXk1RixnX6Q
+      height: 100%
+      maptype: ROADMAP
+      latitude: '52.052312'
+      longitude: '4.447141'
+      zoom: '7'
+      defaultmarker: show
+      dragging: disabledmobile
   totop-8670:
     title: 'To Top'
   branding-9914:

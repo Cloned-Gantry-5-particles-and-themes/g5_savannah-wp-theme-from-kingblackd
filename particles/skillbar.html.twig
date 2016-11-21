@@ -4,10 +4,10 @@
 
     <!-- Skill Section -->
     <div class="item_bottom">
-        <div class="sub-heading">{{ particle.title }}</div>
+        <div class="sub-heading" data-animate="fadeInRight" data-group="1">{{ particle.title }}</div>
             {% for item in particle.items %}
-                    <label>{{ item.title }}</label>
-                    <div class="skill-bar compact" data-value="{{ item.percent }}%">
+                    <label data-animate="fadeInRight" data-delay="300" data-group="1">{{ item.title }}</label>
+                    <div class="skill-bar compact" data-value="{{ item.percent }}%" data-animate="fadeInRight" data-delay="600" data-group="1">
                         <div class="bar">
                             <div class="fill" style="width: {{ item.percent }}%;">
                                 <div class="value">{{ item.percent }}%</div>

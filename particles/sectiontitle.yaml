@@ -18,6 +18,6 @@ form:
 
     title:
       type: input.text
-      label: First Half
-      description: First Half.
-      placeholder: 'Enter First Half'
+      label: Title
+      description: Customize the title.
+      placeholder: 'Who I Am'

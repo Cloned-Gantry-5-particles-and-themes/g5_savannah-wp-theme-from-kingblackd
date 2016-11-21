@@ -1,5 +1,5 @@
 /* Font imports */
-@import url(http://fonts.googleapis.com/css?family=Meie+Script|Great+Vibes);
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lato:300,300i,400,400i,700,700i,900,900i|Meie+Script');
 // Font Family
 $font-family-default:           "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !default;
 $font-family-title:             "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !default;
@@ -8,10 +8,10 @@ $font-family-mono: 				"Courier New", "Menlo", "Monaco", monospace;
 $font-family-serif:				"Georgia", "Times", "Times New Roman", serif;
 
 // Font Weights
-$font-weight-light:				200;
+$font-weight-light:				300;
 $font-weight-regular:			400;
-$font-weight-medium:			500;
-$font-weight-semibold:			600;
+$font-weight-medium:			300;
+$font-weight-semibold:			700;
 $font-weight-bold:				700;
 $font-weight-ultrabold:		  	900;
 

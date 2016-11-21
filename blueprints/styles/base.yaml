@@ -11,7 +11,7 @@ form:
       default: "#ffffff"
     border-color:
       type: input.colorpicker
-      label: Base Background
+      label: border Color
       default: "#e0e0e5"
     text-color:
       type: input.colorpicker

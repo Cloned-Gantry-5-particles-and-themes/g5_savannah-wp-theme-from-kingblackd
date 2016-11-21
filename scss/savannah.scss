@@ -5,7 +5,8 @@
 //-------------------------------------------
 
 // THEME STYLING
-
+@import "savannah/particles/skillbar";
+@import "savannah/particles/timeline";
 // Base
 @import "nucleus/theme/base";
 
@@ -39,11 +40,11 @@
 // Dropdown Animations
 @import "savannah/styles/dropdownanimations";
 
-// lesshat Animations
-@import "savannah/styles/lesshat";
-
 // Styling
 @import "savannah/styles/savannah-style";
+
+// lesshat Animations
+@import "savannah/styles/color";
 
 //-------------------------------------------
 
@@ -128,8 +129,8 @@
 
 // Owl Carousel
 @import "savannah/particles/owlcarousel";
-@import "savannah/particles/skillbar";
-@import "savannah/particles/timeline";
+
+@import "savannah/particles/numcounters";
 
 // Horizontal Menu
 @import "savannah/particles/horizontalmenu";

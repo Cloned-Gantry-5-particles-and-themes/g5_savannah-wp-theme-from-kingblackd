@@ -3,25 +3,27 @@
 {% block particle %}
 
     <!-- some number facts -->
-    <div class="number-counters center new-line {{ particle.class|e }}">
+    <div class="number-counters center {{ particle.class|e }}" data-animate="fadeInRight" data-group="1">
 
         {% if particle.items %}
             <div class="number-facts-wrapper">
-
-                {% for item in particle.items %}
-                    <div class="counters-item">
-                        {% if item.icon %}
-                            <i class="{{ item.icon }}"></i>
-                        {% endif %}
-                        {% if item.value %}
-                            <strong data-to="{{ item.value|e }}">0</strong>
-                        {% endif %}
-                        {% if item.label %}
-                            <p>{{ item.label|e }}</p>
-                        {% endif %}
-                    </div>
-                {% endfor %}
-
+                <div class="g-grid">
+                    {% for item in particle.items %}
+                        <div class="g-block size-50">
+                            <div class="counters-item">
+                                {% if item.icon %}
+                                    <i class="{{ item.icon }}"></i>
+                                {% endif %}
+                                {% if item.value %}
+                                    <strong data-to="{{ item.value|e }}">0</strong>
+                                {% endif %}
+                                {% if item.label %}
+                                    <p>{{ item.label|e }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         {% endif %}
 

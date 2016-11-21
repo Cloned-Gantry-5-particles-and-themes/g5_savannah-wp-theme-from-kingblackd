@@ -2,48 +2,58 @@
 
 {% block particle %}
 
-  <div class="{{ particle.class|e }}">
-    <ul class="fa-ul">
-        {% if particle.dob %}
-            <li>
-                <i class="fa fa-li fa-calendar"></i>
-                <strong>birthdate: </strong>{{ particle.dob }}
-						</li>
-        {% endif %}
-        {% if particle.phone %}
-            <li>
-                <i class="fa fa-li fa-mobile"></i>
-                <strong>phone: </strong>{{ particle.phone }}
-						</li>
-        {% endif %}
-        {% if particle.email %}
-            <li>
-                <i class="fa fa-li fa-envelope-o"></i>
-                <strong>email: </strong>{{ particle.email }}
-						</li>
-        {% endif %}
-        {% if particle.web %}
-        <li>
-          <i class="fa fa-li fa-globe"></i>
-          <strong>website: </strong> {{ particle.web }}
-        </li>
-{% endif %}
-        {% if particle.address %}
-            <li>
-                <i class="fa fa-li fa-home"></i>
-                <strong>adress: </strong>{{ particle.address }}
-						</li>
-        {% endif %}
-    </ul>
+    <div class="{{ particle.class|e }}">
+        <ul class="fa-ul no-style">
+            {% if particle.dob %}
+                <li data-animate="flipInY" data-delay="300*index">
+                    <i class="fa fa-li fa-calendar"></i>
+                    <strong>birthdate:
+                    </strong>{{ particle.dob }}
+                </li data-animate="flipInY" data-delay="300*index">
+            {% endif %}
+            {% if particle.phone %}
+                <li data-animate="flipInY" data-delay="300*index">
+                    <i class="fa fa-li fa-phone"></i>
+                    <strong>phone:
+                    </strong>{{ particle.phone }}
+                </li>
+            {% endif %}
+            {% if particle.email %}
+                <li data-animate="flipInY" data-delay="300*index">
+                    <i class="fa fa-li fa-envelope-o"></i>
+                    <strong>email:
+                    </strong>{{ particle.email }}
+                </li>
+            {% endif %}
+            {% if particle.web %}
+                <lidata-animate="flipInY" data-delay="300*index">
+                    <i class="fa fa-li fa-globe"></i>
+                    <strong>website:
+                    </strong>
+                    {{ particle.web }}
+                </li>
+            {% endif %}
+            {% if particle.address %}
+                <li data-animate="flipInY" data-delay="300*index">
+                    <i class="fa fa-li fa-home"></i>
+                    <strong>adress:
+                    </strong>{{ particle.address }}
+                </li>
+            {% endif %}
+        </ul>
 
-    <div class="g-social">
-        {% for item in particle.items %}
-            <a class="button button-icon" target="{{ particle.target|default('_blank')|e }}" href="{{ item.link|e }}" title="{{ item.text|e }}">
-                {% if particle.display in ['both', 'icons_only'] %}<span class="{{ item.icon|e }}"></span>{% endif %}
-                {% if particle.display in ['both', 'text_only'] %}<span class="g-social-text">{{ item.text|e }}</span>{% endif %}
-            </a>
-        {% endfor %}
+        <div class="g-social">
+            {% for item in particle.items %}
+                <a class="button button-icon" target="{{ particle.target|default('_blank')|e }}" href="{{ item.link|e }}" data-animate="fadeInUp" data-delay="300*index" data-group="1">
+                    {% if particle.display in ['both', 'icons_only'] %}
+                        <span class="{{ item.icon|e }}"></span>
+                    {% endif %}
+                    {% if particle.display in ['both', 'text_only'] %}
+                        <span class="g-social-text">{{ item.text|e }}</span>
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </div>
     </div>
-  </div>
 
 {% endblock %}

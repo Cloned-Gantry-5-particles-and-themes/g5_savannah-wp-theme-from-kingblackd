@@ -39,6 +39,8 @@
 
   &.fa {
     margin: 0;
+    width: 15px;
+    text-align: center;
 
     &[class*="fa-"] {
       &:after,
@@ -191,11 +193,7 @@
   margin-right: 0;
 }
 
-.button > .fa {
-  width: 15px;
-  text-align: center;
-  margin: 0 15px;
-}
+
 
 .button-small > .fa {
   margin: 0 7px;

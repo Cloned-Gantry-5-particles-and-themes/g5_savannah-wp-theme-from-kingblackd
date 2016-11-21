@@ -1,7 +1,11 @@
 #g-features {
     background: $features-background;
     color: $features-text-color;
-    padding: $section-padding 0;
+    padding: $section-padding $section-padding 0;
+
+    .fa-ul .fa-li {
+      top: .5em;
+    }
 }
 
 @media print {

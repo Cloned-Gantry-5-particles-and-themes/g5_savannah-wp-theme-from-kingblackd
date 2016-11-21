@@ -1,0 +1,253 @@
+@import "lesshat.scss";
+
+/* Common styles & typography */
+a,
+a:hover,
+a:visited,
+a:active,
+a:focus {
+  color: $accent-color-1;
+}
+.section-heading:before,
+.section-heading:after,
+.section-heading .tl,
+.section-heading .tr,
+.section-heading .br,
+.section-heading .bl {
+  border-color: $accent-color-1;
+}
+.sub-heading:after {
+  background-color: $accent-color-1;
+}
+.button,
+.button:hover,
+.button:visited,
+.button:focus,
+.button:active {
+  border-color: $accent-color-1;
+  color: $accent-color-1;
+}
+.button.button-icon-clear:active,
+.button.button-icon-clear.active,
+.active > .button.button-icon-clear {
+  color: $accent-color-1 !important;
+}
+.button:active,
+.button.active,
+.active > .button {
+  background-color: $accent-color-1;
+}
+.button:not(.button-icon-clear):hover,
+input:focus,
+textarea:focus {
+  -webkit-box-shadow: inset $accent-color-1 0 0 0 2px;
+     -moz-box-shadow: inset $accent-color-1 0 0 0 2px;
+      -ms-box-shadow: inset $accent-color-1 0 0 0 2px;
+       -o-box-shadow: inset $accent-color-1 0 0 0 2px;
+          box-shadow: inset $accent-color-1 0 0 0 2px;
+}
+.button-inverted:active {
+  color: $accent-color-1 !important;
+}
+.button-big .icon {
+  border-right-color: $accent-color-1;
+}
+blockquote {
+  color: $accent-color-1;
+}
+pre, code, kbd {
+  background-color: $accent-color-1;
+}
+.colored,
+.colored:hover,
+.colored:visited,
+.colored:focus,
+.colored:active {
+  color: $accent-color-1 !important;
+}
+.coloredbg {
+  background: $accent-color-1 !important;
+}
+
+/* Navigation */
+.navbar li.active > a > span {
+  border-color: $accent-color-1;
+}
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:visited,
+.navbar-brand:active {
+  border-top-color: $accent-color-1;
+}
+.nav-wrapper-brand,
+.nav-close,
+.nav-close:hover,
+.nav-close:visited,
+.nav-close:active,
+.nav-close:focus {
+  color: $accent-color-1;
+}
+.nav li:not(.active) > a > span .tl:before,
+.nav li:not(.active) > a > span .tl:after,
+.nav li:not(.active) > a > span .br:before,
+.nav li:not(.active) > a > span .br:after {
+  background-color: $accent-color-1;
+}
+.nav > li > ul,
+.nav ul ul {
+  border-color: $accent-color-1;
+}
+.nav ul li > a > span:before {
+  background-color: $accent-color-1;
+}
+nav li.node:before {
+  border-left-color: $accent-color-1;
+}
+
+/* Hero */
+.cover .one,
+.cover .two {
+  border-color: $accent-color-1;
+}
+.hero-heading:before,
+.hero-heading:after,
+.hero-heading .tl,
+.hero-heading .tr,
+.hero-heading .br,
+.hero-heading .bl {
+  border-color: $accent-color-1;
+}
+.hero-amp {
+  color: $accent-color-1;
+}
+.hero-amp:before,
+.hero-amp:after {
+  background-color: $accent-color-1;
+}
+
+/* Lists */
+.list li .bullet {
+  border-color: $accent-color-1;
+}
+
+/* Comments */
+.datetime {
+  background-color: $accent-color-1;
+}
+.datetime:before {
+  border-right-color: $accent-color-1;
+}
+
+/* Skill bars */
+.skill-bar .bar {
+  border-color: $accent-color-1;
+}
+.skill-bar .bar:before,
+.skill-bar .bar:after,
+.skill-bar .fill,
+.skill-bar .fill:before,
+.skill-bar .fill:after,
+.skill-bar .value {
+  background-color: $accent-color-1;
+}
+.skill-bar .value:after {
+  border-top-color: $accent-color-1;
+}
+
+/* Footer label */
+.footer-label {
+  color: $accent-color-1;
+}
+
+/* History list */
+.history,
+.history .icon {
+  border-color: $accent-color-1;
+}
+.history .icon .fa {
+  color: $accent-color-1;
+}
+
+/* Portfolio styles */
+.portfolio .item .overlay {
+  background-color: transparent;
+}
+.portfolio .item:hover .overlay {
+  background-color: rgba(red($accent-color-1), green($accent-color-1), blue($accent-color-1), 0.5);
+}
+.portfolio .item .overlay .tile {
+  background-color: $accent-color-1;
+}
+
+/* Blog post styles */
+.blog-post .info,
+.blog-post-small .info,
+.blog-post-big .info {
+  background-color: $accent-color-1;
+}
+.blog-post .info .arrow,
+.blog-post-small .info .arrow,
+.blog-post-big .info .arrow {
+  border-top-color: $accent-color-1;
+}
+@media screen and (min-width: 992px) {
+  .blog-post.on-the-left .info .arrow {
+    border-left-color: $accent-color-1;
+  }
+  .blog-post.on-the-right .info .arrow {
+    border-right-color: $accent-color-1;
+  }
+}
+
+/* Expandable section */
+.expandable:before {
+  border-top-color: $accent-color-1;
+}
+
+/* Diamond */
+.diamond .background {
+  background-color: $accent-color-1;
+}
+
+/* Author */
+.author {
+  background-color: $accent-color-1;
+}
+
+/* Iconed */
+.iconed .iconed-icon {
+  color: $accent-color-1;
+}
+
+/* Flickr widget */
+.flickr-widget-item a .hover {
+  background-color: $accent-color-1;
+}
+
+/* Testimonials */
+.testimonials-box {
+  background-color: $accent-color-1;
+}
+.testimonials-arrow-left {
+  border-top-color: $accent-color-1;
+  border-right-color: $accent-color-1;
+}
+.testimonials-arrow-right {
+  border-top-color: $accent-color-1;
+  border-left-color: $accent-color-1;
+}
+
+/* Pricing Tables */
+.price-plan .price-plan-price {
+  background-color: $accent-color-1;
+}
+.price-plan .price-plan-price::after {
+  border-top-color: $accent-color-1;
+}
+.price-plan .price-plan-features {
+  border-left-color: $accent-color-1;
+}
+.price-plan .price-plan-features li {
+  color: $accent-color-1;
+}

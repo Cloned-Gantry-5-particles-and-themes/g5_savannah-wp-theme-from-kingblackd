@@ -8,7 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-@import url('//fonts.googleapis.com/css?family=Meie+Script|Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lato:300,300i,400,400i,700,700i,900,900i|Meie+Script');
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -138,7 +138,7 @@ legend small {
 /* line 57, wp-content/themes/g5_savannah/scss/savannah-wordpress/_core.scss */
 /* line 58, wp-content/themes/g5_savannah/scss/savannah-wordpress/_core.scss */
 #g-page-surround .search-form input.search-field {
-  color: #999;
+  color: #171717;
 }
 /* line 2, wp-content/themes/g5_savannah/scss/savannah-wordpress/_pagination.scss */
 /* line 4, wp-content/themes/g5_savannah/scss/savannah-wordpress/_pagination.scss */
@@ -318,7 +318,7 @@ legend small {
 /* line 69, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 /* line 70, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a {
-  color: #999;
+  color: #171717;
 }
 /* line 72, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a:hover, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a:hover {
@@ -339,7 +339,7 @@ legend small {
 }
 /* line 91, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a:hover {
-  color: #999;
+  color: #171717;
 }
 /* line 100, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-content {

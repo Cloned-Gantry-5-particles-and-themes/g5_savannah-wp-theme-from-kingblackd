@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1479714353
+timestamp: 1479756739
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -26,7 +26,7 @@ particles:
     custom-7395: 'Custom HTML'
     custom-9601: 'Custom HTML'
     custom-3119: Features
-    custom-7545: 'Custom HTML'
+    custom-2559: 'Custom HTML'
     custom-6556: 'Contact Form'
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
@@ -54,6 +54,8 @@ particles:
     timeline-6997: Timeline
   isotope:
     isotope-8736: Portfolio
+  googlemap:
+    googlemap-1641: 'Google Map'
   totop:
     totop-8670: 'To Top'
   branding:

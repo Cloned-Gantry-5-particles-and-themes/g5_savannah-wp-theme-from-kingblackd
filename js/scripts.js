@@ -163,6 +163,19 @@
         }
     });
 
+    /*-----------------------------------
+    Counter
+    -----------------------------------*/
+        $(".number-counters [data-to]").each(function() {
+            var count = $(this).attr('data-to');
+            $(this).delay(6000).countTo({
+                from: 50,
+                to: count,
+                speed: 3000,
+                refreshInterval: 50,
+            });
+        });
+
     /* Portfolio isotope */
     $('.portfolio[data-portfolio-url]').bind('loadItems', function() {
         var $this   = $(this);

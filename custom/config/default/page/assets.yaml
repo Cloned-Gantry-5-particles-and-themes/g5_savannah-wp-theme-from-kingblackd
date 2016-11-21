@@ -1,0 +1,74 @@
+favicon: ''
+touchicon: ''
+css: {  }
+javascript:
+  -
+    location: 'gantry-assets://js/jquery-1.8.3.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: jquery
+  -
+    location: 'gantry-assets://js/jquery.rotator.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: rotator
+  -
+    location: 'gantry-assets://js/jquery.scrollTo-1.4.3.1-min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: 'scroll to'
+  -
+    location: 'gantry-assets://js/jquery.bez.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: bez
+  -
+    location: 'gantry-assets://js/isotope.pkgd.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: isotope
+  -
+    location: 'gantry-assets://js/jquery.multibackground.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: multibg
+  -
+    location: 'gantry-assets://js/init-scroll.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: initscroll
+  -
+    location: 'gantry-assets://js/scrollspy.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: scrollspy
+  -
+    location: 'gantry-assets://js/jquery-countTo.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: counter
+  -
+    location: 'gantry-assets://js/scripts.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: scripts

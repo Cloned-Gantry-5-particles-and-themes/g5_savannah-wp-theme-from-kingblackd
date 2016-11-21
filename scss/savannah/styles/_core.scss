@@ -17,7 +17,7 @@ body {
 
 body p {
     margin: 1rem 0;
-
+    color: $accent-color-2;
     &.h1 {
         font-size: $h1-font-size;
     }
@@ -53,6 +53,14 @@ ul.no-style {
 }
 ul.no-style li:before {
     display: none !important;
+}
+ul.no-style, ul.no-style li {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0;
+    font-size: 15px;
+    line-height: 28px;
+    color: #999;
 }
 
 @media (max-width: 370px) {

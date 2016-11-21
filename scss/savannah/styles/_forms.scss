@@ -31,14 +31,15 @@ fieldset.input {
 
 #{$all-text-inputs} {
 	background: transparent;
-	border: transparent 2px solid;
+	border: 2px solid $accent-color-1;
+	border-radius: initial;
 	vertical-align: middle;
 	font-size: $core-font-size;
 	width: 100%;
 	line-height: $core-line-height;
 	padding: .4375rem;
 	margin: 0 0 2.5rem;
-	//@include transition(border-color 0.2s);
+	@include transition(all 0.2s);
 
 	&:hover {
 		box-shadow: $base-box-shadow;
@@ -73,4 +74,12 @@ form {
 }
 .search-form input[type="text"] {
     padding-right: 45px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin: -5px 0 10px 0;
 }

@@ -2,11 +2,11 @@ preset: preset1
 base:
   background: '#ffffff'
   border-color: '#e0e0e5'
-  text-color: '#999999'
+  text-color: '#171717'
   favicon: ''
 accent:
   color-1: '#c29732'
-  color-2: '#171717'
+  color-2: '#999999'
 font:
   family-default: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
@@ -20,13 +20,13 @@ header:
   text-color: '#eceeef'
 intro:
   background: '#f4f5f7'
-  text-color: '#424753'
+  text-color: '#171717'
 features:
   background: '#ffffff'
-  text-color: '#424753'
+  text-color: '#171717'
 utility:
   background: '#ffffff'
-  text-color: '#999999'
+  text-color: '#171717'
 above:
   background: '#f4f5f7'
   background-image: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg'
@@ -51,7 +51,7 @@ offcanvas:
   width: 12rem
 portfolio:
   background: '#f4f5f7'
-  text-color: '#424753'
+  text-color: '#171717'
 breakpoints:
   large-desktop-container: 75rem
   desktop-container: 60rem
