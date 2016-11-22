@@ -11,18 +11,15 @@
     position: absolute;
     top: -8px;
     left: 0;
-    background: #fff;
+    background: $accent-color-2;
     border-top: transparent 4px solid;
-}
-.dark .expandable:before {
-    background: #171717;
 }
 .expandable .diamond {
     position: absolute;
     top: -24px;
     left: 50%;
     margin-left: -22px;
-    z-index: 2000;
+    z-index: 5;
 }
 .expandable-content {
     display: none;

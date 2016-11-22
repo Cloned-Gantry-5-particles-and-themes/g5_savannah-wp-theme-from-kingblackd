@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1479756739
+timestamp: 1479796993
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -8,10 +8,12 @@ preset:
 positions: {  }
 sections:
   intro: Intro
+  expandable: Expandable
   navigation: Navigation
   features: Features
   utility: Utility
   above: Above
+  expandable2: Expandable2
   expanded: Expanded
   testimonials: Testimonials
   protfolio: Protfolio
@@ -23,14 +25,17 @@ sections:
 particles:
   custom:
     custom-5989: 'Hire Me'
-    custom-7395: 'Custom HTML'
+    custom-9276: 'Custom HTML'
     custom-9601: 'Custom HTML'
     custom-3119: Features
+    custom-5623: 'Custom HTML'
     custom-2559: 'Custom HTML'
     custom-6556: 'Contact Form'
-  owlcarousel:
-    owlcarousel-2455: 'Owl Carousel'
-    owlcarousel-7560: 'Owl Carousel'
+  social:
+    social-9576: Social
+    social-3503: Social
+  hero:
+    hero-7272: 'Hero Banner'
   menu:
     menu-6409: Menu
     menu-1596: Menu
@@ -52,22 +57,28 @@ particles:
   timeline:
     timeline-6465: Timeline
     timeline-6997: Timeline
-  isotope:
-    isotope-8736: Portfolio
+  owlcarousel:
+    owlcarousel-7560: 'Owl Carousel'
+  portfolio:
+    portfolio-3037: Portfolio
+    portfolio-8825: Portfolio
+    portfolio-2986: Portfolio
+    portfolio-4550: Portfolio
+    portfolio-8584: Portfolio
+    portfolio-1079: Portfolio
+    portfolio-1558: Portfolio
+    portfolio-6097: Portfolio
   googlemap:
     googlemap-1641: 'Google Map'
   totop:
     totop-8670: 'To Top'
   branding:
     branding-9914: Branding
-  social:
-    social-3503: Social
   copyright:
     copyright-1736: Copyright
   mobile-menu:
     mobile-menu-5697: Mobile-menu
 inherit:
   default:
-    intro: intro
     custom-5989: custom-5107
-    custom-7395: custom-7143
+    social-9576: social-3896

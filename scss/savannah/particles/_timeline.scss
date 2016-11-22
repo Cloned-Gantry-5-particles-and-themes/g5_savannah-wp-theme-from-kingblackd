@@ -47,10 +47,13 @@
     padding-left: 47px;
     margin-left: 16px;
     border-left: transparent 2px solid;
+    p {
+      margin-top: 0;
+    }
 }
 .history li {
     position: relative;
-    padding-top: 130px;
+    padding-top: 70px;
     padding-bottom: 10px;
 }
 .history li:last-child {
@@ -65,7 +68,8 @@
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.3rem;
+    line-height: 1.25;
     margin: -4px 0 0 0;
 }
 .dark .history .title {
@@ -106,7 +110,7 @@
 }
 .history .aff {
     position: absolute;
-    top: 90px;
+    top: 30px;
     left: 0px;
     font-size: 10px;
     font-style: italic;

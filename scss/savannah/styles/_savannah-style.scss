@@ -1,33 +1,150 @@
 /* Author */
 .author {
-    position: relative;
-    padding: 20px 20px 1px 132px;
-    color: #fff;
-    margin-bottom: 40px;
+  position: relative;
+  padding: 20px 20px 1px 132px;
+  color: #fff;
+  margin-bottom: 40px;
 }
+
 .author .image {
-    position: absolute;
-    width: 92px;
-    height: 92px;
-    top: 0;
-    left: 0;
-    margin: 20px;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  top: 0;
+  left: 0;
+  margin: 20px;
 }
+
 .author h4 {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
+
 .author p {
-    font-size: 12px;
-    line-height: 2.2;
-    color: #fff;
-    margin-bottom: 11px;
+  font-size: 12px;
+  line-height: 2.2;
+  color: #fff;
+  margin-bottom: 11px;
 }
 
 /* Google map */
 .map {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  overflow: hidden;
+}
+
+.navbar-brand,
+.navbar-brand:active,
+.navbar-brand:focus,
+.navbar-brand:hover,
+.navbar-brand:visited {
+  display: inline;
+  width: auto;
+  height: auto;
+  font-size: $core-font-size - 0.125;
+  line-height: 3.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: $accent-color-1;
+  padding: 0 0 0 1rem;
+}
+
+/* Portfolio styles */
+.portfolio-filter,
+.portfolio-filter li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-filter li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.portfolio-filter li .button {
+  margin-bottom: 10px;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.portfolio .item {
+  overflow: hidden;
+}
+
+.portfolio .item .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.portfolio .item .overlay {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  padding: 20px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .item .overlay .tile {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .item .overlay .link,
+.portfolio .item .overlay .link:active,
+.portfolio .item .overlay .link:focus,
+.portfolio .item .overlay .link:hover,
+.portfolio .item .overlay .link:visited {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 25%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio .item .overlay .link .title {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.portfolio .item .overlay .link .title:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  width: 25px;
+  height: 2px;
+  margin: 0 0 0 -12px;
+  background: #fff;
+}
+
+.portfolio .item .overlay .link .category {
+  display: block;
+  width: 100%;
+  font-family: 'Meie Script';
+  font-size: 18px;
+  text-transform: lowercase;
+  text-align: center;
 }

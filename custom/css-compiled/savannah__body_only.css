@@ -8,7 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-@import url('//fonts.googleapis.com/css?family=Meie+Script|Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lato:300,300i,400,400i,700,700i,900,900i|Meie+Script');
 /* Font imports */
 /*
  Animate.css - http://daneden.me/animate
@@ -3214,12 +3214,12 @@
   left: 0;
   width: 4px;
   height: 9px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left.png') 0 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left.png?58337afb') 0 0 no-repeat transparent;
   background-size: 4px 9px;
 }
 /* line 32, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .bar:before {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left-dark.png?58337afb');
 }
 /* line 35, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .bar:after {
@@ -3230,12 +3230,12 @@
   right: 0;
   width: 4px;
   height: 9px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right.png') right 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right.png?58337afb') right 0 no-repeat transparent;
   background-size: 4px 9px;
 }
 /* line 46, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .bar:after {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right-dark.png?58337afb');
 }
 /* line 49, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .fill {
@@ -3265,12 +3265,12 @@
   left: 0;
   width: 5px;
   height: 5px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left.png') 0 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left.png?58337afb') 0 0 no-repeat transparent;
   background-size: 5px 5px;
 }
 /* line 75, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .fill:before {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left-dark.png?58337afb');
 }
 /* line 78, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .fill:after {
@@ -3281,12 +3281,12 @@
   right: 0;
   width: 5px;
   height: 5px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right.png') right 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right.png?58337afb') right 0 no-repeat transparent;
   background-size: 5px 5px;
 }
 /* line 89, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .fill:after {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right-dark.png?58337afb');
 }
 /* line 92, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .value {
@@ -3385,35 +3385,40 @@
   margin-left: 16px;
   border-left: transparent 2px solid;
 }
-/* line 51, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 50, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+.history p {
+  margin-top: 0;
+}
+/* line 54, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history li {
   position: relative;
-  padding-top: 130px;
+  padding-top: 70px;
   padding-bottom: 10px;
 }
-/* line 56, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 59, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history li:last-child {
   padding-bottom: 0;
 }
-/* line 59, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 62, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .heading {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 64, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 67, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .title {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.3rem;
+  line-height: 1.25;
   margin: -4px 0 0 0;
 }
-/* line 71, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 75, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .dark .history .title {
   color: #fff;
 }
-/* line 74, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 78, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .icon {
   display: block;
   position: absolute;
@@ -3424,11 +3429,11 @@
   border: transparent 2px solid;
   background: #fff;
 }
-/* line 84, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 88, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .dark .history .icon {
   background: #272727;
 }
-/* line 87, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 91, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .icon .fa {
   display: block;
   position: absolute;
@@ -3441,20 +3446,20 @@
   text-align: center;
   background: #fff;
 }
-/* line 99, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 103, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .dark .history .icon .fa {
   background: #272727;
 }
-/* line 102, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 106, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .datetime {
   position: absolute;
   top: 47px;
   left: 0px;
 }
-/* line 107, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 111, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .aff {
   position: absolute;
-  top: 90px;
+  top: 30px;
   left: 0px;
   font-size: 10px;
   font-style: italic;
@@ -3586,45 +3591,90 @@ body p {
   margin: 1rem 0;
   color: #999;
 }
-/* line 21, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 22, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 body p.h1 {
   font-size: 2.25rem;
 }
-/* line 25, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 26, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 body p.h2 {
   font-size: 1.9rem;
 }
-/* line 29, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 30, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 body p.h3 {
   font-size: 1.5rem;
 }
-/* line 33, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 34, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 body p.h4 {
   font-size: 1.25rem;
 }
-/* line 37, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 38, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 body p.h5 {
   font-size: 1rem;
 }
-/* line 41, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 42, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 body p.h6 {
   font-size: 0.85rem;
 }
-/* line 46, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 47, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 body span.para {
   display: block;
   margin: 1rem 0;
 }
-/* line 51, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 52, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 ul.no-style {
-  margin: -9px 0 32px 0;
+  margin: -9px 0 32px;
 }
-/* line 54, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+/* line 56, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
 ul.no-style li:before {
   display: none !important;
 }
+/* line 60, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+ul.no-style, ul.no-style li {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0;
+  font-size: 15px;
+  line-height: 28px;
+  color: #999;
+}
+/* line 70, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+.container {
+  max-width: 970px;
+}
+/* line 74, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+.container.wrapper {
+  position: relative;
+  max-width: 750px;
+}
+@media (min-width: 1200px)
+.container {
+  width: 1170px;
+}
+@media (min-width: 992px)
+.container {
+  width: 970px;
+}
+@media (min-width: 768px)
+.container {
+  width: 750px;
+}
+/* line 90, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 96, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+.full {
+  width: 100%;
+}
+/* line 100, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+.full-max {
+  max-width: 100%;
+}
 @media (max-width: 370px) {
-  /* line 59, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
+  /* line 104, wp-content/themes/g5_savannah/scss/savannah/styles/_core.scss */
   .portfolio {
     width: 270px;
   }
@@ -3673,40 +3723,44 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin: 0;
+  padding: 0;
 }
-/* line 16, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 20, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 h1 {
   font-weight: 700;
   margin: -5px 0 37px 0;
 }
-/* line 21, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 25, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 h2 {
   margin: -3px 0 37px 0;
 }
-/* line 24, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 28, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 h3 {
   margin: -4px 0 38px 0;
 }
-/* line 28, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 32, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 h4 {
-  font-size: 1.25rem;
+  font-size: 14px;
   margin: -3px 0 38px 0;
 }
-/* line 32, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 36, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 h5 {
   margin: -3px 0 38px 0;
 }
-/* line 35, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 39, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 h6 {
   margin: -2px 0 38px 0;
 }
-/* line 38, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 42, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 p {
   display: block;
   line-height: 28px;
   margin: -9px 0 32px 0;
 }
-/* line 45, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 49, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 blockquote {
   position: relative;
   font-size: 14px;
@@ -3715,7 +3769,7 @@ blockquote {
   padding: 0 0 0 20px;
   margin: 0 0 40px 61px;
 }
-/* line 52, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 56, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 blockquote:before {
   display: block;
   position: absolute;
@@ -3726,19 +3780,19 @@ blockquote:before {
   left: -65px;
   color: #eee;
 }
-/* line 63, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 67, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 blockquote p {
   font-size: 1.1rem;
   color: #4a4a4a;
 }
-/* line 68, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 72, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 blockquote cite {
   display: block;
   text-align: right;
   color: #171717;
   font-size: 1.2rem;
 }
-/* line 77, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 81, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 code, kbd, pre, samp {
   font-family: "Courier New", "Menlo", "Monaco", monospace;
   font-size: 0.875rem;
@@ -3749,12 +3803,12 @@ code, kbd, pre, samp {
   padding: 25px 30px;
   margin: 0 0 40px 0;
 }
-/* line 91, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 95, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 code {
   background: #f9f2f4;
   color: #9c1d3d;
 }
-/* line 96, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 100, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 pre {
   padding: 1rem;
   margin: 2rem 0;
@@ -3764,17 +3818,17 @@ pre {
   line-height: 1.15;
   font-size: 0.9rem;
 }
-/* line 105, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 109, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 pre code {
   color: #237794;
   background: inherit;
   font-size: 0.9rem;
 }
-/* line 111, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 115, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 pre.prettyprint {
   border-color: rgba(0, 0, 0, 0.1) !important;
 }
-/* line 117, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
+/* line 121, wp-content/themes/g5_savannah/scss/savannah/styles/_typography.scss */
 hr {
   margin: 1.5rem 0;
   border-bottom: 1px solid #e0e0e5;
@@ -4260,13 +4314,13 @@ strong {
 /* line 145, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 /* line 146, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .title2 .g-title {
-  background: #999;
+  background: #171717;
   color: #fff;
 }
 /* line 153, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 /* line 154, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box2.moduletable, .box2.widget, .box2.g-outer-box, .box2 > .g-content {
-  background: #999;
+  background: #171717;
 }
 /* line 160, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box2.moduletable, .box2.widget, .box2 > .g-content {
@@ -4275,15 +4329,15 @@ strong {
 /* line 165, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box2 .button {
   color: #fff;
-  background: #808080;
+  background: #000;
 }
 /* line 169, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box2 .button:hover {
-  background: #737373;
+  background: #000;
 }
 /* line 174, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box2 a {
-  color: #4d4d4d;
+  color: #000;
 }
 /* line 177, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box2 a:hover {
@@ -4292,22 +4346,22 @@ strong {
 /* line 184, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 /* line 185, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box2.title2 .g-title {
-  background: #808080;
+  background: #000;
 }
 /* line 191, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 /* line 192, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .title-gradient .g-title {
   background-color: #c29732;
-  background-image: -webkit-linear-gradient(-360deg, #c29732, #999);
-  background-image: linear-gradient(90deg,#c29732, #999);
+  background-image: -webkit-linear-gradient(-360deg, #c29732, #171717);
+  background-image: linear-gradient(90deg,#c29732, #171717);
   color: #fff;
 }
 /* line 199, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 /* line 200, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient.g-outer-box, .box-gradient > .g-content {
   background-color: #c29732;
-  background-image: -webkit-linear-gradient(-315deg, #c29732, #999);
-  background-image: linear-gradient(45deg,#c29732, #999);
+  background-image: -webkit-linear-gradient(-315deg, #c29732, #171717);
+  background-image: linear-gradient(45deg,#c29732, #171717);
 }
 /* line 206, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient > .g-content {
@@ -4334,8 +4388,8 @@ strong {
 /* line 231, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 .box-gradient.title-gradient .g-title {
   background-color: #c29732;
-  background-image: -webkit-linear-gradient(-280deg, #c29732, #999);
-  background-image: linear-gradient(10deg,#c29732, #999);
+  background-image: -webkit-linear-gradient(-280deg, #c29732, #171717);
+  background-image: linear-gradient(10deg,#c29732, #171717);
 }
 /* line 237, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
 /* line 238, wp-content/themes/g5_savannah/scss/savannah/styles/_variations.scss */
@@ -4421,50 +4475,52 @@ strong {
 /* line 40, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.fa {
   margin: 0;
+  width: 15px;
+  text-align: center;
 }
-/* line 43, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
-/* line 44, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 45, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 46, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.fa[class*="fa-"]:after, .button.fa[class*="fa-"]:before {
   font-family: FontAwesome;
 }
-/* line 51, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 53, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button .fa {
   margin: 0;
 }
-/* line 54, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
-/* line 55, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 56, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 57, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button .fa[class*="fa-"]:after, .button .fa[class*="fa-"]:before {
   font-family: FontAwesome;
 }
-/* line 62, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 64, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-icon, .button.button-icon-clear {
   width: 40px;
   padding-left: 0;
   padding-right: 0;
   text-align: center;
 }
-/* line 70, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 72, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-icon-clear, .button.button-icon-clear:active {
   border-color: transparent !important;
   background-color: transparent !important;
 }
-/* line 76, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 78, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-block {
   width: 100%;
   display: block;
 }
-/* line 81, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 83, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-xlarge {
   font-size: 1.2rem;
   padding: 1.9rem 3.525rem;
   border-radius: 3.5rem;
 }
-/* line 87, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 89, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-large {
   font-size: 1rem;
   padding: 1.7rem 3.325rem;
 }
-/* line 92, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 94, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-small {
   height: 30px;
   font-size: 0.7rem;
@@ -4472,103 +4528,97 @@ strong {
   line-height: 26px;
   padding: 0 7px;
 }
-/* line 99, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 101, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-small.button-icon {
   width: 30px;
   padding-left: 0;
   padding-right: 0;
 }
-/* line 106, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 108, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-xsmall {
   font-size: 0.6rem;
   padding: 1.1rem 2.725rem;
 }
-/* line 111, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 113, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-2 {
-  background: #999;
+  background: #171717;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 115, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 117, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-2:active, .button.button-2:focus, .button.button-2:hover {
-  background: #808080;
+  background: #000;
   color: #fff;
 }
-/* line 123, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 125, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-primary {
   background: #c29732;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 127, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 129, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-primary:active, .button.button-primary:focus, .button.button-primary:hover {
   background: #997728;
   color: #fff;
 }
-/* line 135, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 137, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-outline {
   background: transparent;
   color: #c29732;
   border-color: #c29732;
 }
-/* line 140, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 142, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-outline:active, .button.button-outline:focus, .button.button-outline:hover {
   background: #c29732;
   border-color: transparent;
   color: #fff;
 }
-/* line 149, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 151, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-gradient {
   background-color: #c29732;
-  background-image: -webkit-linear-gradient(-360deg, #c29732, #999);
-  background-image: linear-gradient(90deg,#c29732, #999);
+  background-image: -webkit-linear-gradient(-360deg, #c29732, #171717);
+  background-image: linear-gradient(90deg,#c29732, #171717);
   border: none;
 }
-/* line 153, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 155, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-gradient:active, .button.button-gradient:focus, .button.button-gradient:hover {
   background: #c29732;
   color: white;
 }
-/* line 161, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 163, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-bevel {
   border-radius: 0.4rem;
 }
-/* line 165, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 167, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-square {
   border-radius: 0;
 }
-/* line 170, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
-/* line 171, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 172, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 173, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .dark .active > .button.button-icon-clear, .dark .button.button-icon-clear.active, .dark .button.button-icon-clear:active, .dark .button.button-icon-clear:hover, .dark a:hover > .button.button-icon-clear {
   color: #fff !important;
 }
-/* line 180, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 182, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-small.button-icon {
   width: 30px;
   padding-left: 0;
   padding-right: 0;
 }
-/* line 186, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 188, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-icon-left > .fa {
   margin-left: 0;
 }
-/* line 190, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 192, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button.button-icon-right > .fa {
   margin-right: 0;
 }
-/* line 194, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
-.button > .fa {
-  width: 15px;
-  text-align: center;
-  margin: 0 15px;
-}
-/* line 200, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 198, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button-small > .fa {
   margin: 0 7px;
 }
-/* line 204, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 202, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button-big, .button-big:active, .button-big:focus, .button-big:hover, .button-big:visited {
   position: relative;
   height: 61px;
@@ -4576,7 +4626,7 @@ strong {
   letter-spacing: 0.3em;
   padding-left: 81px;
 }
-/* line 216, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 214, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button-big .icon {
   position: absolute;
   top: 10px;
@@ -4588,20 +4638,20 @@ strong {
   line-height: 37px;
   border-right: transparent 2px solid;
 }
-/* line 228, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 226, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button-big .icon, .button-big:active .icon {
   border-right-color: #c29732;
 }
-/* line 232, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 230, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button-inverted, .button-inverted:active, .button-inverted:focus, .button-inverted:hover, .button-inverted:visited {
   color: #fff !important;
   border-color: #fff !important;
 }
-/* line 241, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 239, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button-inverted:active {
   background-color: #fff !important;
 }
-/* line 245, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
+/* line 243, wp-content/themes/g5_savannah/scss/savannah/styles/_buttons.scss */
 .button-big:not(:active) .icon, button:not(:active), input, select, textarea {
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
@@ -4655,61 +4705,61 @@ fieldset.input {
 /* line 32, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
   background: transparent;
-  border: transparent 2px solid;
+  border: 2px solid #c29732;
+  border-radius: initial;
   vertical-align: middle;
   font-size: 1rem;
   width: 100%;
   line-height: 2;
   padding: 0.4375rem;
   margin: 0 0 2.5rem;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
-/* line 43, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 44, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
   box-shadow: 0 0 4px rgba(194, 151, 50, 0.5);
 }
-/* line 47, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 48, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
   box-shadow: 0 0 4px rgba(194, 151, 50, 0.5);
 }
-/* line 52, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 53, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
   box-shadow: 0 0 4px rgba(194, 151, 50, 0.5);
 }
-/* line 56, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 57, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
   box-shadow: 0 0 4px rgba(194, 151, 50, 0.5);
 }
-/* line 60, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 61, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 form {
   margin: 0;
   padding: 0;
 }
 /* Search form */
-/* line 66, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 67, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 .search-form {
   position: relative;
 }
-/* line 69, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 70, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 .search-form .button {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 74, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 75, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 .search-form input[type="text"] {
   padding-right: 45px;
 }
-/* line 78, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
+/* line 79, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
 label {
   display: block;
   cursor: pointer;
   font-size: 15px;
   font-weight: 700;
   margin: -5px 0 10px 0;
-}
-/* line 85, wp-content/themes/g5_savannah/scss/savannah/styles/_forms.scss */
-.dark label {
-  color: #fff;
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/styles/_dropdownanimations.scss */
 /* line 2, wp-content/themes/g5_savannah/scss/savannah/styles/_dropdownanimations.scss */
@@ -5205,6 +5255,208 @@ label {
     transform: none;
   }
 }
+/* Portfolio styles */
+/* line 4, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item .image, .portfolio .item .overlay, .portfolio .item .overlay .link, .portfolio .item .overlay .link .category, .portfolio .item .overlay .tile {
+  -webkit-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  -moz-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  -o-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+/* line 19, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item:hover .image, .portfolio .item:hover .overlay {
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+}
+/* line 27, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item:hover .overlay .link, .portfolio .item:hover .overlay .link .category, .portfolio .item:hover .overlay .tile {
+  -webkit-transition-duration: 0.75s;
+  -moz-transition-duration: 0.75s;
+  -o-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+}
+/* line 36, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item:hover .image {
+  -webkit-transform: scale(1.2) rotate(3deg);
+  -moz-transform: scale(1.2) rotate(3deg);
+  -o-transform: scale(1.2) rotate(3deg);
+  -ms-transform: scale(1.2) rotate(3deg);
+  transform: scale(1.2) rotate(3deg);
+}
+/* line 44, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item .overlay .tile {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+/* line 55, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item:hover .overlay .tile {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+/* line 66, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item .overlay .link {
+  -webkit-perspective: 500px;
+  -moz-perspective: 500px;
+  perspective: 500px;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+/* line 75, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item:hover .overlay .link {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+/* line 81, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item .overlay .link .category {
+  -webkit-transform: translateY(35px);
+  -moz-transform: translateY(35px);
+  -o-transform: translateY(35px);
+  -ms-transform: translateY(35px);
+  transform: translateY(35px);
+}
+/* line 89, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item:hover .overlay .link .category {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+/* line 97, wp-content/themes/g5_savannah/scss/savannah/particles/_portfolio.scss */
+.portfolio .item:hover .overlay .link .title {
+  -webkit-animation: title 3s forwards linear;
+  -moz-animation: title 3s forwards linear;
+  -o-animation: title 3s forwards linear;
+  animation: title 3s forwards linear;
+}
+/* Expandable section */
+/* line 2, wp-content/themes/g5_savannah/scss/savannah/styles/_expandable-sec.scss */
+.expandable {
+  position: relative;
+  margin-top: 8px;
+}
+/* line 6, wp-content/themes/g5_savannah/scss/savannah/styles/_expandable-sec.scss */
+.expandable:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  background: #171717;
+  border-top: transparent 4px solid;
+}
+/* line 17, wp-content/themes/g5_savannah/scss/savannah/styles/_expandable-sec.scss */
+.expandable .diamond {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -22px;
+  z-index: 2000;
+}
+/* line 24, wp-content/themes/g5_savannah/scss/savannah/styles/_expandable-sec.scss */
+.expandable-content {
+  display: none;
+  width: 100%;
+}
+/* Diamond */
+/* line 3, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.diamond .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  border: #171717 4px solid;
+}
+/* line 11, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.dark .diamond .background {
+  border-color: #272727;
+}
+/* line 14, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.diamond .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+/* line 24, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.diamond .line1 {
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 14px;
+  width: 16px;
+  height: 4px;
+  background: #171717;
+}
+/* line 33, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.diamond .line2 {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 4px;
+  height: 16px;
+  background: #171717;
+}
+/* Diamond */
+/* line 43, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.diamond .background {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 50, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.diamond .line1, .diamond .line2 {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 57, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.expandable.open .diamond .line1 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 64, wp-content/themes/g5_savannah/scss/savannah/styles/_diamond.scss */
+.expandable.open .diamond .line2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 /* Author */
 /* line 2, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author {
@@ -5213,7 +5465,7 @@ label {
   color: #fff;
   margin-bottom: 40px;
 }
-/* line 8, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 9, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author .image {
   position: absolute;
   width: 92px;
@@ -5222,11 +5474,11 @@ label {
   left: 0;
   margin: 20px;
 }
-/* line 16, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 18, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author h4 {
   margin-bottom: 18px;
 }
-/* line 19, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 22, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author p {
   font-size: 12px;
   line-height: 2.2;
@@ -5234,13 +5486,612 @@ label {
   margin-bottom: 11px;
 }
 /* Google map */
-/* line 27, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 30, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .map {
   display: block;
   width: 100%;
   height: 100%;
   border: 0;
   overflow: hidden;
+}
+/* line 38, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.navbar-brand, .navbar-brand:active, .navbar-brand:focus, .navbar-brand:hover, .navbar-brand:visited {
+  display: inline;
+  width: auto;
+  height: auto;
+  font-size: 0.875rem;
+  line-height: 3.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #c29732;
+  padding: 0 0 0 1rem;
+}
+/* Portfolio styles */
+/* line 56, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio-filter, .portfolio-filter li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 63, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio-filter li {
+  display: inline-block;
+  margin: 0 3px;
+}
+/* line 68, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio-filter li .button {
+  margin-bottom: 10px;
+}
+/* line 72, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio {
+  position: relative;
+}
+/* line 76, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item {
+  overflow: hidden;
+}
+/* line 80, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+/* line 87, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item .overlay {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  padding: 20px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 98, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item .overlay .tile {
+  width: 100%;
+  height: 100%;
+}
+/* line 103, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item .overlay .link, .portfolio .item .overlay .link:active, .portfolio .item .overlay .link:focus, .portfolio .item .overlay .link:hover, .portfolio .item .overlay .link:visited {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 25%;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 119, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item .overlay .link .title {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 20px;
+}
+/* line 131, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item .overlay .link .title:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  width: 25px;
+  height: 2px;
+  margin: 0 0 0 -12px;
+  background: #fff;
+}
+/* line 143, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.portfolio .item .overlay .link .category {
+  display: block;
+  width: 100%;
+  font-family: 'Meie Script';
+  font-size: 18px;
+  text-transform: lowercase;
+  text-align: center;
+}
+/* Hero */
+/* line 2, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+#hero {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+/* line 7, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+body.nav-fixed #hero {
+  margin-bottom: 160px;
+}
+/* line 10, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+#hero .fullscreen-object {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 19, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+#hero .fullscreen-object > video, #hero .fullscreen-object > iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 0;
+  overflow: hidden;
+}
+/* line 30, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+#hero .content {
+  position: relative;
+  color: #fff;
+}
+/* line 34, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading {
+  display: inline-block;
+  position: relative;
+  min-height: 41px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 41px;
+  letter-spacing: 0.3em;
+  padding-left: 0.3em;
+  text-transform: uppercase;
+  margin: 29px 15px 56px 15px;
+}
+/* line 46, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -29px;
+  left: 0;
+  width: 100%;
+  height: 17px;
+  border-top: transparent 2px solid;
+}
+/* line 56, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -31px;
+  left: 0;
+  width: 100%;
+  height: 17px;
+  border-bottom: transparent 2px solid;
+}
+/* line 66, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading > span {
+  display: block;
+  margin: 0 -17px;
+}
+/* line 70, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading .tl, .hero-heading .tr, .hero-heading .br, .hero-heading .bl {
+  display: block;
+  position: absolute;
+  width: 0px;
+  height: 30px;
+}
+/* line 79, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading .tl {
+  top: -29px;
+  left: 0;
+  border-right: transparent 2px solid;
+}
+/* line 84, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading .tr {
+  top: -29px;
+  right: 0;
+  border-left: transparent 2px solid;
+}
+/* line 89, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading .br {
+  bottom: -31px;
+  right: 0;
+  border-left: transparent 2px solid;
+  z-index: 100;
+}
+/* line 95, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-heading .bl {
+  bottom: -31px;
+  left: 0;
+  border-right: transparent 2px solid;
+  z-index: 100;
+}
+/* line 101, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-subheading {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  margin: -5px 0 20px 0;
+}
+/* line 107, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-amp {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 22px;
+  font-family: 'Great Vibes';
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0 0 25px -2px;
+}
+/* line 117, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-amp:before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 33px;
+  height: 2px;
+  top: 9px;
+  left: -31px;
+}
+/* line 126, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-amp:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 33px;
+  height: 2px;
+  top: 9px;
+  left: 38px;
+}
+/* line 135, wp-content/themes/g5_savannah/scss/savannah/particles/_hero.scss */
+.hero-handscript {
+  font-family: 'Meie Script';
+  font-size: 22px;
+  margin: -13px 0 16px 0;
+}
+/* Comments */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 4, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .comment .avatar > .mask {
+    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask@2x.png?58337afb');
+  }
+  /* line 8, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  body.dark .comment .avatar > .mask {
+    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask-dark@2x.png?58337afb');
+  }
+}
+@media screen and (min-width: 768px) {
+  /* Common styles & typography */
+  /* Navigation */
+  /* Hero */
+  /* Portfolio */
+  /* Blog post styles */
+  /* Top bar */
+  /* line 16, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .pull-left-small {
+    float: left !important;
+  }
+  /* line 20, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .pull-right-small {
+    float: right !important;
+  }
+  /* line 25, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .navbar, .navbar-collapse {
+    height: 80px;
+  }
+  /* line 30, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .navbar-brand, .navbar-brand:active, .navbar-brand:focus, .navbar-brand:hover, .navbar-brand:visited {
+    display: none;
+  }
+  /* line 38, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .navbar-nav {
+    margin-bottom: 0;
+  }
+  /* line 42, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav {
+    width: 100%;
+    height: 80px;
+  }
+  /* line 47, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav > li {
+    height: 80px;
+  }
+  /* line 51, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav > li > a, .nav > li > a:active, .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:visited {
+    width: 172px;
+    text-align: center;
+    padding: 0 !important;
+  }
+  /* line 61, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav ul > li > a, .nav ul > li > a:active, .nav ul > li > a:focus, .nav ul > li > a:hover, .nav ul > li > a:visited {
+    padding: 7px 18px !important;
+  }
+  /* line 69, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav > li > a > span {
+    margin: 22px 0 0;
+  }
+  /* line 73, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav-close, .nav-wrapper-brand {
+    line-height: 78px;
+  }
+  /* line 78, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  body.nav-fixed-important {
+    padding-top: 130px;
+  }
+  /* line 82, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav > li > ul, .nav ul ul {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin: 0;
+    background: #fff;
+    border-top: transparent 2px solid;
+  }
+  /* line 92, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .dark .nav > li > ul, .dark .nav ul ul {
+    background: #171717;
+  }
+  /* line 97, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav ul ul {
+    top: -2px;
+    left: 100%;
+  }
+  /* line 102, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav li.node {
+    padding-right: 17px;
+  }
+  /* line 106, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  nav li.node:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 18px;
+    width: 0;
+    height: 0;
+    border-top: transparent 4px solid;
+    border-left: transparent 4px solid;
+    border-bottom: transparent 4px solid;
+  }
+  /* line 119, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav ul {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  /* line 127, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav li:hover > ul {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  /* line 135, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav > li > ul, .nav ul ul {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0 2px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.35) 0 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 2px 5px;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+  }
+  /* line 147, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav ul ul {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  /* line 156, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  body.nav-fixed #hero {
+    margin-bottom: 180px;
+  }
+  /* line 166, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post .image {
+    width: 520px;
+    height: 304px;
+  }
+  /* line 171, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post .info {
+    width: 200px;
+    height: 304px;
+  }
+  /* line 176, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post .info .stat {
+    display: block;
+    margin: 0;
+  }
+  /* line 181, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-left .image, .blog-post.on-the-left .info {
+    float: left;
+  }
+  /* line 186, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-right .image, .blog-post.on-the-right .info {
+    float: right;
+  }
+  /* line 191, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-left .info .arrow {
+    left: auto;
+    right: 0;
+  }
+  /* line 196, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-right .info .arrow {
+    left: 0;
+    right: auto;
+  }
+  /* line 202, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  #g-intro {
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* Navigation */
+  /* Hero */
+  /* History */
+  /* Portfolio */
+  /* Blog post styles */
+  /* line 211, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .navbar-header {
+    width: 100%;
+    position: relative;
+  }
+  /* line 216, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav > li > a, .nav > li > a:active, .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:visited {
+    width: 175px;
+  }
+  /* line 224, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .nav > li:nth-child(3) {
+    margin-left: 210px;
+  }
+  /* line 228, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .navbar-brand, .navbar-brand:active, .navbar-brand:focus, .navbar-brand:hover, .navbar-brand:visited {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-top: transparent 105px solid;
+    border-left: transparent 105px solid;
+    border-right: transparent 105px solid;
+    display: block;
+    padding: 0;
+    margin: 0 0 0 -105px;
+  }
+  /* line 244, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin: 0 0 0 -105px;
+    padding: 0;
+  }
+  /* line 250, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .navbar-brand > span {
+    position: absolute;
+    top: -105px;
+    left: -105px;
+    width: 210px;
+    height: 105px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+    padding: 13px 35px 0;
+  }
+  /* line 264, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .cover {
+    position: absolute;
+    left: 50%;
+    bottom: -94px;
+    margin: 0 0 0 -93px;
+    z-index: 9000;
+  }
+  /* line 272, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .cover .one, .cover .two {
+    position: absolute;
+    width: 142px;
+    height: 142px;
+    border-top: transparent 1px solid;
+    border-right: transparent 1px solid;
+  }
+  /* line 281, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .cover .one {
+    top: 22px;
+    left: 19px;
+  }
+  /* line 286, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .cover .two {
+    top: 22px;
+    right: 19px;
+  }
+  /* line 291, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .cover-space {
+    height: 100px;
+  }
+  /* line 296, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .history li {
+    padding-top: 65px;
+  }
+  /* line 300, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .history .aff {
+    top: 0;
+    left: 133px;
+  }
+  /* line 311, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post {
+    position: relative;
+    min-height: 184px;
+    margin-bottom: 40px;
+  }
+  /* line 317, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post .group {
+    position: absolute;
+    top: 0;
+  }
+  /* line 322, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post .image {
+    width: 315px;
+    height: 184px;
+    float: left;
+  }
+  /* line 328, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post .info {
+    width: 155px;
+    height: 184px;
+    float: left;
+  }
+  /* line 334, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post .content {
+    width: 470px;
+    padding-top: 25px;
+  }
+  /* line 339, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-left .group {
+    left: 0;
+  }
+  /* line 343, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-right .group {
+    left: 470px;
+  }
+  /* line 347, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-left .content {
+    left: 470px;
+    padding-left: 37px;
+  }
+  /* line 352, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-right .content {
+    left: 0;
+    padding-right: 37px;
+  }
+  /* line 357, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-left .info .arrow {
+    right: -12px;
+    bottom: auto;
+    top: 0;
+    border-top: transparent 30px solid;
+    border-right: 0;
+    border-bottom: transparent 30px solid;
+    border-left: red 12px solid;
+  }
+  /* line 367, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-right .info .arrow {
+    left: -12px;
+    bottom: auto;
+    top: 0;
+    border-top: transparent 30px solid;
+    border-right: red 12px solid;
+    border-bottom: transparent 30px solid;
+    border-left: 0;
+  }
+  /* line 377, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
+  .blog-post.on-the-right .image, .blog-post.on-the-right .info {
+    float: right;
+  }
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/styles/_lesshat.scss */
 lesshat-selector {
@@ -7224,190 +8075,186 @@ pre, code, kbd {
   background-color: #c29732;
 }
 /* line 61, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
-input, textarea {
-  border-color: #c29732;
-}
-/* line 64, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .colored, .colored:hover, .colored:visited, .colored:focus, .colored:active {
   color: #c29732 !important;
 }
-/* line 71, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 68, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .coloredbg {
   background: #c29732 !important;
 }
 /* Navigation */
-/* line 76, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 73, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .navbar li.active > a > span {
   border-color: #c29732;
 }
-/* line 79, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 76, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .navbar-brand, .navbar-brand:hover, .navbar-brand:focus, .navbar-brand:visited, .navbar-brand:active {
   border-top-color: #c29732;
 }
-/* line 86, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 83, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .nav-wrapper-brand, .nav-close, .nav-close:hover, .nav-close:visited, .nav-close:active, .nav-close:focus {
   color: #c29732;
 }
-/* line 94, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 91, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .nav li:not(.active) > a > span .tl:before, .nav li:not(.active) > a > span .tl:after, .nav li:not(.active) > a > span .br:before, .nav li:not(.active) > a > span .br:after {
   background-color: #c29732;
 }
-/* line 100, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 97, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .nav > li > ul, .nav ul ul {
   border-color: #c29732;
 }
-/* line 104, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 101, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .nav ul li > a > span:before {
   background-color: #c29732;
 }
-/* line 107, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 104, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 nav li.node:before {
   border-left-color: #c29732;
 }
 /* Hero */
-/* line 112, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 109, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .cover .one, .cover .two {
   border-color: #c29732;
 }
-/* line 116, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 113, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .hero-heading:before, .hero-heading:after, .hero-heading .tl, .hero-heading .tr, .hero-heading .br, .hero-heading .bl {
   border-color: #c29732;
 }
-/* line 124, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 121, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .hero-amp {
   color: #c29732;
 }
-/* line 127, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 124, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .hero-amp:before, .hero-amp:after {
   background-color: #c29732;
 }
 /* Lists */
-/* line 133, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 130, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .list li .bullet {
   border-color: #c29732;
 }
 /* Comments */
-/* line 138, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 135, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .datetime {
   background-color: #c29732;
 }
-/* line 141, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 138, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .datetime:before {
   border-right-color: #c29732;
 }
 /* Skill bars */
-/* line 146, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 143, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .skill-bar .bar {
   border-color: #c29732;
 }
-/* line 149, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 146, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .skill-bar .bar:before, .skill-bar .bar:after, .skill-bar .fill, .skill-bar .fill:before, .skill-bar .fill:after, .skill-bar .value {
   background-color: #c29732;
 }
-/* line 157, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 154, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .skill-bar .value:after {
   border-top-color: #c29732;
 }
 /* Footer label */
-/* line 162, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 159, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .footer-label {
   color: #c29732;
 }
 /* History list */
-/* line 167, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 164, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .history, .history .icon {
   border-color: #c29732;
 }
-/* line 171, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 168, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .history .icon .fa {
   color: #c29732;
 }
 /* Portfolio styles */
-/* line 176, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 173, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .portfolio .item .overlay {
   background-color: transparent;
 }
-/* line 179, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 176, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .portfolio .item:hover .overlay {
   background-color: rgba(194, 151, 50, 0.5);
 }
-/* line 182, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 179, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .portfolio .item .overlay .tile {
   background-color: #c29732;
 }
 /* Blog post styles */
-/* line 187, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 184, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .blog-post .info, .blog-post-small .info, .blog-post-big .info {
   background-color: #c29732;
 }
-/* line 192, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 189, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .blog-post .info .arrow, .blog-post-small .info .arrow, .blog-post-big .info .arrow {
   border-top-color: #c29732;
 }
 @media screen and (min-width: 992px) {
-  /* line 198, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+  /* line 195, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
   .blog-post.on-the-left .info .arrow {
     border-left-color: #c29732;
   }
-  /* line 201, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+  /* line 198, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
   .blog-post.on-the-right .info .arrow {
     border-right-color: #c29732;
   }
 }
 /* Expandable section */
-/* line 207, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 204, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .expandable:before {
   border-top-color: #c29732;
 }
 /* Diamond */
-/* line 212, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 209, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .diamond .background {
   background-color: #c29732;
 }
 /* Author */
-/* line 217, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 214, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .author {
   background-color: #c29732;
 }
 /* Iconed */
-/* line 222, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 219, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .iconed .iconed-icon {
   color: #c29732;
 }
 /* Flickr widget */
-/* line 227, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 224, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .flickr-widget-item a .hover {
   background-color: #c29732;
 }
 /* Testimonials */
-/* line 232, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 229, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .testimonials-box {
   background-color: #c29732;
 }
-/* line 235, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 232, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .testimonials-arrow-left {
   border-top-color: #c29732;
   border-right-color: #c29732;
 }
-/* line 239, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 236, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .testimonials-arrow-right {
   border-top-color: #c29732;
   border-left-color: #c29732;
 }
 /* Pricing Tables */
-/* line 245, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 242, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .price-plan .price-plan-price {
   background-color: #c29732;
 }
-/* line 248, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 245, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .price-plan .price-plan-price::after {
   border-top-color: #c29732;
 }
-/* line 251, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 248, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .price-plan .price-plan-features {
   border-left-color: #c29732;
 }
-/* line 254, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
+/* line 251, wp-content/themes/g5_savannah/scss/savannah/styles/_color.scss */
 .price-plan .price-plan-features li {
   color: #c29732;
 }
@@ -7435,7 +8282,6 @@ nav li.node:before {
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  margin-bottom: 160px;
 }
 /* line 22, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
 #g-header a {
@@ -7457,7 +8303,7 @@ nav li.node:before {
 }
 /* line 37, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
 #g-header h2 em {
-  font-weight: 500;
+  font-weight: 300;
 }
 /* line 41, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
 #g-header h2.large-heading {
@@ -7473,7 +8319,11 @@ nav li.node:before {
     font-size: 1.9rem;
   }
 }
-/* line 52, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
+/* line 51, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
+#g-header .owl-item img {
+  height: 65vh;
+}
+/* line 55, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
 #g-header .cover .one, #g-header .cover .two {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -7482,7 +8332,7 @@ nav li.node:before {
   transform: rotate(-45deg);
 }
 @media print {
-  /* line 62, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
+  /* line 65, wp-content/themes/g5_savannah/scss/savannah/sections/_header.scss */
   #g-header {
     background: #fff !important;
     color: #000 !important;
@@ -7493,34 +8343,47 @@ nav li.node:before {
   background: #fff;
   color: #171717;
   position: relative;
-  z-index: 11;
+  z-index: 9;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0 0 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.35) 0 0 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0 0 5px;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
 }
-/* line 10, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 11, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+#g-navigation.nav-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+/* line 19, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-container {
   position: relative;
 }
-/* line 14, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 23, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-logo {
   color: #171717;
   line-height: 2.8rem;
 }
-/* line 18, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 19, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 27, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 28, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-logo.g-logo-savannah svg {
   fill: #171717;
 }
-/* line 25, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 34, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 @media only all and (max-width: 47.938rem) {
-  /* line 27, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+  /* line 36, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
   #g-navigation .g-social-header .g-content {
     margin-top: 0;
     padding: 0 0.938rem;
   }
 }
-/* line 34, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 43, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-social {
   text-align: right;
   line-height: 3.125;
@@ -7530,21 +8393,36 @@ nav li.node:before {
     text-align: center;
   }
 }
-/* line 41, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 50, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 .rtl #g-navigation .g-social {
   text-align: left;
 }
-/* line 46, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 57, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav {
   font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 700;
   line-height: 1.5;
 }
-/* line 51, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 62, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel {
   line-height: 3.125;
 }
-/* line 54, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 65, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+#g-navigation .g-main-nav .g-toplevel > li:not(.active) > .g-menu-item-container .g-menu-item-title .tl:before, #g-navigation .g-main-nav .g-toplevel > li:not(.active) > .g-menu-item-container .g-menu-item-title .tl:after, #g-navigation .g-main-nav .g-toplevel > li:not(.active) > .g-menu-item-container .g-menu-item-title .br:before, #g-navigation .g-main-nav .g-toplevel > li:not(.active) > .g-menu-item-container .g-menu-item-title .br:after {
+  background-color: #c29732;
+}
+/* line 72, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+#g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-item-title .tl:before, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-item-title .tl:after, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-item-title .br:before, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-item-title:before, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-item-title .br:after {
+  -webkit-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  -moz-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  -o-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+/* line 87, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li {
   margin: 0 0.5rem;
 }
@@ -7553,14 +8431,17 @@ nav li.node:before {
     margin: 0 0.2rem;
   }
 }
-/* line 60, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 93, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container {
   color: #171717;
   padding: 0.2345rem 0;
 }
-/* line 64, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 97, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content {
   padding: 0 0 0.2345rem;
+}
+/* line 100, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+#g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content .g-menu-item-title .br:after {
   -webkit-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
   -moz-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
   -o-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
@@ -7570,155 +8451,131 @@ nav li.node:before {
   -o-transition-duration: 0.25s;
   transition-duration: 0.25s;
 }
-/* line 75, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-#g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content.br:after, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content.br:before, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content.tl:after, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content.tl:before, #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content:before {
-  -webkit-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  -moz-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  -o-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  -webkit-transition-duration: 0.25s;
-  -moz-transition-duration: 0.25s;
-  -o-transition-duration: 0.25s;
-  transition-duration: 0.25s;
-}
-/* line 91, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 113, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-parent-indicator {
   vertical-align: top;
 }
-/* line 94, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 116, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-parent-indicator:after {
   content: "\f107";
   opacity: 0.75;
   width: 1rem;
   font-weight: 400;
 }
-/* line 102, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 124, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li > .g-menu-item-container i {
   opacity: 1;
 }
-/* line 107, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 108, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 129, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 130, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li:hover > .g-menu-item-container {
   color: rgba(23, 23, 23, 0.7);
 }
-/* line 111, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 133, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li:hover > .g-menu-item-container > .g-selected {
   color: rgba(23, 23, 23, 0.7);
 }
-/* line 117, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 118, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 119, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 139, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 140, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 141, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container > .g-menu-item-content {
   box-shadow: 0 2px 0 rgba(23, 23, 23, 0.2);
 }
-/* line 123, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 145, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-toplevel > li.active > .g-menu-item-container > .g-selected {
   box-shadow: 0 2px 0 rgba(23, 23, 23, 0.2);
 }
-/* line 131, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 153, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown {
   background: #fff;
   border: 1px solid rgba(23, 23, 23, 0.2);
   border-radius: 0.25rem;
 }
-/* line 136, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 158, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown > .g-dropdown-column {
   border: 1px solid transparent;
 }
-/* line 140, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 162, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown a {
   color: #171717;
 }
-/* line 143, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 165, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown a:hover {
   color: #c29732;
 }
-/* line 148, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 170, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown .g-dropdown-column {
   position: relative;
 }
-/* line 152, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 174, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown .g-dropdown {
   margin-left: 20px;
 }
-/* line 157, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 158, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 159, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 179, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 180, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 181, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li > .g-menu-item-container {
   color: #171717;
 }
-/* line 162, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 184, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li > .g-menu-item-container > .g-selected {
   color: #171717;
 }
-/* line 167, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 168, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 189, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 190, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:not(:last-child) > .g-menu-item-container {
   border-bottom: 1px solid rgba(23, 23, 23, 0.2);
 }
-/* line 171, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 193, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:not(:last-child) > .g-menu-item-container > .g-selected {
   border-bottom: 1px solid rgba(23, 23, 23, 0.2);
 }
-/* line 177, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 179, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 199, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 201, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container, #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container {
-  color: #c29732;
+  border-color: #c2973c;
 }
-/* line 182, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 204, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container > .g-selected, #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container > .g-selected {
-  color: #c29732;
+  border-color: #c2973c;
 }
-/* line 188, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 189, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 210, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 211, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle > .g-menu-item-container {
   border: 0;
 }
-/* line 193, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 195, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 215, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 217, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle.active > .g-menu-item-container, #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle:hover > .g-menu-item-container {
   border: 0;
 }
-/* line 201, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 202, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-/* line 203, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 223, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 224, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 225, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li.g-menu-item-type-particle:hover > .g-menu-item-container {
   background: inherit;
 }
-/* line 212, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 234, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 @media only all and (max-width: 47.938rem) {
   #g-navigation .g-menu-block {
     display: none;
   }
 }
-/* line 218, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 240, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .g-menu-item-subtitle {
   text-transform: lowercase;
   font-size: 0.8rem;
   opacity: 0.8;
   padding-top: 0;
 }
-/* line 225, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+/* line 247, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
 #g-navigation .nav-fixed {
   position: fixed;
   top: 0;
   left: 0;
 }
-/* line 231, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
-#g-navigation .navbar-brand, #g-navigation .navbar-brand:active, #g-navigation .navbar-brand:focus, #g-navigation .navbar-brand:hover, #g-navigation .navbar-brand:visited {
-  display: inline;
-  width: auto;
-  height: auto;
-  font-size: 0.875rem;
-  line-height: 3.75rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  color: #c29732;
-  padding: 0 0 0 1rem;
-}
 @media print {
-  /* line 249, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
+  /* line 255, wp-content/themes/g5_savannah/scss/savannah/sections/_navigation.scss */
   #g-navigation {
     background: #fff !important;
     color: #000 !important;
@@ -7727,7 +8584,8 @@ nav li.node:before {
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-toplevel > li > .g-menu-item-container, .g-main-nav .g-sublevel > li > .g-menu-item-container {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: normal;
+  letter-spacing: 0.3em;
   padding: 0.469rem 0;
   white-space: normal;
   overflow-wrap: break-word;
@@ -7737,99 +8595,99 @@ nav li.node:before {
   -moz-transition: 0.35s ease;
   transition: 0.35s ease;
 }
-/* line 10, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 11, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-standard .g-dropdown {
   width: 180px;
   float: left;
 }
-/* line 16, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 17, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav {
   z-index: 20;
 }
-/* line 19, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 20, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
-/* line 25, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
-/* line 27, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
-/* line 29, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 21, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 26, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 28, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 30, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-toplevel > li > .g-menu-item-container {
   line-height: 1;
 }
-/* line 34, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 35, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 36, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content {
   word-break: normal;
   line-height: normal;
 }
-/* line 41, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 42, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-toplevel > li.g-parent .g-menu-parent-indicator:after {
   width: 1.25rem;
   padding: 0.1rem 0.25rem 0.25rem 0rem;
   height: 1.25rem;
 }
-/* line 48, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 49, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-toplevel i {
   opacity: 0.6;
 }
-/* line 53, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 54, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 55, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-standard > .g-dropdown:before, .g-main-nav .g-fullwidth > .g-dropdown:before {
   top: -7px !important;
 }
-/* line 57, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 58, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-standard > .g-dropdown .g-dropdown, .g-main-nav .g-fullwidth > .g-dropdown .g-dropdown {
   top: -7px;
 }
-/* line 61, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 62, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 63, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-standard .g-dropdown:after, .g-main-nav .g-fullwidth .g-dropdown:after {
   left: -30px !important;
 }
-/* line 67, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 68, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-dropdown {
   text-align: left;
   border-radius: 0.25rem;
 }
-/* line 70, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 71, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .dir-rtl .g-main-nav .g-dropdown {
   text-align: right;
 }
-/* line 74, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 75, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 76, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-sublevel > li {
   margin: 0.3125rem 0.9375rem;
   padding: 0 0 0.2345rem 0;
 }
-/* line 78, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 79, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-sublevel > li > .g-menu-item-container {
   line-height: normal;
   font-size: 0.85rem;
   font-weight: bold;
 }
-/* line 83, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 84, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-sublevel > li > .g-menu-item-container > .g-menu-item-content {
   word-break: normal;
   vertical-align: top;
 }
-/* line 88, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 89, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 90, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-sublevel > li.g-parent .g-menu-parent-indicator {
   right: 0;
   top: 0;
   margin-top: -0.35rem;
 }
-/* line 93, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 94, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-main-nav .g-sublevel > li.g-parent .g-menu-parent-indicator:after {
   content: "\f0da";
   position: relative;
   opacity: 1;
   top: 0.75rem;
 }
-/* line 106, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 107, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-menu-item-subtitle {
   opacity: 0.7;
 }
-/* line 111, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 112, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 113, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-preset-thumbnails .g-block {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -7839,7 +8697,7 @@ nav li.node:before {
   -ms-flex: 1 1 auto !important;
   flex: 1 1 auto !important;
 }
-/* line 114, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 115, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-preset-thumbnails .g-block > .g-content {
   margin: 1rem 0;
   padding: 0 0.5rem !important;
@@ -7885,31 +8743,31 @@ nav li.node:before {
   border-top: 5px solid transparent;
   z-index: -1;
 }
-/* line 128, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 129, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-nav-overlay, .g-menu-overlay {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 132, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 133, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-menu-overlay.g-menu-overlay-open {
   z-index: 19;
 }
-/* line 137, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 138, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 139, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 140, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 141, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 142, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 143, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 144, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-menu-hastouch .g-standard .g-toplevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator, .g-menu-hastouch .g-fullwidth .g-toplevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
   border-radius: 0.25rem;
   margin: -0.2rem 0 -0.2rem 0.5rem;
   padding: 0.2rem;
 }
-/* line 153, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 154, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 155, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 156, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 /* line 157, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
+/* line 158, wp-content/themes/g5_savannah/scss/savannah/sections/_mainnav.scss */
 .g-menu-hastouch .g-standard .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator, .g-menu-hastouch .g-fullwidth .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
   border-radius: 0.25rem;
   padding: 0.1rem;
@@ -7918,19 +8776,39 @@ nav li.node:before {
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
 #g-intro {
-  background: #f4f5f7;
-  color: #171717;
-  padding: 3rem 0;
+  background: #272727;
+  color: #f4f5f7;
+  padding: 0 3rem;
   height: 40px;
   line-height: 38px;
   display: none;
 }
 /* line 9, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
+#g-intro a, #g-intro .button {
+  margin: 0;
+}
+/* line 13, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
+#g-intro a:hover, #g-intro .button:hover {
+  color: #fff;
+}
+/* line 16, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
 #g-intro a:hover {
   text-decoration: none;
 }
+/* line 20, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
+#g-intro .button.button-icon-clear, #g-intro .button.button-icon-clear:active {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  /* line 27, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
+  #g-intro {
+    display: block;
+  }
+}
 @media print {
-  /* line 14, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
+  /* line 32, wp-content/themes/g5_savannah/scss/savannah/sections/_intro.scss */
   #g-intro {
     background: #fff !important;
     color: #000 !important;
@@ -7940,10 +8818,14 @@ nav li.node:before {
 #g-features {
   background: #fff;
   color: #171717;
-  padding: 3rem 0 0;
+  padding: 3rem 3rem 0;
+}
+/* line 6, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
+#g-features .fa-ul .fa-li {
+  top: 0.5em;
 }
 @media print {
-  /* line 8, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
+  /* line 12, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
   #g-features {
     background: #fff !important;
     color: #000 !important;
@@ -7953,7 +8835,7 @@ nav li.node:before {
 #g-utility {
   background: #fff;
   color: #171717;
-  padding: 3rem 0 0;
+  padding: 3rem 3rem 0;
 }
 @media print {
   /* line 8, wp-content/themes/g5_savannah/scss/savannah/sections/_utility.scss */
@@ -8135,188 +9017,8 @@ nav li.node:before {
   color: #171717;
   padding: 3rem 0;
 }
-/* line 6, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio-filter, #g-portfolio .portfolio-filter li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-/* line 13, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio-filter li {
-  display: inline-block;
-  margin: 0 3px;
-}
-/* line 17, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio-filter li .button {
-  margin-bottom: 10px;
-}
-/* line 22, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-/* line 23, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio . {
-  width: 313px;
-  margin: 0 auto;
-}
-/* line 28, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio . .item {
-  overflow: hidden;
-}
-/* line 32, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio . .item .image {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0;
-}
-/* line 39, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio . .item .overlay {
-  background-image: none;
-  padding: 20px;
-}
-/* line 44, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio . .item .overlay .tile {
-  width: 100%;
-  height: 100%;
-}
-/* line 49, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio . .item .overlay .link, #g-portfolio .portfolio . .item .overlay .link:active, #g-portfolio .portfolio . .item .overlay .link:focus, #g-portfolio .portfolio . .item .overlay .link:hover, #g-portfolio .portfolio . .item .overlay .link:visited {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding-top: 33%;
-  color: #fff;
-  text-decoration: none;
-}
-/* line 65, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item .overlay .link .title {
-  position: relative;
-  display: block;
-  width: 100%;
-  font-size: 15px;
-  letter-spacing: 0.3em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0 0 36px;
-}
-/* line 77, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item .overlay .link .title:after {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 26px;
-  left: 50%;
-  width: 25px;
-  height: 2px;
-  margin: 0 0 0 -12px;
-  background: #fff;
-}
-/* line 89, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item .overlay .link .category {
-  display: block;
-  width: 100%;
-  font-family: 'Meie Script';
-  font-size: 18px;
-  text-transform: lowercase;
-  text-align: center;
-}
-/* line 98, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .image, #g-portfolio .portfolio .item .overlay, #g-portfolio .portfolio .item .overlay .link, #g-portfolio .portfolio .item .overlay .link .category, #g-portfolio .portfolio .item .overlay .tile {
-  -webkit-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  -moz-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  -o-transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  transition-timing-function: cubic-bezier(0.13, 0.71, 0.3, 0.94);
-  -webkit-transition-duration: 0.35s;
-  -moz-transition-duration: 0.35s;
-  -o-transition-duration: 0.35s;
-  transition-duration: 0.35s;
-}
-/* line 113, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item:hover .image, #g-portfolio .portfolio .item:hover .overlay {
-  -webkit-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  transition-duration: 2s;
-}
-/* line 121, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item:hover .overlay .link, #g-portfolio .portfolio .item:hover .overlay .link .category, #g-portfolio .portfolio .item:hover .overlay .tile {
-  -webkit-transition-duration: 0.75s;
-  -moz-transition-duration: 0.75s;
-  -o-transition-duration: 0.75s;
-  transition-duration: 0.75s;
-}
-/* line 130, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item:hover .image {
-  -webkit-transform: scale(1.2) rotate(3deg);
-  -moz-transform: scale(1.2) rotate(3deg);
-  -o-transform: scale(1.2) rotate(3deg);
-  -ms-transform: scale(1.2) rotate(3deg);
-  transform: scale(1.2) rotate(3deg);
-}
-/* line 138, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item .overlay .tile {
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-  opacity: 0;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-}
-/* line 149, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item:hover .overlay .tile {
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-/* line 160, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item .overlay .link {
-  -webkit-perspective: 500px;
-  -moz-perspective: 500px;
-  perspective: 500px;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-  opacity: 0;
-}
-/* line 169, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item:hover .overlay .link {
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
-}
-/* line 175, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item .overlay .link .category {
-  -webkit-transform: translateY(35px);
-  -moz-transform: translateY(35px);
-  -o-transform: translateY(35px);
-  -ms-transform: translateY(35px);
-  transform: translateY(35px);
-}
-/* line 183, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item:hover .overlay .link .category {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -o-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-}
-/* line 191, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
-#g-portfolio .portfolio .item:hover .overlay .link .title {
-  -webkit-animation: title 3s forwards linear;
-  -moz-animation: title 3s forwards linear;
-  -o-animation: title 3s forwards linear;
-  animation: title 3s forwards linear;
-}
 @media print {
-  /* line 200, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
+  /* line 7, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
   #g-portfolio {
     background: #fff !important;
     color: #000 !important;
@@ -8363,8 +9065,8 @@ nav li.node:before {
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 #g-footer {
-  background: #312f38;
-  color: #fff;
+  background: #171717;
+  color: #c29732;
   padding: 3rem 0;
 }
 /* line 6, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
@@ -8393,53 +9095,50 @@ nav li.node:before {
 }
 /* line 29, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 #g-footer .g-horizontalmenu a {
-  color: #fff;
+  color: #c29732;
 }
 /* line 32, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 #g-footer .g-horizontalmenu a:hover {
-  color: rgba(255, 255, 255, 0.6);
-  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2);
+  color: rgba(194, 151, 50, 0.6);
+  box-shadow: 0 2px 0 rgba(194, 151, 50, 0.2);
 }
 /* line 40, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
-#g-footer .g-totop {
-  padding: 0.5rem 0;
-}
-/* line 43, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+/* line 42, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 #g-footer .g-totop a {
-  color: #fff;
+  color: #c29732;
 }
-/* line 46, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+/* line 45, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 #g-footer .g-totop a:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(194, 151, 50, 0.6);
 }
 @media print {
-  /* line 54, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+  /* line 53, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
   #g-footer {
     background: #fff !important;
     color: #000 !important;
   }
 }
 /* Footer label */
-/* line 61, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+/* line 60, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 .footer-label {
   font-size: 10px;
   letter-spacing: 0.3em;
 }
-/* line 67, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+/* line 66, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 footer {
   position: relative;
   background: #171717;
 }
-/* line 71, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+/* line 70, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 footer .copyright {
   font-size: 12px;
   margin: -5px 0 36px 0;
 }
-/* line 75, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+/* line 74, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 footer a, footer a:hover, footer a:visited, footer a:active, footer a:focus {
   text-decoration: underline;
 }
-/* line 82, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
+/* line 81, wp-content/themes/g5_savannah/scss/savannah/sections/_footer.scss */
 footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .top:visited {
   display: block;
   position: absolute;
@@ -8474,16 +9173,16 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 }
 /* line 18, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas .button {
-  background: #999;
+  background: #171717;
   color: #eceeef;
 }
 /* line 21, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas .button:hover {
-  background: #a6a6a6;
+  background: #242424;
 }
 /* line 24, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas .button:active {
-  background: #8c8c8c;
+  background: #0a0a0a;
 }
 /* line 29, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas hr {
@@ -8748,6 +9447,7 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 /* line 2, wp-content/themes/g5_savannah/scss/savannah/particles/_social.scss */
 .g-social a {
   padding: 0.1875rem 0.4rem;
+  text-decoration: none;
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
   .g-social a {
@@ -8912,14 +9612,14 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
   margin-bottom: 0.5rem;
   font-size: 0.8125rem;
   line-height: 1.1538;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 2.5rem;
   text-align: center;
 }
 /* line 93, wp-content/themes/g5_savannah/scss/savannah/particles/_contentcubes.scss */
 .g-contentcubes .cube-items-wrapper .cube-content-wrapper .item-title {
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.78;
   margin-bottom: 1rem;
 }
@@ -8954,7 +9654,7 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-size: 0.8125rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.15;
 }
 /* line 129, wp-content/themes/g5_savannah/scss/savannah/particles/_contentcubes.scss */
@@ -9447,17 +10147,17 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(even) .g-owlcarousel-item-img:after {
   background-color: #c29732;
   background-color: #c29732;
-  background-image: -webkit-linear-gradient(-310deg, #c29732, #999);
-  background-image: linear-gradient(40deg,#c29732, #999);
+  background-image: -webkit-linear-gradient(-310deg, #c29732, #171717);
+  background-image: linear-gradient(40deg,#c29732, #171717);
   opacity: 0.9;
 }
 /* line 376, wp-content/themes/g5_savannah/scss/savannah/particles/_owlcarousel.scss */
 /* line 377, wp-content/themes/g5_savannah/scss/savannah/particles/_owlcarousel.scss */
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(odd) .g-owlcarousel-item-img:after {
-  background-color: #999;
-  background-color: #999;
-  background-image: -webkit-linear-gradient(-410deg, #999, #c29732);
-  background-image: linear-gradient(140deg,#999, #c29732);
+  background-color: #171717;
+  background-color: #171717;
+  background-image: -webkit-linear-gradient(-410deg, #171717, #c29732);
+  background-image: linear-gradient(140deg,#171717, #c29732);
   opacity: 0.9;
 }
 /* line 385, wp-content/themes/g5_savannah/scss/savannah/particles/_owlcarousel.scss */
@@ -9571,7 +10271,7 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
   font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-size: 3.5rem;
   line-height: 4rem;
-  font-weight: 500;
+  font-weight: 300;
   margin: 1.25rem 1.25rem 0.625rem;
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
@@ -9605,7 +10305,7 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 .g-owlcarousel-item-desc {
   font-size: 1.5rem;
   line-height: 1.5;
-  font-weight: 200;
+  font-weight: 300;
   padding-bottom: 1.407rem;
   margin-top: 0;
   margin-bottom: 0.625rem;
@@ -9639,6 +10339,29 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
   .g-owlcarousel-item-button {
     display: none;
   }
+}
+/* line 2, wp-content/themes/g5_savannah/scss/savannah/particles/_numcounters.scss */
+.counters-item {
+  border: 2px solid #c29732;
+  margin: 0 2px 2px 0;
+}
+/* line 5, wp-content/themes/g5_savannah/scss/savannah/particles/_numcounters.scss */
+.counters-item p {
+  margin-top: 0;
+}
+/* line 10, wp-content/themes/g5_savannah/scss/savannah/particles/_numcounters.scss */
+.counters-item i {
+  margin-top: 16px;
+  color: #c29732;
+}
+/* line 15, wp-content/themes/g5_savannah/scss/savannah/particles/_numcounters.scss */
+.number-counters strong {
+  display: block;
+  font-size: 40px;
+  color: #666;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: -2px;
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/particles/_horizontalmenu.scss */
 .g-horizontalmenu {
@@ -9676,7 +10399,7 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 .g-totop {
   font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 700;
-  text-align: right;
+  text-align: center;
 }
 @media only all and (max-width: 47.938rem) {
   .g-totop {

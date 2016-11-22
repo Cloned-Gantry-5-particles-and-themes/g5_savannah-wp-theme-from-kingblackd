@@ -7,7 +7,8 @@ layout:
   /intro/:
     -
       - 'custom-5107 50'
-      - 'custom-7143 50'
+      - 'social-3896 50'
+  /expandable/: {  }
   /header/: {  }
   /navigation/:
     -
@@ -17,6 +18,7 @@ layout:
   /features/: {  }
   /utility/: {  }
   /above/: {  }
+  /expandable2/: {  }
   /expanded/: {  }
   /testimonials/: {  }
   /protfolio/: {  }
@@ -97,10 +99,44 @@ content:
     title: 'Hire Me'
     attributes:
       html: '<a href="#contacts" class="footer-label uppercase"><span class="button button-icon-clear pull-left" data-animate="fadeInUp"><i class="fa fa-briefcase"></i></span><span class="pull-left" data-animate="fadeInUp">Hire me now!</span></a>'
-  custom-7143:
-    title: 'Custom HTML'
+    block:
+      class: 'g-flushed pull-left'
+  social-3896:
     attributes:
-      html: "<a href=\"https://www.facebook.com/tony.bogdanov.9\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-facebook\"></i></a>\n                                <a href=\"https://twitter.com/tony_bogdanov\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-twitter\"></i></a>\n                                <a href=\"https://plus.google.com/104315383192649358641\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-google-plus\"></i></a>\n                                <a href=\"#\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-pinterest\"></i></a>\n                                <a href=\"#\" class=\"button button-icon-clear\" data-animate=\"fadeInUp\" data-delay=\"300*index\"><i class=\"fa fa-dribbble\"></i></a>"
+      css:
+        class: pull-right
+      btn:
+        class: button-icon-clear
+      title: ''
+      display: icons_only
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/rockettheme'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/RocketTheme'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/+rockettheme'
+          name: Google+
+        -
+          icon: 'fa fa-pinterest'
+          text: ''
+          link: pintrest.com
+          name: 'New item'
+        -
+          icon: 'fa fa-dribbble'
+          text: ''
+          link: dribbble.com
+          name: 'New item'
+    block:
+      class: g-flushed
   logo-9608:
     title: 'Logo / Image'
   social-3171:

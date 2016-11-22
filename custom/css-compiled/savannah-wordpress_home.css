@@ -8,7 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-@import url('//fonts.googleapis.com/css?family=Meie+Script|Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lato:300,300i,400,400i,700,700i,900,900i|Meie+Script');
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */

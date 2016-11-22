@@ -1,0 +1,25 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+      <div id="hero" class="{{ particle.class|e }}"
+      data-multibackground="debug"
+      data-multibackground-layer-0-type="image" data-multibackground-layer-0-attachment="fixed"
+      data-multibackground-layer-0-url="{{ url(particle.background)|e }}" data-multibackground-layer-1-type="pattern" data-multibackground-layer-1-attachment="fixed"
+      data-multibackground-layer-1-url="{{ url(particle.backgroundoverlay)|e }}">
+          <div class="container">
+              <div class="content padding-top padding-tq-bottom center">
+                  <div class="hero-heading uppercase" data-animate="bounceIn" data-group="1"><span>{{ particle.htitle }}</span></div>
+                  <div class="hero-subheading uppercase" data-animate="flipInY" data-delay="300" data-group="1" data-rotate-1="{{ particle.title1 }}" data-rotate-2="{{ particle.title2 }}" data-rotate-speed="5000" data-rotate-delay="0">{{ particle.title3 }}</div>
+                  <div class="hero-amp" data-animate="flipInY" data-delay="600" data-group="1" data-rotate-1="&amp;" data-rotate-2="&amp;" data-rotate-speed="5000" data-rotate-delay="300">&amp;</div>
+                  <div class="hero-handscript lowercase" data-animate="flipInY" data-delay="900" data-group="1" data-rotate-1="{{ particle.label1 }}" data-rotate-2="{{ particle.label2 }}" data-rotate-speed="5000" data-rotate-delay="600">{{ particle.label3 }}</div>
+                  <div class="cover-space hidden-sm hidden-xs"></div>
+              </div>
+          </div>
+          <div class="cover hidden-sm hidden-xs" data-animate="fadeInDown" data-delay="350">
+              <div class="one"></div>
+              <div class="two"></div>
+              <img src="{{ url(particle.image)|e }}" alt="" />
+          </div>
+
+{% endblock %}

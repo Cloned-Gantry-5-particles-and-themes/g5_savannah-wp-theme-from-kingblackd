@@ -12,7 +12,7 @@
     $(window).bind('scroll', function() {
         var $this   = $(this);
         var $body   = $('#g-navigation');
-        var offset  = 0 === $('#g-header').length ? 0 : $('#g-header').height() + $('#g-header').offset().top;
+        var offset  = 0 === $('#hero').length ? 0 : $('#hero').height() + $('#hero').offset().top;
         if($this.scrollTop() >= offset) {
             $body.addClass('nav-fixed');
         } else {
@@ -174,89 +174,7 @@
                 speed: 3000,
                 refreshInterval: 50,
             });
-        });
-
-    /* Portfolio isotope */
-    $('.portfolio[data-portfolio-url]').bind('loadItems', function() {
-        var $this   = $(this);
-        var $items  = $this.children('.item');
-        var templ   = $this.attr('data-portfolio-template');
-        var offset  = $items.length;
-        $.post($this.attr('data-portfolio-url'), {items: $items.length}, function(data) {
-            $.each(data, function(i, item) {
-                var tpl     = templ;
-                $.each(item, function(name, value) {
-                    tpl = tpl.replace(new RegExp("{{" + name + "}}", "g"), value);
-                });
-                var $item   = $(tpl);
-                var $images = $item.find('img');
-                $item.attr('data-sort', i + offset).data('images', $images.length).bind('image-ready', function() {
-                    $item.data('images', $item.data('images') - 1);
-                    if(0 >= $item.data('images')) {
-                        $this.isotope('insert', $item);
-                        bindPopups();
-                    }
-                });
-                $images.each(function() {
-                    var image   = new Image();
-                    $(image).bind('load', function() {
-                        $item.triggerHandler('image-ready');
-                    });
-                    image.src   = $(this).attr('src');
-                });
-                if(0 === $images.length) {
-                    $item.triggerHandler('image-ready');
-                }
-            });
-        }, 'json');
-    }).each(function() {
-        var $this = $(this);
-        $this.isotope({
-            itemSelector: '.item',
-            layoutMode: 'masonry',
-            transitionDuration: '1s',
-            sortBy: 'sort',
-            getSortData: {
-                'sort': function() {
-                    return parseInt($(this).attr('data-sort'));
-                }
-            },
-            masonry: {
-                resizable: false,
-                columnWidth: $this.width() < 313 ? 270 : 313,
-                gutter: 0
-            }
-        }).isotope('on', 'layoutComplete', function() {
-            navigationScrollSpy();
-        });
-        if(true !== $this.data('first-load')) {
-            $this.data('first-load', true);
-            $this.triggerHandler('loadItems');
-            setInterval(function() {
-                $this.isotope({masonry: {columnWidth: $this.width() < 313 ? 270 : 313}}).isotope('layout');
-            }, 1000);
-        }
-    });
-    $('[data-portfolio-loadmore]').bind('click', function(e) {
-        e.preventDefault();
-        var $target = $($(this).attr('data-portfolio-loadmore')).filter('.portfolio[data-portfolio-url]');
-        if(0 < $target.length) {
-            $target.triggerHandler('loadItems');
-        }
-    });
-
-    /* Portfolio filtering */
-    // Isotope portfolio filtering
-    $('.portfolio-filter a').bind('click', function(e) {
-        e.preventDefault();
-        var $this   = $(this);
-        var $target = $($this.attr('data-target'));
-        if(0 < $target.length) {
-            $this.parent('li').parent('ul').find('li.active').removeClass('active');
-            $this.parent('li').addClass('active');
-            $target.isotope({filter: $this.attr('data-filter')});
-        }
-    });
+        });    
 
     /* Smooth section scrolling */
     // Autoscroll to target element when clicking on a link which href looks like this: #SOMEID and there is element with id="SOMEID" on the page

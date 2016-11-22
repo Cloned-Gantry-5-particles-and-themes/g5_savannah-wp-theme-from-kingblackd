@@ -1,6 +1,7 @@
 %item-container {
     font-size: $core-font-size;
-    font-weight: bold;
+    font-weight: normal;
+    letter-spacing: 0.3em;
     padding: $content-padding/2 0;
     white-space: normal;
     @include word-wrap(break-word);

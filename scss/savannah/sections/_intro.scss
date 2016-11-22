@@ -1,18 +1,36 @@
 #g-intro {
-    background: $intro-background;
-    color: $intro-text-color;
-    padding: $section-padding 0;
-    height: 40px;
-    line-height: 38px;
-    display: none;
+  background: $intro-background;
+  color: $intro-text-color;
+  padding: 0 $section-padding;
+  height: 40px;
+  line-height: 38px;
+  display: none;
 
-    a:hover {
-        text-decoration: none;
-    }
+  a, .button {
+    margin: 0;
+  }
+
+  a:hover, .button:hover  {
+    color: $white;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  .button.button-icon-clear, .button.button-icon-clear:active {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+}
+@media screen and (min-width: 768px) {
+  #g-intro {
+    display: block;
+  }
 }
 @media print {
-    #g-intro {
-        background: #fff !important;
-        color: #000 !important;
-    }
+  #g-intro {
+    background: #fff !important;
+    color: #000 !important;
+  }
 }

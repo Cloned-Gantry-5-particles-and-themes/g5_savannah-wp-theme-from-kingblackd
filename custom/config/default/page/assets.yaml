@@ -3,7 +3,7 @@ touchicon: ''
 css: {  }
 javascript:
   -
-    location: 'gantry-assets://js/jquery-1.8.3.min.js'
+    location: 'https://code.jquery.com/jquery-2.2.4.min.js'
     inline: ''
     in_footer: '1'
     extra: {  }

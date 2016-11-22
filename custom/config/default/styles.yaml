@@ -6,7 +6,7 @@ base:
   favicon: ''
 accent:
   color-1: '#c29732'
-  color-2: '#999999'
+  color-2: '#171717'
 font:
   family-default: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
@@ -19,8 +19,8 @@ header:
   background-overlay: disabled
   text-color: '#eceeef'
 intro:
-  background: '#f4f5f7'
-  text-color: '#171717'
+  background: '#272727'
+  text-color: '#f4f5f7'
 features:
   background: '#ffffff'
   text-color: '#171717'
@@ -41,8 +41,8 @@ expanded:
   background: '#ffffff'
   text-color: '#424753'
 footer:
-  background: '#312f38'
-  text-color: '#ffffff'
+  background: '#171717'
+  text-color: '#c29732'
 offcanvas:
   background: '#4db2b3'
   text-color: '#eceeef'

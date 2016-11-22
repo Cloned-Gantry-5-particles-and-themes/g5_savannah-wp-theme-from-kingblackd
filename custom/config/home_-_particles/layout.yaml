@@ -4,10 +4,16 @@ preset:
   name: home_-_particles
   timestamp: 1472319055
 layout:
-  intro: {  }
+  /intro/:
+    -
+      - 'custom-5989 50'
+      - 'social-9576 50'
+  /expandable/:
+    -
+      - custom-9276
   /header/:
     -
-      - owlcarousel-2455
+      - hero-7272
   /navigation/:
     -
       - 'menu-6409 40'
@@ -29,6 +35,9 @@ layout:
   /above/:
     -
       - resumedl-6742
+  /expandable2/:
+    -
+      - custom-5623
   /expanded/:
     -
       - sectiontitle-8251
@@ -42,7 +51,15 @@ layout:
     -
       - sectiontitle-7871
     -
-      - isotope-8736
+      - 'portfolio-3037 25'
+      - 'portfolio-8825 25'
+      - 'portfolio-2986 25'
+      - 'portfolio-4550 25'
+    -
+      - 'portfolio-8584 25'
+      - 'portfolio-1079 25'
+      - 'portfolio-1558 25'
+      - 'portfolio-6097 25'
   /container-main/:
     -
       -
@@ -71,11 +88,14 @@ layout:
 structure:
   intro:
     type: section
-    inherit:
-      outline: default
-      include:
-        - attributes
-        - children
+    attributes:
+      boxed: ''
+      class: ''
+  expandable:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
   header:
     attributes:
       boxed: ''
@@ -97,6 +117,11 @@ structure:
     type: section
     attributes:
       boxed: ''
+  expandable2:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
   expanded:
     type: section
     attributes:
@@ -125,41 +150,56 @@ structure:
     attributes:
       boxed: ''
 content:
-  owlcarousel-2455:
-    title: 'Owl Carousel'
+  custom-5989:
+    title: 'Hire Me'
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: custom-5107
+  social-9576:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: social-3896
+  custom-9276:
+    title: 'Custom HTML'
     attributes:
-      imageOverlay: disable
-      items:
-        -
-          image: 'gantry-media://savannah/hero.jpg'
-          title: 'Savannah is here!'
-          desc: 'Begin your journey with a brand new &raquo;free&laquo; Gantry 5 template from RocketTheme.'
-          link: 'http://gantry.org/downloads'
-          linktext: ''
-          buttonclass: ''
-          name: 'Item 1'
-        -
-          image: 'gantry-media://header/img02.jpg'
-          title: 'Savannah is Gantry powered!'
-          desc: 'Savannah is based on the powerful Gantry framework.'
-          link: 'http://gantry.org/downloads'
-          linktext: 'Download Now'
-          buttonclass: button-outline
-          name: 'Item 2'
+      html: "<section class=\"expandable\">\n                <a href=\"#\" class=\"diamond\">\n                    <span class=\"background\"></span>\n                    <span class=\"line1\"></span>\n                    <span class=\"line2\"></span>\n                </a>"
+    block:
+      class: g-flushed
+  hero-7272:
+    title: 'Hero Banner'
+    attributes:
+      image: 'gantry-media://savannah/assets/cover.png'
+      background: 'gantry-media://savannah/hero.jpg'
+      background-overlay: 'gantry-media://savannah/img/overlay.png'
+      htitle: Welcome
+      title1: 'BEAUTIFUL PERSON'
+      label1: 'People lover'
+      title2: 'Professional photographer'
+      label2: 'Awesome story teller'
+      title3: 'AMATEUR GUITAR PLAYER'
+      label3: 'Graphic designer'
   menu-6409:
     attributes:
       menu: savannah
     block:
-      variations: align-right
+      variations: 'align-right nomarginall'
   custom-9601:
     title: 'Custom HTML'
     attributes:
       html: '<a href="#body" class="navbar-brand" data-animate="fadeInDown" data-delay="300"><span>Savannah May</span></a>'
+    block:
+      variations: 'nomarginall nopaddingall'
   menu-1596:
     attributes:
       menu: savannah-2
     block:
-      variations: align-left
+      variations: 'align-left nomarginall'
   sectiontitle-6366:
     title: 'Section Title'
     attributes:
@@ -273,6 +313,10 @@ content:
       location: ''
     block:
       variations: center
+  custom-5623:
+    title: 'Custom HTML'
+    attributes:
+      html: "<section class=\"expandable\">\n                <a href=\"#\" class=\"diamond\">\n                    <span class=\"background\"></span>\n                    <span class=\"line1\"></span>\n                    <span class=\"line2\"></span>\n                </a>"
   sectiontitle-8251:
     title: 'WORK & EDUCATION'
     attributes:
@@ -343,15 +387,98 @@ content:
           name: 'New item'
   owlcarousel-7560:
     title: 'Owl Carousel'
+    attributes:
+      nav: disable
+      dots: enable
+      imageOverlay: disable
+      items:
+        -
+          image: ''
+          title: 'Jon Doe'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'New item'
+        -
+          image: ''
+          title: Tommy
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'New item'
+        -
+          image: ''
+          title: Jane
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'New item'
   sectiontitle-7871:
     title: 'Section Title'
     attributes:
-      class: ''
+      class: padding
       title: PORTFOLIO
     block:
       variations: center
-  isotope-8736:
-    title: Portfolio
+  portfolio-3037:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: photp
+      label: photp
+    block:
+      class: g-flushed
+  portfolio-8825:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: title
+      label: label
+    block:
+      class: g-flushed
+  portfolio-2986:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: title
+      label: photo
+    block:
+      class: g-flushed
+  portfolio-4550:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: title
+      label: photo
+    block:
+      class: g-flushed
+  portfolio-8584:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: title
+      label: photo
+    block:
+      class: g-flushed
+  portfolio-1079:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: title
+      label: photo
+    block:
+      class: g-flushed
+  portfolio-1558:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: titiel
+      label: photo
+    block:
+      class: g-flushed
+  portfolio-6097:
+    attributes:
+      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      title: title
+      label: photo
+    block:
+      class: g-flushed
   sectiontitle-9392:
     title: Contact
     attributes:
@@ -381,24 +508,35 @@ content:
       dragging: disabledmobile
   totop-8670:
     title: 'To Top'
+    attributes:
+      css:
+        class: top
+      icon: 'fa fa-chevron-up'
+      content: ''
+    block:
+      class: g-flushed
   branding-9914:
     attributes:
       content: 'SAVANNAH MAY'
+      css:
+        class: 'colored fadeInUp animated'
+    block:
+      variations: 'center nomarginall nopaddingall'
   social-3503:
     attributes:
       items:
         -
-          icon: 'fa fa-facebook fa-fw'
+          icon: 'fa fa-facebook'
           text: ''
           link: 'http://www.facebook.com/'
           name: Facebook
         -
-          icon: 'fa fa-twitter fa-fw'
+          icon: 'fa fa-twitter'
           text: ''
           link: 'http://www.twitter.com/'
           name: Twitter
         -
-          icon: 'fa fa-google-plus fa-fw'
+          icon: 'fa fa-google-plus'
           text: ''
           link: 'https://plus.google.com/'
           name: Google+
@@ -407,3 +545,12 @@ content:
           text: ''
           link: 'https://www.pintrest.com'
           name: pintrest
+    block:
+      variations: 'center nomarginall nopaddingall'
+  copyright-1736:
+    attributes:
+      owner: 'All rights reserved.'
+      additional:
+        text: ''
+    block:
+      variations: 'center nomarginall nopaddingall'

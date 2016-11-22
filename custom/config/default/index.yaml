@@ -1,5 +1,5 @@
 name: default
-timestamp: 1479149213
+timestamp: 1479796231
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -9,10 +9,12 @@ positions:
   sidebar: Sidebar
 sections:
   intro: Intro
+  expandable: Expandable
   navigation: Navigation
   features: Features
   utility: Utility
   above: Above
+  expandable2: Expandable2
   expanded: Expanded
   testimonials: Testimonials
   protfolio: Protfolio
@@ -24,14 +26,14 @@ sections:
 particles:
   custom:
     custom-5107: 'Hire Me'
-    custom-7143: 'Custom HTML'
+  social:
+    social-3896: Social
+    social-3171: Social
   logo:
     logo-9608: 'Logo / Image'
     logo-9571: 'Logo / Image'
   menu:
     menu-6409: Menu
-  social:
-    social-3171: Social
   content:
     system-content-1587: 'Page Content'
   position:

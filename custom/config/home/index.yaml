@@ -1,5 +1,5 @@
 name: home
-timestamp: 1479226603
+timestamp: 1479796183
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -8,10 +8,12 @@ preset:
 positions: {  }
 sections:
   intro: Intro
+  expandable: Expandable
   navigation: Navigation
   features: Features
   utility: Utility
   above: Above
+  expandable2: Expandable2
   expanded: Expanded
   testimonials: Testimonials
   protfolio: Protfolio

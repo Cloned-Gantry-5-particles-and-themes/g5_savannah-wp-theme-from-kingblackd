@@ -8,45 +8,73 @@
 
         <div class="portfolio-top"></div>
         {% if particle.on %}
-        <div id="portfolio-filter">
-            <!--portfolio category-->
-            <div class="center">
-                <ul class="portfolio-filter-list white">
-                    <li>
-                        <a class="active" href="#" data-cat="*">ALL</a>
-                    </li>
-                    {% for option in particle.filters %}
-                        {% if option.title %}
-                            <li>
-                                <a href="#" data-cat="{{ option.title|lower }}">{{ option.title|title }}</a>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-            <!--End portfolio category-->
-        </div>
+                <!--portfolio category-->
+                <div class="center">
+                    <ul class="portfolio-filter padding-normal-bottom">
+                        <li class="active" data-animate="fadeInUp" data-delay="300*index" data-group="1" data-target="#portfolio1">
+                            <a href="#" class="button button-small" data-filter="*">ALL</a>
+                        </li>
+                        {% for option in particle.filters %}
+                            {% if option.title %}
+                                <li data-animate="fadeInUp" data-delay="300*index" data-group="1" data-target="#portfolio1">
+                                    <a href="#" class="button button-small" data-filter="{{ option.title|lower }}">{{ option.title|title }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!--End portfolio category-->
         {% endif %}
-
         <!-- portfolio-items -->
-        <div id="portfolio-items" class="portfolio-items item_fade_in">
+        <div id="portfolio1" class="portfolio">
             {% for item in particle.items %}
-                <article class="{{ item.filters|e }}">
-                    <a href="#!projects/project-single.html">
-                        <img src="{{ url(item.image)|e }}" alt="image"/>
-                        <div class="overlay">
-                            <div class="item-info">
-                                <i class="fa fa-camera"></i>
-                                <h3>{{ item.title|e }}</h3>
-                                <span>{{ item.label|e }}</span>
-                            </div>
-                        </div>
-                        <!-- End .overlay -->
-                    </a>
-                </article>
+                <div class="item category-{{ item.filters|e }}">
+                    <img src="{{ url(item.image)|e }}" class="image" alt=""/>
+                    <div class="overlay">
+                        <div class="tile"></div>
+                        <a href="#" class="link">
+                            <span class="title">{{ item.title|e }}</span>
+                            <span class="category">{{ item.label|e }}</span>
+                        </a>
+                    </div>
+                </div>
             {% endfor %}
         </div>
         <!-- End portfolio-items -->
     </div>
 
+{% endblock %}
+
+{% block javascript_footer %}
+    <script src="{{ url('gantry-theme://js/isotope.pkgd.min.js') }}"></script>
+    <script type="text/javascript">
+        (function($) {
+            "use strict";
+            /* Portfolio isotope */
+            $('.portfolio').isotope({
+                filter: '*',
+                itemSelector: '.item',
+                layoutMode: 'masonry',
+                transitionDuration: '1s',
+                masonry: {
+                    resizable: false,
+                    columnWidth: 313,
+                    gutter: 0
+                }
+            });
+
+            /* Portfolio filtering */
+            // Isotope portfolio filtering
+            $('.portfolio-filter a').bind('click', function(e) {
+                e.preventDefault();
+                var $this = $(this);
+                var $target = $($this.attr('data-target'));
+                if (0 < $target.length) {
+                    $this.parent('li').parent('ul').find('li.active').removeClass('active');
+                    $this.parent('li').addClass('active');
+                    $target.isotope({filter: $this.attr('data-filter')});
+                }
+            });
+        })(jQuery);
+    </script>
 {% endblock %}

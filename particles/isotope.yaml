@@ -1,4 +1,4 @@
-name: Portfolio
+name: isotope
 description: Display a Portfolio Filter.
 type: particle
 icon: fa-folder-open-o
@@ -58,10 +58,6 @@ form:
           type: input.imagepicker
           label: Image
           description: Select desired image.
-        .icon:
-          type: input.icon
-          label: Icon
-          description: add an icon.
         .title:
           type: input.text
           label: Title

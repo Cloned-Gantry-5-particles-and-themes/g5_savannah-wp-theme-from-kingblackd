@@ -1,0 +1,19 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+{% block particle %}
+
+    <!-- Start portfolio-items -->
+    <div class="portfolio {{ particle.class|e }}">
+        <div class="item">
+
+            <img src="{{ url(particle.image)|e }}" class="image" alt=""/>
+            <div class="overlay">
+                <div class="tile"></div>
+                <a href="{{ particle.link }}" class="link">
+                    <span class="title">{{ particle.title|e }}</span>
+                    <span class="category">{{ particle.label|e }}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End portfolio-items -->
+{% endblock %}

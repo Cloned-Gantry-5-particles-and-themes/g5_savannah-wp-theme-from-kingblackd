@@ -6,7 +6,7 @@
     left: 0;
     width: 45px;
     height: 45px;
-    border: #fff 4px solid;
+    border: $accent-color-2 4px solid;
 }
 .dark .diamond .background {
     border-color: #272727;
@@ -28,7 +28,7 @@
     left: 14px;
     width: 16px;
     height: 4px;
-    background: #fff;
+    background: $accent-color-2;
 }
 .diamond .line2 {
     display: block;
@@ -37,7 +37,7 @@
     left: 20px;
     width: 4px;
     height: 16px;
-    background: #fff;
+    background: $accent-color-2;
 }
 /* Diamond */
 .diamond .background {

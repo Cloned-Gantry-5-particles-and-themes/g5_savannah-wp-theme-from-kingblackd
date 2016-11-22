@@ -1,0 +1,139 @@
+/* Hero */
+#hero {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+body.nav-fixed #hero {
+    margin-bottom: 160px;
+}
+#hero .fullscreen-object {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#hero .fullscreen-object > video,
+#hero .fullscreen-object > iframe {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 0;
+    overflow: hidden;
+}
+#hero .content {
+    position: relative;
+    color: #fff;
+}
+.hero-heading {
+    display: inline-block;
+    position: relative;
+    min-height: 41px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 41px;
+    letter-spacing: 0.3em;
+    padding-left: 0.3em;
+    text-transform: uppercase;
+    margin: 29px 15px 56px 15px;
+}
+.hero-heading:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -29px;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    border-top: transparent 2px solid;
+}
+.hero-heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    border-bottom: transparent 2px solid;
+}
+.hero-heading > span {
+    display: block;
+    margin: 0 -17px;
+}
+.hero-heading .tl,
+.hero-heading .tr,
+.hero-heading .br,
+.hero-heading .bl {
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 30px;
+}
+.hero-heading .tl {
+    top: -29px;
+    left: 0;
+    border-right: transparent 2px solid;
+}
+.hero-heading .tr {
+    top: -29px;
+    right: 0;
+    border-left: transparent 2px solid;
+}
+.hero-heading .br {
+    bottom: -31px;
+    right: 0;
+    border-left: transparent 2px solid;
+    z-index: 100;
+}
+.hero-heading .bl {
+    bottom: -31px;
+    left: 0;
+    border-right: transparent 2px solid;
+    z-index: 100;
+}
+.hero-subheading {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    margin: -5px 0 20px 0;
+}
+.hero-amp {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 22px;
+    font-family: 'Great Vibes';
+    font-size: 22px;
+    line-height: 24px;
+    margin: 0 0 25px -2px;
+}
+.hero-amp:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 33px;
+    height: 2px;
+    top: 9px;
+    left: -31px;
+}
+.hero-amp:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 33px;
+    height: 2px;
+    top: 9px;
+    left: 38px;
+}
+.hero-handscript {
+    font-family: 'Meie Script';
+    font-size: 22px;
+    margin: -13px 0 16px 0;
+}
