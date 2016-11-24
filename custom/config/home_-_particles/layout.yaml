@@ -51,15 +51,13 @@ layout:
     -
       - sectiontitle-7871
     -
-      - 'portfolio-3037 25'
-      - 'portfolio-8825 25'
-      - 'portfolio-2986 25'
-      - 'portfolio-4550 25'
+      - 'portfolio-3037 33.3'
+      - 'portfolio-2986 33.3'
+      - 'portfolio-8825 33.3'
     -
-      - 'portfolio-8584 25'
-      - 'portfolio-1079 25'
-      - 'portfolio-1558 25'
-      - 'portfolio-6097 25'
+      - 'portfolio-8584 33.3'
+      - 'portfolio-1558 33.3'
+      - 'portfolio-1079 33.3'
   /container-main/:
     -
       -
@@ -176,7 +174,7 @@ content:
     attributes:
       image: 'gantry-media://savannah/assets/cover.png'
       background: 'gantry-media://savannah/hero.jpg'
-      background-overlay: 'gantry-media://savannah/img/overlay.png'
+      backgroundoverlay: 'gantry-media://savannah/img/overlay.png'
       htitle: Welcome
       title1: 'BEAUTIFUL PERSON'
       label1: 'People lover'
@@ -425,56 +423,42 @@ content:
       variations: center
   portfolio-3037:
     attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      image: 'gantry-media://savannah/edgar.jpg'
       title: photp
       label: photp
     block:
       class: g-flushed
+  portfolio-2986:
+    attributes:
+      image: 'gantry-media://savannah/edgar.jpg'
+      title: title
+      label: photo
+    block:
+      class: g-flushed
   portfolio-8825:
     attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      image: 'gantry-media://savannah/edgar.jpg'
       title: title
       label: label
     block:
       class: g-flushed
-  portfolio-2986:
-    attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
-      title: title
-      label: photo
-    block:
-      class: g-flushed
-  portfolio-4550:
-    attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
-      title: title
-      label: photo
-    block:
-      class: g-flushed
   portfolio-8584:
     attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
-      title: title
-      label: photo
-    block:
-      class: g-flushed
-  portfolio-1079:
-    attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      image: 'gantry-media://muhommed.jpg'
       title: title
       label: photo
     block:
       class: g-flushed
   portfolio-1558:
     attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      image: 'gantry-media://savannah/trump.JPG'
       title: titiel
       label: photo
     block:
       class: g-flushed
-  portfolio-6097:
+  portfolio-1079:
     attributes:
-      image: 'gantry-media://savannah/assets/portfolio3.jpg'
+      image: 'gantry-media://muhommed.jpg'
       title: title
       label: photo
     block:
@@ -488,7 +472,7 @@ content:
   custom-2559:
     title: 'Custom HTML'
     attributes:
-      html: "<div id=\"map\"></div>\n    <script>\n      var map;\n      function initMap() {\n        map = new google.maps.Map(document.getElementById('map'), {\n          center: {lat: -34.397, lng: 150.644},\n          zoom: 8\n        });\n      }\n    </script>\n    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyBHIiVSvNxaEm6AE8a3vFS7yXk1RixnX6Q&callback=initMap\"\n    async defer></script>"
+      html: '<iframe class="map" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&q=Adobe%20Systems%20Inc%2C%20Park%20Avenue%2C%20San%20Jose%2C%20CA&aq=0&ie=UTF8&t=m&z=12&iwloc=&output=embed"></iframe>'
   custom-6556:
     title: 'Contact Form'
     attributes:

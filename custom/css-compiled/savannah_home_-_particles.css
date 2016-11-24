@@ -3214,12 +3214,12 @@
   left: 0;
   width: 4px;
   height: 9px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left.png?58337afb') 0 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left.png') 0 0 no-repeat transparent;
   background-size: 4px 9px;
 }
 /* line 32, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .bar:before {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left-dark.png?58337afb');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left-dark.png');
 }
 /* line 35, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .bar:after {
@@ -3230,12 +3230,12 @@
   right: 0;
   width: 4px;
   height: 9px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right.png?58337afb') right 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right.png') right 0 no-repeat transparent;
   background-size: 4px 9px;
 }
 /* line 46, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .bar:after {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right-dark.png?58337afb');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right-dark.png');
 }
 /* line 49, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .fill {
@@ -3265,12 +3265,12 @@
   left: 0;
   width: 5px;
   height: 5px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left.png?58337afb') 0 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left.png') 0 0 no-repeat transparent;
   background-size: 5px 5px;
 }
 /* line 75, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .fill:before {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left-dark.png?58337afb');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left-dark.png');
 }
 /* line 78, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .fill:after {
@@ -3281,12 +3281,12 @@
   right: 0;
   width: 5px;
   height: 5px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right.png?58337afb') right 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right.png') right 0 no-repeat transparent;
   background-size: 5px 5px;
 }
 /* line 89, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .fill:after {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right-dark.png?58337afb');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right-dark.png');
 }
 /* line 92, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .value {
@@ -5757,11 +5757,11 @@ body.nav-fixed #hero {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 4, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
   .comment .avatar > .mask {
-    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask@2x.png?58337afb');
+    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask@2x.png');
   }
   /* line 8, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
   body.dark .comment .avatar > .mask {
-    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask-dark@2x.png?58337afb');
+    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask-dark@2x.png');
   }
 }
 @media screen and (min-width: 768px) {
@@ -10511,30 +10511,30 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
   .hidden-desktop {
     display: none !important;
   }
+  /* line 21, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  .visible-phone {
+    display: none !important;
+  }
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  /* line 24, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 27, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: none !important;
   }
-  /* line 27, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-large {
-    display: inherit !important;
-  }
   /* line 30, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-large {
-    display: block !important;
-  }
-  /* line 33, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: inherit !important;
   }
-  /* line 36, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 33, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-desktop {
     display: block !important;
   }
-  /* line 39, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 36, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-desktop {
+    display: none !important;
+  }
+  /* line 39, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  .visible-phone {
     display: none !important;
   }
 }
@@ -10552,74 +10552,46 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
     display: none !important;
   }
   /* line 54, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-desktop {
-    display: inherit !important;
-  }
-  /* line 57, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-desktop {
-    display: block !important;
-  }
-  /* line 60, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: none !important;
   }
-  /* line 63, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 57, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: none !important;
   }
-  /* line 66, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-large {
-    display: inherit !important;
-  }
-  /* line 69, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-large {
-    display: block !important;
+  /* line 60, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  .visible-phone {
+    display: none !important;
   }
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 75, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 66, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-phone {
     display: inherit !important;
   }
-  /* line 78, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 69, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-phone {
     display: block !important;
   }
-  /* line 81, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 72, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-phone {
     display: none !important;
   }
-  /* line 84, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-desktop {
-    display: inherit !important;
-  }
-  /* line 87, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-desktop {
-    display: block !important;
-  }
-  /* line 90, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 75, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: none !important;
   }
-  /* line 93, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-large {
-    display: inherit !important;
-  }
-  /* line 96, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-large {
-    display: block !important;
-  }
-  /* line 99, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 78, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: none !important;
   }
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 106, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 85, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .align-right {
     text-align: inherit !important;
   }
-  /* line 109, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 88, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .align-left {
     text-align: inherit !important;
   }

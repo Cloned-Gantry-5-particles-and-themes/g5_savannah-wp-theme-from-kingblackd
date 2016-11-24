@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1479796993
+timestamp: 1479829297
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -61,13 +61,11 @@ particles:
     owlcarousel-7560: 'Owl Carousel'
   portfolio:
     portfolio-3037: Portfolio
-    portfolio-8825: Portfolio
     portfolio-2986: Portfolio
-    portfolio-4550: Portfolio
+    portfolio-8825: Portfolio
     portfolio-8584: Portfolio
-    portfolio-1079: Portfolio
     portfolio-1558: Portfolio
-    portfolio-6097: Portfolio
+    portfolio-1079: Portfolio
   googlemap:
     googlemap-1641: 'Google Map'
   totop:
