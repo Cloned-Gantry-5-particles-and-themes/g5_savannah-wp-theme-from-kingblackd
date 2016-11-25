@@ -9,19 +9,16 @@
             <div class="number-facts-wrapper">
                 <div class="g-grid">
                     {% for item in particle.items %}
-                        <div class="g-block size-50">
+                    <div class="counter-wrapper">
                             <div class="counters-item">
-                                {% if item.icon %}
-                                    <i class="{{ item.icon }}"></i>
-                                {% endif %}
                                 {% if item.value %}
-                                    <strong data-to="{{ item.value|e }}">0</strong>
+                                    <i class="{{ item.icon }}"></i><strong style="display:inline-block" data-to="{{ item.value|e }}">0</strong>
                                 {% endif %}
                                 {% if item.label %}
                                     <p>{{ item.label|e }}</p>
                                 {% endif %}
-                            </div>
-                        </div>
+                                </div>
+                              </div>
                     {% endfor %}
                 </div>
             </div>

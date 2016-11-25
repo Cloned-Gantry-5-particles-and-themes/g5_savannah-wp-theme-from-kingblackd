@@ -1,22 +1,55 @@
-
-  .counters-item {
+.counter-wrapper {
+    width: 130px;
+    height: 130px;
+    margin-left: 2%;
+    transform: rotate(-45deg);
     border: 2px solid $accent-color-1;
-    margin: 0 2px 2px 0;
-    p {
-      margin-top: 0;
-    }
-  }
 
-  .counters-item i {
+    &:nth-child(1) {
+        clear: left;
+        margin-top: 25%;
+    }
+
+    &:nth-child(2) {
+        clear: left;
+        margin-top: -3%;
+        margin-left: -8%;
+    }
+
+    &:nth-child(3) {
+        margin-left: 60%;
+        clear: left;
+        margin-top: -37%;
+    }
+
+    &:nth-child(4) {
+        clear: left;
+        margin-left: 31%;
+        margin-top: -10%;
+    }
+
+    .counters-item {
+        float: left;
+        padding-bottom: 19%;
+        margin: 0.5%;
+        transform: rotate(45deg);
+
+        p {
+            margin-top: 0;
+        }
+    }
+}
+
+.counters-item i {
     margin-top: 16px;
     color: $accent-color-1;
-  }
+}
 
-  .number-counters strong {
+.number-counters strong {
     display: block;
     font-size: 40px;
     color: #666666;
     font-weight: 700;
     line-height: 45px;
     letter-spacing: -2px;
-  }
+}

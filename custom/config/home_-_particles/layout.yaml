@@ -17,7 +17,7 @@ layout:
   /navigation/:
     -
       - 'menu-6409 40'
-      - 'custom-9601 20'
+      - 'name-1082 20'
       - 'menu-1596 40'
   /features/:
     -
@@ -45,6 +45,8 @@ layout:
       - 'timeline-6465 50'
       - 'timeline-6997 50'
   /testimonials/:
+    -
+      - sectiontitle-8933
     -
       - owlcarousel-7560
   /protfolio/:
@@ -172,7 +174,8 @@ content:
   hero-7272:
     title: 'Hero Banner'
     attributes:
-      image: 'gantry-media://muhommed.jpg'
+      class: coverimg
+      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/045/066/344c078.jpg'
       background: 'gantry-media://savannah/hero.jpg'
       backgroundoverlay: 'gantry-media://savannah/img/overlay.png'
       htitle: Welcome
@@ -186,18 +189,17 @@ content:
     attributes:
       menu: savannah
     block:
-      variations: 'align-right nomarginall'
-  custom-9601:
-    title: 'Custom HTML'
+      variations: 'nomarginall center'
+  name-1082:
     attributes:
-      html: '<a href="#body" class="navbar-brand" data-animate="fadeInDown" data-delay="300"><span>Savannah May</span></a>'
+      name: 'Dean Balh'
     block:
-      variations: 'nomarginall nopaddingall'
+      class: visible-desktop
   menu-1596:
     attributes:
       menu: savannah-2
     block:
-      variations: 'align-left nomarginall'
+      variations: 'nomarginall center'
   sectiontitle-6366:
     title: 'Section Title'
     attributes:
@@ -249,60 +251,60 @@ content:
   skillbar-5033:
     title: 'Skill Bar Graph'
     attributes:
-      title: skills
+      title: 'Interpersonal skills'
       items:
         -
-          title: ps
-          percent: '25'
+          title: LeaderShip
+          percent: '70'
           name: 'New item'
         -
-          title: wp
+          title: Initiative
           percent: '75'
           name: 'New item'
         -
-          title: er
-          percent: '68'
+          title: Communication
+          percent: '80'
           name: 'New item'
   skillbar-4987:
     title: 'Skill Bar Graph'
     attributes:
-      title: Skills2
+      title: 'Soft Skills'
       items:
         -
-          title: wp
+          title: Entuhsiasm
           percent: '98'
           name: 'New item'
         -
-          title: photo
+          title: 'Team Work'
           percent: '78'
           name: 'New item'
         -
-          title: tests
-          percent: '45'
+          title: Creativity
+          percent: '85'
           name: 'New item'
   numcounter-9571:
     title: 'Quick Stats'
     attributes:
       items:
         -
-          icon: 'fa fa-user fa-2x'
-          label: 'Happy Clients'
-          value: '150'
+          icon: 'fa fa-group fa-2x'
+          label: Languages
+          value: '3'
           name: 'New item'
         -
-          icon: 'fa fa-user fa-2x'
-          label: 'Year Experience'
+          icon: 'fa fa-flag fa-2x'
+          label: 'Years Experience'
           value: '7'
           name: 'New item'
         -
-          icon: 'fa fa-user fa-2x'
+          icon: 'fa fa-trophy fa-2x'
           label: 'Awards Won'
           value: '13'
           name: 'New item'
         -
-          icon: 'fa fa-user fa-2x'
-          label: 'Projects Done'
-          value: '520'
+          icon: 'fa fa-thumbs-up fa-2x'
+          label: 'Volunteer Efforts'
+          value: '10'
           name: 'New item'
   resumedl-6742:
     title: 'Download Resume'
@@ -383,6 +385,13 @@ content:
           enddate: 2016-11
           current: 'no'
           name: 'New item'
+  sectiontitle-8933:
+    title: 'Section Title'
+    attributes:
+      title: 'My Testimonials'
+    block:
+      class: g-flushed
+      variations: center
   owlcarousel-7560:
     title: 'Owl Carousel'
     attributes:
@@ -451,7 +460,7 @@ content:
       class: g-flushed
   portfolio-1558:
     attributes:
-      image: 'gantry-media://savannah/trump.JPG'
+      image: 'gantry-media://muhommed.jpg'
       title: titiel
       label: photo
     block:
@@ -466,7 +475,7 @@ content:
   sectiontitle-9392:
     title: Contact
     attributes:
-      title: Contacts
+      title: 'Contacts Me'
     block:
       variations: center
   custom-2559:

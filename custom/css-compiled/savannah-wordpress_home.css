@@ -313,7 +313,7 @@ legend small {
 }
 /* line 63, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta .author-name a:hover {
-  color: #c29732;
+  color: #c2973c;
 }
 /* line 69, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 /* line 70, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
@@ -322,7 +322,7 @@ legend small {
 }
 /* line 72, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a:hover, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a:hover {
-  color: #c29732;
+  color: #c2973c;
 }
 @media only all and (max-width: 47.938rem) {
   #comments ol.commentlist li.comment .comment-author .author-meta time, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link {
@@ -335,7 +335,7 @@ legend small {
 /* line 87, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 /* line 88, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a {
-  color: #c29732;
+  color: #c2973c;
 }
 /* line 91, wp-content/themes/g5_savannah/scss/savannah-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a:hover {
@@ -416,7 +416,7 @@ legend small {
   display: inline-block;
   font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   border-radius: 0.25rem;
-  background: #c29732;
+  background: #c2973c;
   color: #fff;
   padding: 5px 8px;
   margin: 0 4px 8px 0;
@@ -430,7 +430,7 @@ legend small {
 }
 /* line 48, wp-content/themes/g5_savannah/scss/savannah-wordpress/_widgets.scss */
 .widget.widget_tag_cloud a:hover {
-  background: #997728;
+  background: #9b7930;
   color: #fff;
 }
 /* line 56, wp-content/themes/g5_savannah/scss/savannah-wordpress/_widgets.scss */

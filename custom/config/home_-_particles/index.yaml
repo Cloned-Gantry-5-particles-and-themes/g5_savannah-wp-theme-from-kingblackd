@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1480043866
+timestamp: 1480108430
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -26,7 +26,6 @@ particles:
   custom:
     custom-5989: 'Hire Me'
     custom-9276: 'Custom HTML'
-    custom-9601: 'Custom HTML'
     custom-3119: Features
     custom-5623: 'Custom HTML'
     custom-2559: 'Custom HTML'
@@ -39,10 +38,13 @@ particles:
   menu:
     menu-6409: Menu
     menu-1596: Menu
+  name:
+    name-1082: Name
   sectiontitle:
     sectiontitle-6366: 'Section Title'
     sectiontitle-1332: 'MY SKILLS'
     sectiontitle-8251: 'WORK & EDUCATION'
+    sectiontitle-8933: 'Section Title'
     sectiontitle-7871: 'Section Title'
     sectiontitle-9392: Contact
   bio-info:

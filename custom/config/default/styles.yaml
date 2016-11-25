@@ -3,9 +3,10 @@ base:
   background: '#ffffff'
   border-color: '#e0e0e5'
   text-color: '#171717'
+  text-color-alt: '#999999'
   favicon: ''
 accent:
-  color-1: '#c29732'
+  color-1: '#c2973c'
   color-2: '#171717'
 font:
   family-default: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
