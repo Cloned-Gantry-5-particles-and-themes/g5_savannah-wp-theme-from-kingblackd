@@ -3214,12 +3214,12 @@
   left: 0;
   width: 4px;
   height: 9px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left.png') 0 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left.png?58337afb') 0 0 no-repeat transparent;
   background-size: 4px 9px;
 }
 /* line 32, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .bar:before {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-left-dark.png?58337afb');
 }
 /* line 35, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .bar:after {
@@ -3230,12 +3230,12 @@
   right: 0;
   width: 4px;
   height: 9px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right.png') right 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right.png?58337afb') right 0 no-repeat transparent;
   background-size: 4px 9px;
 }
 /* line 46, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .bar:after {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-right-dark.png?58337afb');
 }
 /* line 49, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .fill {
@@ -3265,12 +3265,12 @@
   left: 0;
   width: 5px;
   height: 5px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left.png') 0 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left.png?58337afb') 0 0 no-repeat transparent;
   background-size: 5px 5px;
 }
 /* line 75, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .fill:before {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-left-dark.png?58337afb');
 }
 /* line 78, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .fill:after {
@@ -3281,12 +3281,12 @@
   right: 0;
   width: 5px;
   height: 5px;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right.png') right 0 no-repeat transparent;
+  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right.png?58337afb') right 0 no-repeat transparent;
   background-size: 5px 5px;
 }
 /* line 89, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .dark .skill-bar .fill:after {
-  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right-dark.png');
+  background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/skill-fill-right-dark.png?58337afb');
 }
 /* line 92, wp-content/themes/g5_savannah/scss/savannah/particles/_skillbar.scss */
 .skill-bar .value {
@@ -5757,11 +5757,11 @@ body.nav-fixed #hero {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 4, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
   .comment .avatar > .mask {
-    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask@2x.png');
+    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask@2x.png?58337afb');
   }
   /* line 8, wp-content/themes/g5_savannah/scss/savannah/styles/_responsive.scss */
   body.dark .comment .avatar > .mask {
-    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask-dark@2x.png');
+    background-image: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/img/avatar-mask-dark@2x.png?58337afb');
   }
 }
 @media screen and (min-width: 768px) {
@@ -8848,7 +8848,7 @@ nav li.node:before {
   background: #f4f5f7;
   color: #c29732;
   padding: 3rem 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('//savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg') no-repeat fixed center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('//savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg') no-repeat fixed center;
   background-size: cover;
   position: relative;
   /*
@@ -8884,94 +8884,220 @@ nav li.node:before {
   background-size: cover;
   /* Testimonials */
 }
-/* line 27, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
-#g-testimonials a {
-  color: #ddc07d;
+/* line 26, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-title {
+  margin-bottom: 0;
 }
 /* line 30, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-content {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+/* line 37, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dots {
+  position: static;
+}
+/* line 42, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-content-container {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+/* line 47, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-content-container .g-owlcarousel-item-desc {
+  display: block;
+}
+/* line 52, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-content-container {
+  backface-visibility: hidden;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+/* line 60, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-desc {
+  font-size: 1rem;
+  float: left;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+/* line 68, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+/* line 73, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-desc .author {
+  margin: 0 0 6px;
+  font-weight: bold;
+}
+/* line 78, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-desc .company a {
+  color: #fff;
+}
+/* line 82, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .pagination {
+  position: absolute;
+  text-align: center;
+  top: 82px;
+  width: 100%;
+  z-index: 20;
+}
+/* line 90, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dot {
+  background: none repeat scroll 0 0 #544b43;
+  border-radius: 20px;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 11px;
+  margin: 0 6px;
+  text-indent: -9999px;
+  width: 11px;
+}
+/* line 102, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dot:hover {
+  background: none repeat scroll 0 0 #685c52;
+}
+/* line 106, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dot:focus {
+  background: none repeat scroll 0 0 #685c52;
+}
+/* line 110, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dot:active {
+  background: none repeat scroll 0 0 #685c52;
+}
+/* line 114, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-content-container, #g-testimonials .g-owlcarousel-item-content-container .g-owlcarousel-item-desc {
+  height: 100%;
+  max-width: 585px;
+  width: 100%;
+}
+/* line 121, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dots {
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+/* line 129, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dots .owl-dot {
+  background: none repeat scroll 0 0 #d8d8d8;
+}
+/* line 133, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dots .owl-dot:hover {
+  background: none repeat scroll 0 0 #333;
+}
+/* line 137, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dots .swiper-visible-switch {
+  background: none repeat scroll 0 0 #262626;
+}
+/* line 141, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .owl-dots .swiper-active-switch {
+  background: none repeat scroll 0 0 #262626;
+}
+/* line 145, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials a {
+  color: inherit;
+}
+/* line 148, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials a:hover {
   color: inherit;
 }
-/* line 36, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 153, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials h2:after {
+  background-color: #fff;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 20px auto 0;
+  width: 40px;
+}
+/* line 163, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-box {
   width: 100%;
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 3px;
 }
-/* line 42, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 170, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-image {
   width: 100px;
   height: 100px;
   border-radius: 100%;
   border: #fff 5px solid;
 }
-/* line 48, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 177, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-image.pull-right {
   margin-left: 30px;
 }
-/* line 51, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 181, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-image.pull-left {
   margin-right: 30px;
 }
-/* line 54, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 185, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-text {
   padding: 5px;
 }
-/* line 57, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 189, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-text p {
   font-size: 14px;
   line-height: 25px;
   font-style: italic;
   color: #fff;
 }
-/* line 63, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 196, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .roller-list .testimonials-text > p:last-child {
   margin-bottom: 0;
 }
-/* line 66, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 200, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-by {
   position: relative;
 }
-/* line 69, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 204, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-by .aff {
   font-size: 10px;
   font-style: italic;
   text-transform: uppercase;
   margin-top: -34px;
 }
-/* line 75, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 211, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials .roller-bullets {
   margin: 0 -5px;
 }
-/* line 78, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 215, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials .roller-bullet {
   display: block;
   width: 11px;
   height: 11px;
   border: #fff 2px solid;
   border-radius: 100%;
-  margin: 0 5px 0 5px;
+  margin: 0 5px;
   float: left;
 }
-/* line 87, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 225, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials .roller-bullet.active {
   background: #fff;
 }
-/* line 90, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 229, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-logos {
-  margin: 0 15px 40px 15px;
+  margin: 0 15px 40px;
 }
-/* line 93, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 233, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-logo {
-  margin: 0 -15px 0 -15px;
+  margin: 0 -15px;
   text-align: center;
 }
-/* line 97, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 238, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-logo img {
   max-width: 100%;
 }
-/* line 100, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 242, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-arrow {
   position: absolute;
   top: -30px;
@@ -8982,16 +9108,16 @@ nav li.node:before {
   border-bottom: 20px transparent solid;
   border-left: 11px transparent solid;
 }
-/* line 110, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 253, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-arrow-left {
   left: -41px;
 }
-/* line 113, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 257, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-arrow-right {
   right: -41px;
 }
 @media print {
-  /* line 121, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+  /* line 263, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
   #g-testimonials {
     background: #fff !important;
     color: #000 !important;

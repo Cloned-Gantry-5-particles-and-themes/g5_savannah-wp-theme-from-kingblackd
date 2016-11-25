@@ -172,7 +172,7 @@ content:
   hero-7272:
     title: 'Hero Banner'
     attributes:
-      image: 'gantry-media://savannah/assets/cover.png'
+      image: 'gantry-media://muhommed.jpg'
       background: 'gantry-media://savannah/hero.jpg'
       backgroundoverlay: 'gantry-media://savannah/img/overlay.png'
       htitle: Welcome
@@ -386,9 +386,9 @@ content:
   owlcarousel-7560:
     title: 'Owl Carousel'
     attributes:
+      variant: o2
       nav: disable
       dots: enable
-      imageOverlay: disable
       items:
         -
           image: ''
