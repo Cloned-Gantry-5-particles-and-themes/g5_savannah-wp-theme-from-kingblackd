@@ -123,6 +123,9 @@
 
 {% if menu.root.count() %}
 <nav class="g-main-nav" role="navigation"{{ particle.mobileTarget ? ' data-g-mobile-target' : '' }} data-g-hover-expand="{{ particle.hoverExpand|default('true') ? 'true': 'false' }}">
+    {% if particle.name %}
+    <a href="#g-header" class="navbar-brand" data-animate="fadeInDown" data-delay="300"><span>{{particle.name}}</span></a>
+    {% endif %}
     <ul class="g-toplevel">
         {{ _self.displayItems(menu.root, menu, _context) }}
     </ul>

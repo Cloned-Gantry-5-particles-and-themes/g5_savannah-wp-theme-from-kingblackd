@@ -11,9 +11,17 @@
 
 {% block particle %}
 
+<div class="g-googlemap{% if particle.css.class %} {{ particle.css.class|e }}{% endif %}" {% if particle.extra %}{{ attr_extra|raw }}{% endif %} >
+    <div id="g-map-{{ id }}" style="width: {{ particle.width|e }}; height: {{ particle.height|e }};">
+    </div>
+</div>
+<script src="{{ url('https://maps.googleapis.com/maps/api/js?key=particle.apikey&callback=initMap') }}" async defer></script>
+
+{% endblock %}
+
+
     {# Load assets needed for this particle #}
-    {% assets in 'footer' with { priority: 10 } %}
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ particle.apikey }}&callback=initMap" async defer></script>
+    {% block javascript_footer %}
         <script>
             function initMap() {
 
@@ -103,13 +111,6 @@
                 });
 
             }
-            //google.maps.event.addDomListener(window, 'load', initMap);
         </script>
-    {% endassets -%}
+    {% endblock %}
     {# End loading assets #}
-
-    <div class="g-googlemap{% if particle.css.class %} {{ particle.css.class|e }}{% endif %}" {% if particle.extra %}{{ attr_extra|raw }}{% endif %} >
-        <div id="g-map-{{ id }}" style="width: {{ particle.width|e }}; height: {{ particle.height|e }};">
-        </div>
-    </div>
-{% endblock %}

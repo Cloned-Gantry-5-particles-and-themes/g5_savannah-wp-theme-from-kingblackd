@@ -18,12 +18,13 @@ layout:
       - 'menu-6409 65'
       - 'social-3171 20'
   /features/: {  }
+  /quote/: { }
   /utility/: {  }
   /above/: {  }
   /expandable2/: {  }
   /expanded/: {  }
   /testimonials/: {  }
-  /protfolio/: {  }
+  /portfolio/: {  }
   /container-main/:
     -
       -
@@ -73,7 +74,7 @@ structure:
     type: section
     attributes:
       boxed: ''
-  protfolio:
+  portfolio:
     type: section
     attributes:
       boxed: ''

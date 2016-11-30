@@ -51,8 +51,12 @@ offcanvas:
   toggle-visibility: '1'
   width: 12rem
 portfolio:
-  background: '#f4f5f7'
+  background: '#ffffff'
   text-color: '#171717'
+quote:
+  background: '#8f4dae'
+  background-image: 'gantry-media://section-bg1.jpg'
+  text-color: '#c2973c'
 breakpoints:
   large-desktop-container: 75rem
   desktop-container: 60rem

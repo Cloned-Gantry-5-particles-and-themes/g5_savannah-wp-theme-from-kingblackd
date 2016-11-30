@@ -42,7 +42,7 @@
             {% endif %}
         </ul>
 
-        <div class="g-social">
+        <div class="g-social padding-med-top">
             {% for item in particle.items %}
                 <a class="button button-icon" target="{{ particle.target|default('_blank')|e }}" href="{{ item.link|e }}" data-animate="fadeInUp" data-delay="300*index" data-group="1">
                     {% if particle.display in ['both', 'icons_only'] %}

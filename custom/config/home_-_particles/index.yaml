@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1480307917
+timestamp: 1480534388
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -11,12 +11,13 @@ sections:
   expandable: Expandable
   navigation: Navigation
   features: Features
+  quote: Quote
   utility: Utility
   above: Above
   expandable2: Expandable2
   expanded: Expanded
   testimonials: Testimonials
-  protfolio: Protfolio
+  portfolio: Portfolio
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
@@ -27,8 +28,10 @@ particles:
     custom-5989: 'Hire Me'
     custom-9276: 'Custom HTML'
     custom-3119: Features
+    custom-2861: 'Custom HTML'
+    custom-6100: 'Custom HTML'
+    custom-4505: 'Custom HTML'
     custom-5623: 'Custom HTML'
-    custom-2559: 'Custom HTML'
     custom-6556: 'Contact Form'
   social:
     social-9576: Social
@@ -37,9 +40,6 @@ particles:
     hero-7272: 'Hero Banner'
   menu:
     menu-6409: Menu
-    menu-1596: Menu
-  name:
-    name-1082: Name
   sectiontitle:
     sectiontitle-6366: 'Section Title'
     sectiontitle-1332: 'MY SKILLS'
@@ -61,6 +61,11 @@ particles:
     timeline-6997: Timeline
   owlcarousel:
     owlcarousel-7560: 'Owl Carousel'
+  spacer:
+    spacer-9583: Spacer
+    spacer-1143: Spacer
+    spacer-6966: Spacer
+    spacer-9951: Spacer
   portfolio:
     portfolio-3037: Portfolio
     portfolio-2986: Portfolio

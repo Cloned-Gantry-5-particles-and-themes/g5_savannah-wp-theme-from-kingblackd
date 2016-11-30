@@ -16,12 +16,13 @@ layout:
       - 'menu-6409 65'
       - 'social-3171 20'
   /features/: {  }
+  /quote/: {  }
   /utility/: {  }
   /above/: {  }
   /expandable2/: {  }
   /expanded/: {  }
   /testimonials/: {  }
-  /protfolio/: {  }
+  /portfolio/: {  }
   /container-main/:
     -
       -
@@ -46,6 +47,10 @@ structure:
     type: section
     attributes:
       boxed: ''
+  expandable:
+    type: section
+    attributes:
+      boxed: ''
   header:
     attributes:
       boxed: ''
@@ -58,12 +63,20 @@ structure:
     type: section
     attributes:
       boxed: ''
+  quote:
+    type: section
+    attributes:
+      boxed: ''
   utility:
     type: section
     attributes:
       boxed: ''
       class: ''
   above:
+    type: section
+    attributes:
+      boxed: ''
+  expandable2:
     type: section
     attributes:
       boxed: ''
@@ -75,7 +88,7 @@ structure:
     type: section
     attributes:
       boxed: ''
-  protfolio:
+  portfolio:
     type: section
     attributes:
       boxed: ''
@@ -98,7 +111,7 @@ content:
   custom-5107:
     title: 'Hire Me'
     attributes:
-      html: '<a href="#contacts" class="footer-label uppercase"><span class="button button-icon-clear pull-left" data-animate="fadeInUp"><i class="fa fa-briefcase"></i></span><span class="pull-left" data-animate="fadeInUp">Hire me now!</span></a>'
+      html: '<a href="#g-container-main" class="footer-label uppercase"><span class="button button-icon-clear pull-left" data-animate="fadeInUp"><i class="fa fa-briefcase"></i></span><span class="pull-left" data-animate="fadeInUp">Hire me now!</span></a>'
     block:
       class: 'g-flushed pull-left'
   social-3896:
@@ -131,7 +144,7 @@ content:
           link: pintrest.com
           name: 'New item'
         -
-          icon: 'fa fa-dribbble'
+          icon: 'fa fa-linkedin'
           text: ''
           link: dribbble.com
           name: 'New item'

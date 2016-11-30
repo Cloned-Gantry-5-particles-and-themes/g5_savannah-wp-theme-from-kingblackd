@@ -1,0 +1,22 @@
+#g-quote {
+    background: $quote-background;
+    color: $quote-text-color;
+    padding: $section-padding + 1 0;
+
+    @if $quote-background-image {
+  		background: url($quote-background-image) no-repeat center top;
+  		background-size: cover;
+  		background-attachment: fixed;
+  	}
+
+    h4 {
+      margin: 0;
+    }
+}
+
+@media print {
+    #g-quote {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

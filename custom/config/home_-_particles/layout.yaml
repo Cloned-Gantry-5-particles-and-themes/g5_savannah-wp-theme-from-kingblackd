@@ -16,15 +16,18 @@ layout:
       - hero-7272
   /navigation/:
     -
-      - 'menu-6409 40'
-      - 'name-1082 20'
-      - 'menu-1596 40'
+      - menu-6409
   /features/:
     -
       - sectiontitle-6366
     -
       - 'custom-3119 70'
       - 'bio-info-1264 30'
+  /quote/:
+    -
+      - 'custom-2861 20'
+      - 'custom-6100 60'
+      - 'custom-4505 20'
   /utility/:
     -
       - sectiontitle-1332
@@ -49,17 +52,21 @@ layout:
       - sectiontitle-8933
     -
       - owlcarousel-7560
-  /protfolio/:
+  /portfolio/:
     -
       - sectiontitle-7871
     -
-      - 'portfolio-3037 33.3'
-      - 'portfolio-2986 33.3'
-      - 'portfolio-8825 33.3'
+      - 'spacer-9583 14'
+      - 'portfolio-3037 24'
+      - 'portfolio-2986 24'
+      - 'portfolio-8825 24'
+      - 'spacer-1143 14'
     -
-      - 'portfolio-8584 33.3'
-      - 'portfolio-1558 33.3'
-      - 'portfolio-1079 33.3'
+      - 'spacer-6966 14'
+      - 'portfolio-8584 24'
+      - 'portfolio-1558 24'
+      - 'portfolio-1079 24'
+      - 'spacer-9951 14'
   /container-main/:
     -
       -
@@ -67,10 +74,8 @@ layout:
           -
             - sectiontitle-9392
           -
-            - 'custom-2559 50'
+            - 'googlemap-1641 50'
             - 'custom-6556 50'
-          -
-            - googlemap-1641
       -
         'sidebar 20': {  }
   /footer/:
@@ -108,6 +113,10 @@ structure:
     type: section
     attributes:
       boxed: ''
+  quote:
+    type: section
+    attributes:
+      boxed: ''
   utility:
     type: section
     attributes:
@@ -130,7 +139,7 @@ structure:
     type: section
     attributes:
       boxed: ''
-  protfolio:
+  portfolio:
     type: section
     attributes:
       boxed: ''
@@ -159,12 +168,45 @@ content:
         - block
       particle: custom-5107
   social-9576:
+    attributes:
+      css:
+        class: pull-right
+      btn:
+        class: button-icon-clear
+      title: ''
+      target: _blank
+      display: icons_only
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/rockettheme'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/RocketTheme'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/+rockettheme'
+          name: Google+
+        -
+          icon: 'fa fa-pinterest'
+          text: ''
+          link: pintrest.com
+          name: 'New item'
+        -
+          icon: 'fa fa-linkedin'
+          text: ''
+          link: dribbble.com
+          name: 'New item'
     inherit:
       outline: default
-      include:
-        - attributes
-        - block
       particle: social-3896
+      include:
+        - block
   custom-9276:
     title: 'Custom HTML'
     attributes:
@@ -188,16 +230,7 @@ content:
   menu-6409:
     attributes:
       menu: savannah
-    block:
-      variations: 'nomarginall center'
-  name-1082:
-    attributes:
-      name: 'Dean Balh'
-    block:
-      class: visible-desktop
-  menu-1596:
-    attributes:
-      menu: savannah-2
+      name: 'Savannah May'
     block:
       variations: 'nomarginall center'
   sectiontitle-6366:
@@ -210,7 +243,7 @@ content:
   custom-3119:
     title: Features
     attributes:
-      html: "\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in cididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>"
+      html: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam eros diam, eu lobortis velit elementum aliquam. Fusce diam mi, tempor id lectus a, pulvinar tincidunt libero. Morbi sapien nulla, venenatis eget neque quis, commodo dictum urna. Vestibulum libero felis, accumsan nec vehicula at, tristique in mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam gravida leo a sapien gravida ornare. Aenean fringilla tincidunt ipsum ut cursus. Pellentesque tincidunt, risus nec ultricies laoreet, felis mi bibendum eros, nec efficitur purus diam a sem. Aliquam cursus sed felis in molestie. Mauris cursus odio sit amet quam mattis placerat.</p>\n<p>\nSed tellus nisl, feugiat bibendum mattis ut, vulputate et dolor. Suspendisse potenti. Cras at facilisis leo, eget dignissim eros. Nunc at ultricies diam, sed vehicula odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vulputate, ex eu dictum aliquam, lectus est fringilla nisi, ut hendrerit augue turpis malesuada erat. Pellentesque habitant morbi tristique senectus.<p>"
   bio-info-1264:
     title: 'Bio Stats'
     attributes:
@@ -226,7 +259,7 @@ content:
           icon: 'fa fa-facebook'
           text: ''
           link: facebook.com
-          name: Facebook
+          name: facebook
         -
           icon: 'fa fa-twitter'
           text: ''
@@ -238,10 +271,31 @@ content:
           link: plus.google.com
           name: google
         -
-          icon: 'fa fa-pinterest'
+          icon: 'fa fa-youtube-play'
           text: ''
-          link: pintrest.com
-          name: pintrest
+          link: youtube.com
+          name: youtube
+        -
+          icon: 'fa fa-linkedin'
+          text: ''
+          link: linkedin.com
+          name: linkedin
+  custom-2861:
+    title: 'Custom HTML'
+    attributes:
+      html: '<i class="fa fa-2x fa-quote-right fa-flip-horizontal" aria-hidden="true"></i>'
+    block:
+      variations: align-right
+  custom-6100:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h4>It''s the repletion of affirmations that leads to belief becomes a deep conviction, things begin to happen</h4>'
+  custom-4505:
+    title: 'Custom HTML'
+    attributes:
+      html: '<i class="fa fa-2x fa-quote-right" aria-hidden="true"></i>'
+    block:
+      variations: align-left
   sectiontitle-1332:
     title: 'MY SKILLS'
     attributes:
@@ -426,7 +480,7 @@ content:
   sectiontitle-7871:
     title: 'Section Title'
     attributes:
-      class: padding
+      class: padding-minus-tq-bottom
       title: PORTFOLIO
     block:
       variations: center
@@ -475,30 +529,25 @@ content:
   sectiontitle-9392:
     title: Contact
     attributes:
-      title: 'Contacts Me'
+      title: 'Contact Me'
     block:
       variations: center
-  custom-2559:
-    title: 'Custom HTML'
+  googlemap-1641:
+    title: 'Google Map'
     attributes:
-      html: '<iframe class="map" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&q=Adobe%20Systems%20Inc%2C%20Park%20Avenue%2C%20San%20Jose%2C%20CA&aq=0&ie=UTF8&t=m&z=12&iwloc=&output=embed"></iframe>'
+      apikey: AIzaSyAFd9lo4-WfB34rqre98xXZczIzxGUx_j8
+      width: 100%
+      height: 358px
+      maptype: ROADMAP
+      latitude: '43.6278149'
+      longitude: '-79.5050689'
+      zoom: '15'
+      defaultmarker: show
   custom-6556:
     title: 'Contact Form'
     attributes:
       html: '[contact-form-7 id="2127" title="Identity Contact form_copy"]'
       filter: '1'
-  googlemap-1641:
-    title: 'Google Map'
-    attributes:
-      enabled: 0
-      apikey: AIzaSyBHIiVSvNxaEm6AE8a3vFS7yXk1RixnX6Q
-      height: 100%
-      maptype: ROADMAP
-      latitude: '52.052312'
-      longitude: '4.447141'
-      zoom: '7'
-      defaultmarker: show
-      dragging: disabledmobile
   totop-8670:
     title: 'To Top'
     attributes:

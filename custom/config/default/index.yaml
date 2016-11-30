@@ -1,5 +1,5 @@
 name: default
-timestamp: 1479796231
+timestamp: 1480534264
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -12,12 +12,13 @@ sections:
   expandable: Expandable
   navigation: Navigation
   features: Features
+  quote: Quote
   utility: Utility
   above: Above
   expandable2: Expandable2
   expanded: Expanded
   testimonials: Testimonials
-  protfolio: Protfolio
+  portfolio: Portfolio
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar

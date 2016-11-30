@@ -1,7 +1,7 @@
 #g-above {
     background: $above-background;
     color: $above-text-color;
-    padding: $section-padding 0;
+    padding: $section-padding - 1 0;
 
     @if $above-background-image {
         background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url($above-background-image) no-repeat fixed center;
