@@ -1,6 +1,6 @@
-#g-quote {
-    background: $quote-background;
-    color: $quote-text-color;
+#g-quote2 {
+    background: $quote2-background;
+    color: $quote2-text-color;
 
     .quote-wrapper {
       padding: $section-padding + 2 0;
@@ -8,7 +8,7 @@
 }
 
 @media print {
-    #g-quote {
+    #g-quote2 {
         background: #fff !important;
         color: #000 !important;
     }

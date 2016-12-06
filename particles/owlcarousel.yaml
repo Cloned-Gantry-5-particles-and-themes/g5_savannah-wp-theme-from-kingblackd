@@ -71,10 +71,10 @@ form:
       description: Set the speed of the Autoplay, in milliseconds.
       placeholder: 5000
 
-    full:
+    imageOverlay:
       type: input.checkbox
-      label: Full Screen Image
-      description: Enable or disable full screen.
+      label: Image Overlay
+      description: Enable or disable the overlay.
 
     loop:
       type: input.checkbox

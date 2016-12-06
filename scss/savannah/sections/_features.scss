@@ -1,13 +1,24 @@
 #g-features {
     background: $features-background;
     color: $features-text-color;
-    padding: $section-padding $section-padding;
+    padding: $section-padding;
 
     .fa-ul .fa-li {
-      top: .5em;
+        top: 0.5em;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    .signature {
+        font-family: 'Great Vibes';
+        font-size: 2.5rem;
+    }
+    .button {
+      border-width: thin;
     }
 }
-
 @media print {
     #g-features {
         background: #fff !important;

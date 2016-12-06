@@ -1,25 +1,26 @@
 #g-testimonials {
 	background: $testimonials-background;
 	color: $testimonials-text-color;
-	padding: $section-padding 0;
+
+	@if $testimonials-background-overlay == 'disabled' {
+		padding: $section-padding 0;
+	}
 	position: relative;
 	z-index: 10;
 	@if $testimonials-background-image {
-		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url($testimonials-background-image) no-repeat fixed center top;
+		background: url($testimonials-background-image) center center no-repeat;
 		background-size: cover;
+	}
 
+	> .g-container {
 		@if $testimonials-background-overlay == 'enabled' {
-			&:before {
-				@include linear-gradient(40deg, $accent-color-1, $accent-color-2);
-				opacity: 0.9;
-				position: absolute;
-				content: "";
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				z-index: -1;
-			}
+			padding: $section-padding 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: url('/wp-content/uploads/savannah/img/overlay.png');
 		}
 	}
 
@@ -38,9 +39,9 @@
 		content: "";
 		display: block;
 		position: relative;
-		top: 0;
+		top: -5px;
 		left: -3px;
-		width: 92%;
+		width: 93%;
 		height: 17px;
 		border-top: $accent-color-1 2px solid;
 		border-right: $accent-color-1 2px solid;
@@ -53,9 +54,9 @@
 		content: "";
 		display: block;
 		position: relative;
-		bottom: 0;
+		bottom: -5px;
 		left: -3px;
-		width: 92%;
+		width: 93%;
 		height: 17px;
 		border-bottom: $accent-color-1 2px solid;
 		background: transparent;
@@ -69,9 +70,9 @@
 	}
 
 	.g-owlcarousel-item-content {
-		margin-top: 10px;
+		margin-top: 0;
 		margin-bottom: 0;
-		padding-top: 10px;
+		padding-top: 0;
 		padding-bottom: 0;
 	}
 
@@ -98,16 +99,24 @@
 	}
 
 	.g-owlcarousel-item-desc {
-		font-size: .8rem;
+		font-size: 1rem;
 		float: left;
-		color: #fff;
+		//color: $accent-color-1;
+		color: #dca93e;
 		margin: 0;
 		padding: 0;
+		text-transform: initial;
+		font-weight: 600;
+		letter-spacing: 3px;
 	}
 
 	.g-owlcarousel-item-title {
 		font-size: 1rem;
+		font-weight: 400;
 		margin-top: 0;
+		margin-bottom: 0;
+		color: $white;
+		text-transform: uppercase;
 	}
 
 	.g-owlcarousel-item-desc .author {
@@ -191,7 +200,7 @@
 	}
 
 	h2:after {
-		background-color: #ffffff;
+		background-color: $accent-color-1;
 		content: "";
 		display: block;
 		height: 1px;

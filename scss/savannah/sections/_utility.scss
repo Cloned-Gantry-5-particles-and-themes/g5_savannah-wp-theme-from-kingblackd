@@ -1,7 +1,7 @@
 #g-utility {
     background: $utility-background;
     color: $utility-text-color;
-    padding: $section-padding-top $section-padding $section-padding;
+    padding: $section-padding-top 0 $section-padding;
 }
 
 @media print {

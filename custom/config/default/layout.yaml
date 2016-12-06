@@ -23,6 +23,7 @@ layout:
   /expanded/: {  }
   /testimonials/: {  }
   /portfolio/: {  }
+  /quote2/: { }
   /container-main/:
     -
       -
@@ -92,6 +93,8 @@ structure:
     type: section
     attributes:
       boxed: ''
+  quote2:
+    title: Second Quote
   mainbar:
     type: section
     subtype: main

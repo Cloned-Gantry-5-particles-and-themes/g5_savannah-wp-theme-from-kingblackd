@@ -16,6 +16,16 @@ form:
       label: CSS Classes
       description: CSS class name for the particle.
 
+    background:
+      type: input.imagepicker
+      label: Image
+      description: Select desired image.
+
+    backgroundoverlay:
+      type: input.imagepicker
+      label: Image Overlay
+      description: Select desired image.
+
     title:
       type: input.text
       label: 'Title'

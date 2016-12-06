@@ -1,0 +1,33 @@
+name: Quote
+description: Display a Quote.
+type: particle
+icon: fa-commenting-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Title Variant
+      description: Globally enable icon menu particles.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    background:
+      type: input.imagepicker
+      label: Image
+      description: Select desired image.
+
+    backgroundoverlay:
+      type: input.imagepicker
+      label: Image Overlay
+      description: Select desired image.
+
+    text:
+      type: textarea.textarea
+      label: Quote
+      description: Customize the quote.
+      placeholder: Enter a quote

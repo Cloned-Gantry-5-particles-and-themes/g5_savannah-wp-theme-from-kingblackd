@@ -3354,10 +3354,10 @@
   padding: 0 7px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  margin: -5px 0 0 0;
+  margin: -5px 0 0;
   white-space: nowrap;
 }
-/* line 24, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 25, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .datetime:before {
   position: absolute;
   display: block;
@@ -3378,47 +3378,47 @@
   padding: 0;
   margin: 0;
 }
-/* line 45, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 46, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history {
   position: relative;
   padding-left: 47px;
   margin-left: 16px;
   border-left: transparent 2px solid;
 }
-/* line 50, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 52, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history p {
-  margin-top: 0;
+  margin: 5px 0 0;
+  line-height: 1;
 }
-/* line 54, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 58, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history li {
   position: relative;
   padding-top: 70px;
   padding-bottom: 10px;
 }
-/* line 59, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 64, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history li:last-child {
   padding-bottom: 0;
 }
-/* line 62, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 68, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .heading {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 67, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 74, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .title {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   line-height: 1.25;
-  margin: -4px 0 0 0;
 }
-/* line 75, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 87, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .dark .history .title {
   color: #fff;
 }
-/* line 78, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 91, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .icon {
   display: block;
   position: absolute;
@@ -3429,11 +3429,11 @@
   border: transparent 2px solid;
   background: #fff;
 }
-/* line 88, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 102, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .dark .history .icon {
   background: #272727;
 }
-/* line 91, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 106, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .icon .fa {
   display: block;
   position: absolute;
@@ -3446,25 +3446,24 @@
   text-align: center;
   background: #fff;
 }
-/* line 103, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 119, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .dark .history .icon .fa {
   background: #272727;
 }
-/* line 106, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 123, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .datetime {
   position: absolute;
   top: 47px;
-  left: 0px;
+  left: 0;
 }
-/* line 111, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
+/* line 129, wp-content/themes/g5_savannah/scss/savannah/particles/_timeline.scss */
 .history .aff {
-  position: absolute;
-  top: 30px;
-  left: 0px;
+  position: static !important;
   font-size: 10px;
   font-style: italic;
   color: #999;
   white-space: nowrap;
+  margin-bottom: 50px;
 }
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/_flex.scss */
 .g-content {
@@ -3946,7 +3945,7 @@ body.popup-open {
 }
 /* line 124, wp-content/themes/g5_savannah/scss/savannah/styles/_utilities.scss */
 .padding-med-top {
-  padding-bottom: 20px !important;
+  padding-top: 20px !important;
 }
 /* line 128, wp-content/themes/g5_savannah/scss/savannah/styles/_utilities.scss */
 .padding-minus-half, .padding-minus-half-top {
@@ -5461,15 +5460,61 @@ label {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-/* Author */
 /* line 2, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.quote-block {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  line-height: 1.5;
+  padding: 35px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: inherit;
+}
+/* line 13, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.quote-block:before {
+  content: "\f10e";
+  position: relative;
+  margin-right: 15px;
+  top: 0;
+  line-height: 0;
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  font-size: 2rem;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 30, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+.quote-block:after {
+  content: "\f10e";
+  position: relative;
+  margin-left: 15px;
+  bottom: -14px;
+  font-size: 2rem;
+  line-height: 0;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Author */
+/* line 47, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author {
   position: relative;
   padding: 20px 20px 1px 132px;
   color: #fff;
   margin-bottom: 40px;
 }
-/* line 9, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 54, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author .image {
   position: absolute;
   width: 92px;
@@ -5478,11 +5523,11 @@ label {
   left: 0;
   margin: 20px;
 }
-/* line 18, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 63, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author h4 {
   margin-bottom: 18px;
 }
-/* line 22, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 67, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .author p {
   font-size: 12px;
   line-height: 2.2;
@@ -5490,7 +5535,7 @@ label {
   margin-bottom: 11px;
 }
 /* Google map */
-/* line 30, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 75, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .map {
   display: block;
   width: 100%;
@@ -5498,7 +5543,7 @@ label {
   border: 0;
   overflow: hidden;
 }
-/* line 38, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 83, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .navbar-brand, .navbar-brand:active, .navbar-brand:focus, .navbar-brand:hover, .navbar-brand:visited {
   display: inline;
   width: auto;
@@ -5512,37 +5557,37 @@ label {
   padding: 0 0 0 1rem;
 }
 /* Portfolio styles */
-/* line 56, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 101, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio-filter, .portfolio-filter li {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 63, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 108, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio-filter li {
   display: inline-block;
   margin: 0 3px;
 }
-/* line 68, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 113, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio-filter li .button {
   margin-bottom: 10px;
 }
-/* line 72, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 117, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio {
   position: relative;
 }
-/* line 76, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 121, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item {
   overflow: hidden;
 }
-/* line 80, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 125, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item .image {
   display: block;
   width: 100%;
   height: auto;
   margin: 0;
 }
-/* line 87, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 132, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item .overlay {
   position: absolute;
   top: 0;
@@ -5553,12 +5598,12 @@ label {
   width: 100%;
   height: 100%;
 }
-/* line 98, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 143, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item .overlay .tile {
   width: 100%;
   height: 100%;
 }
-/* line 103, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 148, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item .overlay .link, .portfolio .item .overlay .link:active, .portfolio .item .overlay .link:focus, .portfolio .item .overlay .link:hover, .portfolio .item .overlay .link:visited {
   display: block;
   position: absolute;
@@ -5570,7 +5615,7 @@ label {
   color: #fff;
   text-decoration: none;
 }
-/* line 119, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 164, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item .overlay .link .title {
   position: relative;
   display: block;
@@ -5582,7 +5627,7 @@ label {
   text-align: center;
   margin: 0 0 20px;
 }
-/* line 131, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 176, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item .overlay .link .title:after {
   display: block;
   content: "";
@@ -5594,7 +5639,7 @@ label {
   margin: 0 0 0 -12px;
   background: #fff;
 }
-/* line 143, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
+/* line 188, wp-content/themes/g5_savannah/scss/savannah/styles/_savannah-style.scss */
 .portfolio .item .overlay .link .category {
   display: block;
   width: 100%;
@@ -8887,14 +8932,27 @@ nav li.node:before {
 #g-features {
   background: #fff;
   color: #171717;
-  padding: 3rem 3rem;
+  padding: 3rem;
 }
 /* line 6, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
 #g-features .fa-ul .fa-li {
   top: 0.5em;
 }
+/* line 10, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
+#g-features p {
+  margin-top: 0;
+}
+/* line 14, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
+#g-features .signature {
+  font-family: 'Great Vibes';
+  font-size: 2.5rem;
+}
+/* line 18, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
+#g-features .button {
+  border-width: thin;
+}
 @media print {
-  /* line 12, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
+  /* line 23, wp-content/themes/g5_savannah/scss/savannah/sections/_features.scss */
   #g-features {
     background: #fff !important;
     color: #000 !important;
@@ -8904,7 +8962,7 @@ nav li.node:before {
 #g-utility {
   background: #fff;
   color: #171717;
-  padding: 100px 3rem 3rem;
+  padding: 100px 0 3rem;
 }
 @media print {
   /* line 8, wp-content/themes/g5_savannah/scss/savannah/sections/_utility.scss */
@@ -8914,30 +8972,14 @@ nav li.node:before {
   }
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/sections/_above.scss */
-#g-above {
+/* line 2, wp-content/themes/g5_savannah/scss/savannah/sections/_above.scss */
+#g-above .resume {
   background: #f4f5f7;
   color: #c29732;
-  padding: 2rem 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('//savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg') no-repeat fixed center;
-  background-size: cover;
-  position: relative;
-  /*
-   @if $above-background-overlay {
-   &:before {
-   background: url($above-background-overlay);
-   opacity: 0.9;
-   position: absolute;
-   content: "";
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   }
-   }
-   */
+  padding: 4rem 0;
 }
 @media print {
-  /* line 28, wp-content/themes/g5_savannah/scss/savannah/sections/_above.scss */
+  /* line 10, wp-content/themes/g5_savannah/scss/savannah/sections/_above.scss */
   #g-above {
     background: #fff !important;
     color: #000 !important;
@@ -8947,22 +8989,31 @@ nav li.node:before {
 #g-testimonials {
   background: #c29732;
   color: #eceeef;
-  padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('//savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-testimonials.jpg') no-repeat fixed center top;
+  background: url('//savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg') center center no-repeat;
   background-size: cover;
   /* Testimonials */
 }
-/* line 26, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 14, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials > .g-container {
+  padding: 3rem 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('//local.vcard.com/wp-content/uploads/savannah/img/overlay.png');
+}
+/* line 28, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .section-heading {
   letter-spacing: 10px;
 }
-/* line 29, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 31, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .section-heading .bl, #g-testimonials .section-heading .br, #g-testimonials .section-heading .tl, #g-testimonials .section-heading .tr {
   display: none;
 }
-/* line 37, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 39, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .section-heading::before {
   content: "";
   display: block;
@@ -8977,7 +9028,7 @@ nav li.node:before {
   border-left: 2px solid #c2973c;
   margin: auto;
 }
-/* line 52, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 54, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .section-heading:after {
   content: "";
   display: block;
@@ -8992,32 +9043,32 @@ nav li.node:before {
   border-left: 2px solid #c2973c;
   margin: auto;
 }
-/* line 67, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 69, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-title {
   margin-bottom: 0;
 }
-/* line 71, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 73, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-content {
   margin-top: 10px;
   margin-bottom: 0;
   padding-top: 10px;
   padding-bottom: 0;
 }
-/* line 78, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 80, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dots {
   position: static;
 }
-/* line 82, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 84, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-content-container {
   position: relative;
   margin: auto;
   width: 100%;
 }
-/* line 87, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 89, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-content-container .g-owlcarousel-item-desc {
   display: block;
 }
-/* line 92, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 94, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-content-container {
   backface-visibility: hidden;
   margin: 0 auto;
@@ -9025,29 +9076,34 @@ nav li.node:before {
   position: relative;
   z-index: 1;
 }
-/* line 100, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 102, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-desc {
-  font-size: 0.8rem;
+  font-size: 1rem;
   float: left;
-  color: #fff;
+  color: #c2973c;
   margin: 0;
   padding: 0;
-}
-/* line 108, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
-#g-testimonials .g-owlcarousel-item-title {
-  font-size: 1rem;
-  margin-top: 0;
+  text-transform: initial;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 /* line 113, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+#g-testimonials .g-owlcarousel-item-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0;
+  color: #c2973c;
+}
+/* line 120, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-desc .author {
   margin: 0 0 6px;
   font-weight: bold;
 }
-/* line 118, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 125, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-desc .company a {
   color: #fff;
 }
-/* line 122, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 129, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .pagination {
   position: absolute;
   text-align: center;
@@ -9055,7 +9111,7 @@ nav li.node:before {
   width: 100%;
   z-index: 20;
 }
-/* line 130, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 137, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dot {
   background: none repeat scroll 0 0 #544b43;
   border-radius: 20px;
@@ -9067,25 +9123,25 @@ nav li.node:before {
   text-indent: -9999px;
   width: 11px;
 }
-/* line 142, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 149, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dot:hover {
   background: none repeat scroll 0 0 #685c52;
 }
-/* line 146, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 153, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dot:focus {
   background: none repeat scroll 0 0 #685c52;
 }
-/* line 150, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 157, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dot:active {
   background: none repeat scroll 0 0 #685c52;
 }
-/* line 154, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 161, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .g-owlcarousel-item-content-container, #g-testimonials .g-owlcarousel-item-content-container .g-owlcarousel-item-desc {
   height: 100%;
   max-width: 585px;
   width: 100%;
 }
-/* line 161, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 168, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dots {
   position: relative;
   text-align: center;
@@ -9093,92 +9149,92 @@ nav li.node:before {
   width: 100%;
   z-index: 20;
 }
-/* line 169, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 176, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dots .owl-dot {
   background: none repeat scroll 0 0 #d8d8d8;
 }
-/* line 173, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 180, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dots .owl-dot:hover {
   background: none repeat scroll 0 0 #333;
 }
-/* line 177, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 184, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dots .swiper-visible-switch {
   background: none repeat scroll 0 0 #262626;
 }
-/* line 181, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 188, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .owl-dots .swiper-active-switch {
   background: none repeat scroll 0 0 #262626;
 }
-/* line 185, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 192, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials a {
   color: inherit;
 }
-/* line 188, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 195, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials a:hover {
   color: inherit;
 }
-/* line 193, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 200, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials h2:after {
-  background-color: #fff;
+  background-color: #c2973c;
   content: "";
   display: block;
   height: 1px;
   margin: 20px auto 0;
   width: 40px;
 }
-/* line 202, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 209, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-box {
   width: 100%;
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 3px;
 }
-/* line 209, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 216, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-image {
   width: 100px;
   height: 100px;
   border-radius: 100%;
   border: #fff 5px solid;
 }
-/* line 216, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 223, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-image.pull-right {
   margin-left: 30px;
 }
-/* line 220, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 227, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-image.pull-left {
   margin-right: 30px;
 }
-/* line 224, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 231, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-text {
   padding: 5px;
 }
-/* line 228, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 235, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-text p {
   font-size: 14px;
   line-height: 25px;
   font-style: italic;
   color: #fff;
 }
-/* line 235, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 242, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .roller-list .testimonials-text > p:last-child {
   margin-bottom: 0;
 }
-/* line 239, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 246, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-by {
   position: relative;
 }
-/* line 243, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 250, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-by .aff {
   font-size: 10px;
   font-style: italic;
   text-transform: uppercase;
   margin-top: -34px;
 }
-/* line 250, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 257, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials .roller-bullets {
   margin: 0 -5px;
 }
-/* line 254, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 261, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials .roller-bullet {
   display: block;
   width: 11px;
@@ -9188,24 +9244,24 @@ nav li.node:before {
   margin: 0 5px;
   float: left;
 }
-/* line 264, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 271, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials .roller-bullet.active {
   background: #fff;
 }
-/* line 268, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 275, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-logos {
   margin: 0 15px 40px;
 }
-/* line 272, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 279, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-logo {
   margin: 0 -15px;
   text-align: center;
 }
-/* line 277, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 284, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-logo img {
   max-width: 100%;
 }
-/* line 281, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 288, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-arrow {
   position: absolute;
   top: -30px;
@@ -9216,16 +9272,16 @@ nav li.node:before {
   border-bottom: 20px transparent solid;
   border-left: 11px transparent solid;
 }
-/* line 292, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 299, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-arrow-left {
   left: -41px;
 }
-/* line 296, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+/* line 303, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
 #g-testimonials .testimonials-arrow-right {
   right: -41px;
 }
 @media print {
-  /* line 301, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
+  /* line 308, wp-content/themes/g5_savannah/scss/savannah/sections/_testimonials.scss */
   #g-testimonials {
     background: #fff !important;
     color: #000 !important;
@@ -9235,7 +9291,7 @@ nav li.node:before {
 #g-expanded {
   background: #fff;
   color: #424753;
-  padding: 100px 0 3rem;
+  padding: 100px 0;
 }
 @media print {
   /* line 8, wp-content/themes/g5_savannah/scss/savannah/sections/_expanded.scss */
@@ -9246,20 +9302,32 @@ nav li.node:before {
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/sections/_quote.scss */
 #g-quote {
-  background: #8f4dae;
+  background: #fff;
   color: #c2973c;
-  padding: 4rem 0;
-  background: url('//local.vcard.com/wp-content/themes/g5_savannah/custom/images/section-bg1.jpg?583c8a42') no-repeat center top;
-  background-size: cover;
-  background-attachment: fixed;
 }
-/* line 12, wp-content/themes/g5_savannah/scss/savannah/sections/_quote.scss */
-#g-quote h4 {
-  margin: 0;
+/* line 5, wp-content/themes/g5_savannah/scss/savannah/sections/_quote.scss */
+#g-quote .quote-wrapper {
+  padding: 5rem 0;
 }
 @media print {
-  /* line 18, wp-content/themes/g5_savannah/scss/savannah/sections/_quote.scss */
+  /* line 11, wp-content/themes/g5_savannah/scss/savannah/sections/_quote.scss */
   #g-quote {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+/* line 1, wp-content/themes/g5_savannah/scss/savannah/sections/_quote2.scss */
+#g-quote2 {
+  background: #fff;
+  color: #c2973c;
+}
+/* line 5, wp-content/themes/g5_savannah/scss/savannah/sections/_quote2.scss */
+#g-quote2 .quote-wrapper {
+  padding: 5rem 0;
+}
+@media print {
+  /* line 11, wp-content/themes/g5_savannah/scss/savannah/sections/_quote2.scss */
+  #g-quote2 {
     background: #fff !important;
     color: #000 !important;
   }
@@ -9268,7 +9336,7 @@ nav li.node:before {
 #g-portfolio {
   background: #fff;
   color: #171717;
-  padding: 100px 0 3rem;
+  padding: 100px 0;
 }
 @media print {
   /* line 7, wp-content/themes/g5_savannah/scss/savannah/sections/_portfolio.scss */
@@ -9408,13 +9476,13 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas {
-  background: #4db2b3;
+  background: #c29732;
   width: 12rem;
-  color: #eceeef;
+  color: #171717;
 }
 /* line 6, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas a {
-  color: #eceeef;
+  color: #171717;
 }
 /* line 9, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas a:hover {
@@ -9422,12 +9490,12 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 }
 /* line 14, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas h1, #g-offcanvas h2, #g-offcanvas h3, #g-offcanvas h4, #g-offcanvas h5, #g-offcanvas h6, #g-offcanvas strong {
-  color: #eceeef;
+  color: #171717;
 }
 /* line 18, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas .button {
   background: #171717;
-  color: #eceeef;
+  color: #171717;
 }
 /* line 21, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas .button:hover {
@@ -9443,14 +9511,14 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 }
 /* line 33, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas .g-offcanvas-toggle {
-  color: #eceeef;
+  color: #171717;
   left: 9rem;
   top: 1rem;
 }
 /* line 40, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 .g-offcanvas-toggle {
   font-size: 2rem;
-  color: #4db2b3;
+  color: #c29732;
   width: 32px;
   height: 32px;
   top: 1.2rem;
@@ -9496,19 +9564,19 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 /* line 96, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 /* line 97, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul {
-  background: #4db2b3;
+  background: #c29732;
 }
 /* line 100, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 /* line 101, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li > .g-menu-item-container {
-  color: #eceeef;
+  color: #171717;
   padding: 0.938rem;
 }
 /* line 106, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 /* line 107, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 /* line 108, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container, #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover > .g-menu-item-container {
-  color: #eceeef;
+  color: #171717;
 }
 /* line 113, wp-content/themes/g5_savannah/scss/savannah/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {
@@ -10662,7 +10730,7 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
 }
 /* line 62, wp-content/themes/g5_savannah/scss/savannah/particles/_numcounters.scss */
 .counter-wrapper .counters-item p {
-  margin-top: 0;
+  margin-top: -5px;
   line-height: 1;
 }
 /* line 69, wp-content/themes/g5_savannah/scss/savannah/particles/_numcounters.scss */
@@ -10678,6 +10746,7 @@ footer .top, footer .top:hover, footer .top:active, footer .top:focus, footer .t
   color: #666;
   font-weight: 700;
   line-height: 1;
+  margin-left: 3px;
 }
 /* line 1, wp-content/themes/g5_savannah/scss/savannah/particles/_horizontalmenu.scss */
 .g-horizontalmenu {

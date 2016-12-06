@@ -1,3 +1,48 @@
+// Quote
+.quote-block {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  line-height: 1.5;
+  padding: 35px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: inherit;
+  &:before {
+    content: "\f10e";
+    position: relative;
+    margin-right: 15px;
+    top: 0;
+    line-height: 0;
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    font-size: 2rem;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-weight: 400;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  &:after {
+    content: "\f10e";
+    position: relative;
+    margin-left: 15px;
+    bottom: -14px;
+    font-size: 2rem;
+    line-height: 0;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-weight: 400;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
 /* Author */
 .author {
   position: relative;

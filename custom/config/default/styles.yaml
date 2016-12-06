@@ -35,8 +35,8 @@ above:
   text-color: '#c29732'
 testimonials:
   background: '#c29732'
-  background-image: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-testimonials.jpg'
-  background-overlay: disabled
+  background-image: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg'
+  background-overlay: enabled
   text-color: '#eceeef'
 expanded:
   background: '#ffffff'
@@ -45,17 +45,21 @@ footer:
   background: '#171717'
   text-color: '#c29732'
 offcanvas:
-  background: '#4db2b3'
-  text-color: '#eceeef'
-  toggle-color: '#4db2b3'
+  background: '#c29732'
+  text-color: '#171717'
+  toggle-color: '#c29732'
   toggle-visibility: '1'
   width: 12rem
 portfolio:
   background: '#ffffff'
   text-color: '#171717'
 quote:
-  background: '#8f4dae'
+  background: '#ffffff'
   background-image: 'gantry-media://section-bg1.jpg'
+  text-color: '#c2973c'
+quote2:
+  background: '#ffffff'
+  background-image: 'http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/parallax-cv.jpg'
   text-color: '#c2973c'
 breakpoints:
   large-desktop-container: 75rem

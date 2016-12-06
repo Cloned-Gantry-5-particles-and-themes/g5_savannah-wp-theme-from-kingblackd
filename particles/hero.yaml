@@ -52,7 +52,7 @@ form:
       type: input.text
       label: Second Title
       description: Enter the title
-      default: Professional photographer
+      placeholder: Professional photographer
 
     .label2:
       type: input.text
@@ -63,7 +63,7 @@ form:
       type: input.text
       label: Third Title
       description: Enter the title
-      default: AMATEUR GUITAR PLAYER
+      placeholder: AMATEUR GUITAR PLAYER
 
     .label3:
       type: input.text

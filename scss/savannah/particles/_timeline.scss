@@ -1,8 +1,8 @@
 /* History */
 .history .icon {
-  -webkit-box-shadow: $white 0 0 0 5px;
-  -moz-box-shadow: $white 0 0 0 5px;
-  box-shadow: $white 0 0 0 5px;
+    -webkit-box-shadow: $white 0 0 0 5px;
+    -moz-box-shadow: $white 0 0 0 5px;
+    box-shadow: $white 0 0 0 5px;
 }
 /* Date time element */
 .datetime {
@@ -18,9 +18,10 @@
     padding: 0 7px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    margin: -5px 0 0 0;
+    margin: -5px 0 0;
     white-space: nowrap;
 }
+
 .datetime:before {
     position: absolute;
     display: block;
@@ -33,7 +34,6 @@
     border-top: transparent 11px solid;
     border-bottom: transparent 11px solid;
 }
-
 /* History list */
 .history,
 .history li {
@@ -42,39 +42,52 @@
     padding: 0;
     margin: 0;
 }
+
 .history {
     position: relative;
     padding-left: 47px;
     margin-left: 16px;
     border-left: transparent 2px solid;
+
     p {
-      margin-top: 0;
+        margin: 5px 0 0;
+        line-height: 1;
     }
 }
+
 .history li {
     position: relative;
     padding-top: 70px;
     padding-bottom: 10px;
 }
+
 .history li:last-child {
     padding-bottom: 0;
 }
+
 .history .heading {
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .history .title {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     line-height: 1.25;
-    margin: -4px 0 0 0;
 }
+@include breakpoint(very-large-desktop-range) {
+    .history .title {
+        margin: 10px 0 0;
+    }
+}
+
 .dark .history .title {
     color: #fff;
 }
+
 .history .icon {
     display: block;
     position: absolute;
@@ -85,9 +98,11 @@
     border: transparent 2px solid;
     background: #fff;
 }
+
 .dark .history .icon {
     background: #272727;
 }
+
 .history .icon .fa {
     display: block;
     position: absolute;
@@ -100,20 +115,22 @@
     text-align: center;
     background: #fff;
 }
+
 .dark .history .icon .fa {
     background: #272727;
 }
+
 .history .datetime {
     position: absolute;
     top: 47px;
-    left: 0px;
+    left: 0;
 }
+
 .history .aff {
-    position: absolute;
-    top: 30px;
-    left: 0px;
+    position: static !important;
     font-size: 10px;
     font-style: italic;
     color: #999;
     white-space: nowrap;
+    margin-bottom: 50px;
 }

@@ -2,7 +2,8 @@
 
 {% block particle %}
 
-		<div class="resume {{ particle.class|e }}"
+    <!-- quote -->
+    <section class="quote-wrapper"
 		data-multibackground="debug"
 				data-multibackground-layer-0-type="image"
 				data-multibackground-layer-0-attachment="static"
@@ -13,13 +14,10 @@
 				data-multibackground-layer-1-url="{{ url(particle.backgroundoverlay)|e }}"
 				data-multibackground-layer-1-transitionloaded="linear,0">
 
-			<div style="margin-top: 15px;">
-				<a href="{{ url(particle.location) }}" class="button button-big button-icon-left">
-					{{ particle.title|e }}
-					<span class="icon"><i class="fa fa-download"></i></span>
-				</a>
-				<div class="footer-label uppercase">234.12kb | cv.pdf</div>
-
-		</div>
+        <div class="g-content {{ particle.class|e }}">
+          <h4 class="quote-block">{{ particle.text|raw }}</h4>
+        </div>
+    </section>
+    <!-- end quote -->
 
 {% endblock %}

@@ -11,11 +11,11 @@
 
 {% block particle %}
 
-<div class="g-googlemap{% if particle.css.class %} {{ particle.css.class|e }}{% endif %}" {% if particle.extra %}{{ attr_extra|raw }}{% endif %} >
-    <div id="g-map-{{ id }}" style="width: {{ particle.width|e }}; height: {{ particle.height|e }};">
-    </div>
+<div class="g-googlemap {{ particle.css.class|e }}" {% if particle.extra %}{{ attr_extra|raw }}{% endif %} >
+    <div id="g-map-{{ id }}" style="width: {{ particle.width|e }}; height: {{ particle.height|e }}; max-width: none; overflow:visible;"></div>
 </div>
-<script src="{{ url('https://maps.googleapis.com/maps/api/js?key=particle.apikey&callback=initMap') }}" async defer></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key={{particle.apikey}}"></script>
 
 {% endblock %}
 
@@ -47,7 +47,9 @@
                     {% endif %}
 
                     scrollwheel: {{ particle.scrollwheel|default(0)|e }},
-                    draggable: isDraggable
+                    draggable: isDraggable,
+                    navigationControl: false,
+                    mapTypeControl: false,
                 };
 
                 var map = new google.maps.Map(document.getElementById("g-map-{{ id }}"), myOptions);
@@ -56,7 +58,7 @@
                     var myMarker = new google.maps.Marker(
                     {
                         position: latlng,
-                        map: map,
+                        map: map
                     });
 
                     var contentString = '{{ particle.markertext|e('js') }}';
@@ -82,7 +84,7 @@
                     var myMarker{{ marker_id|e }} = new google.maps.Marker(
                     {
                         position: {lat: {{ marker.latitude|e }}, lng: {{ marker.longitude|e }}},
-                        map: map,
+                        map: map
                     });
 
                     var contentString{{ marker_id|e }} = '{{ marker.markertext|e('js') }}';
@@ -109,8 +111,8 @@
                     google.maps.event.trigger(map, "resize");
                     map.setCenter(center);
                 });
-
             }
+            initMap();
         </script>
     {% endblock %}
     {# End loading assets #}

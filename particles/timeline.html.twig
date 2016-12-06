@@ -15,16 +15,12 @@
                             <i class="fa fa-graduation-cap"></i>
                         {% endif %}
                     </div>
-                    <div class="datetime">
-                        {{ item.startdate }}
-                        -
-                        {{ item.enddate }}
-                        <div class="aff uppercase">
-                            {{ item.label }}
-                        </div>
-                    </div>
+                    <div class="datetime">{{ item.date }}</div>
                 </div>
                 <p>{{ item.desc }}</p>
+                <div class="aff uppercase">
+                    {{ item.label }}
+                </div>
             </li>
         {% endfor %}
     </ul>

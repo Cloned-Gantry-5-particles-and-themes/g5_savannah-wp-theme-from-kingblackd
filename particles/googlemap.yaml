@@ -43,13 +43,13 @@ form:
       type: input.text
       label: Latitude
       description: Enter the latitude of the location.
-      default: 52.052312
+      default: '43.6278149'
 
     longitude:
       type: input.text
       label: Longitude
       description: Enter the longitude of the location.
-      default: 4.447141
+      default: '-79.5050689'
 
     zoom:
       type: input.text
@@ -71,7 +71,7 @@ form:
       type: textarea.textarea
       label: Info Window
       description: Type in the text for the marker info window.
-      default: 
+      default:
 
     markerstate:
       type: select.select
@@ -149,7 +149,7 @@ form:
       type: input.selectize
       label: CSS Classes
       description: CSS class name for the particle.
-      default: 
+      default:
 
     extra:
       type: collection.keyvalue

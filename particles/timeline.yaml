@@ -46,19 +46,7 @@ form:
           label: Description
           description: Customize the description.
           placeholder: Enter the description
-        .startdate:
-          type: input.month
-          label: Start Date
+        .date:
+          type: input.text
+          label: Date
           description: Enter the value of the label.
-        .enddate:
-          type: input.month
-          label: End Date
-          description: Enter the value of the label.
-        .current:
-          type: select.select
-          label: Current
-          description: Is this where you are currently?
-          default: no
-          options:
-            yes: Yes
-            no: No
